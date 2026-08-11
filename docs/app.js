@@ -191,6 +191,7 @@
         owner: video.owner || "",
         pubdate: pubdate,
         sort_order: Number(video.sort_order || 0),
+        history: history,
         view: view,
         reply: reply,
         like: like,
