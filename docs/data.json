@@ -1,6 +1,259 @@
 {
-  "videos": [],
-  "last_update": "2026-08-11 10:33:50",
-  "last_error": "获取 BV1o9uy6jEyM 失败：HTTP Error 412: Precondition Failed；获取 BV1eSMC6TENM 失败：HTTP Error 412: Precondition Failed；获取 BV1QZM16zEMK 失败：HTTP Error 412: Precondition Failed",
-  "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
+  "videos": [
+    {
+      "bvid": "BV1o9uy6jEyM",
+      "sort_order": 1,
+      "title": "8月更新【秋叶ComfyUI-VX中文版】全面支持中文提示词输入！Win+Mac一键安装，支持20304050显卡解压即用，附comfyui本地部署一键安装包",
+      "owner": "秋枼aaakli",
+      "pubdate": 1786262763,
+      "history": [
+        {
+          "time": "2026-08-11 10:00",
+          "view": 7914,
+          "reply": 126,
+          "like": 282,
+          "coin": 526,
+          "favorite": 297,
+          "share": 22
+        }
+      ]
+    },
+    {
+      "bvid": "BV1eSMC6TENM",
+      "sort_order": 2,
+      "title": "【秋叶ComfyUI】秋叶最新发布！ComfyUI 旗舰中文版整合包来了！全中文界面支持中文提示词，Win+Mac一键下载安装教程（附新Comfyui整合包）",
+      "owner": "秋枼aaakli",
+      "pubdate": 1785908170,
+      "history": [
+        {
+          "time": "2026-08-11 10:00",
+          "view": 14309,
+          "reply": 292,
+          "like": 1258,
+          "coin": 2359,
+          "favorite": 1270,
+          "share": 163
+        }
+      ]
+    },
+    {
+      "bvid": "BV1QZM16zEMK",
+      "sort_order": 3,
+      "title": "8月最新【秋叶ComfyUI-VX中文版】全中文界面支持中文提示词！Win+Mac一键安装，支持20304050显卡解压即用，附comfyui本地部署一键安装包",
+      "owner": "秋枼aaoki",
+      "pubdate": 1785974400,
+      "history": [
+        {
+          "time": "2026-08-11 10:00",
+          "view": 32648,
+          "reply": 1258,
+          "like": 1651,
+          "coin": 2590,
+          "favorite": 1897,
+          "share": 211
+        }
+      ]
+    },
+    {
+      "bvid": "BV1GFVf6sECB",
+      "sort_order": 4,
+      "title": "7月最新【秋叶ComfyUI-v10中文版】！全中文界面支持中文提示词！支持50 40 30系显卡，Win+Mac一键安装，解压即用（附Comfyui整合包）",
+      "owner": "秋枼aaakli",
+      "pubdate": 1780308932,
+      "history": [
+        {
+          "time": "2026-08-11 10:00",
+          "view": 376175,
+          "reply": 19364,
+          "like": 13707,
+          "coin": 22101,
+          "favorite": 15906,
+          "share": 2299
+        }
+      ]
+    },
+    {
+      "bvid": "BV1NfKw6AEeo",
+      "sort_order": 5,
+      "title": "8月【秋叶ComfyUI桌面版】全新发布！ai绘画ai视频一键生成，适配20/30/40/50系显卡，Win+Mac一键安装解压即用无私传递（附整合包+工作流）",
+      "owner": "ComfyUI桌面版",
+      "pubdate": 1784355819,
+      "history": [
+        {
+          "time": "2026-08-11 10:00",
+          "view": 68730,
+          "reply": 1410,
+          "like": 2131,
+          "coin": 3430,
+          "favorite": 2467,
+          "share": 659
+        }
+      ]
+    },
+    {
+      "bvid": "BV1Tjgk6fEQw",
+      "sort_order": 6,
+      "title": "【ComfyUI-模型】音画同步，AI视频一键生成，8g显存也能玩。LTX2.3模型完全体！从入门到进阶,镜头运镜,提示词工具。一键安装，点开即用（附软件模型）",
+      "owner": "秋枼aaoki",
+      "pubdate": 1784694905,
+      "history": [
+        {
+          "time": "2026-08-11 10:00",
+          "view": 61598,
+          "reply": 1628,
+          "like": 2815,
+          "coin": 4028,
+          "favorite": 3226,
+          "share": 733
+        }
+      ]
+    },
+    {
+      "bvid": "BV1wfT76GEME",
+      "sort_order": 7,
+      "title": "【ComfyUI-V13旗舰版】秋叶最新教程发布！全中文界面，中文提示词！全面适配50 40 30系显卡，Win+Mac一键安装，解压即用，（附整合包+工作流）",
+      "owner": "秋枼aaoki",
+      "pubdate": 1782998112,
+      "history": [
+        {
+          "time": "2026-08-11 10:00",
+          "view": 158661,
+          "reply": 4868,
+          "like": 5744,
+          "coin": 8963,
+          "favorite": 6881,
+          "share": 1657
+        }
+      ]
+    },
+    {
+      "bvid": "BV18egC6NEPm",
+      "sort_order": 8,
+      "title": "【ComfyUI最强视频模型】LTX2.3最新NSFW破限制视频/漫剧一键整合包！无视审查！低至8G显存运行！LTX导演台、多参生视频、Scail2动作迁移等",
+      "owner": "秋枼aaakli",
+      "pubdate": 1784717074,
+      "history": [
+        {
+          "time": "2026-08-11 10:00",
+          "view": 61959,
+          "reply": 1469,
+          "like": 1565,
+          "coin": 2804,
+          "favorite": 1600,
+          "share": 670
+        }
+      ]
+    },
+    {
+      "bvid": "BV1sh3C6cEXN",
+      "sort_order": 9,
+      "title": "【秋叶ComfyUI终极整合包】全中文界面支持中文提示词！支持全部英伟达显卡！详细从零开始学习AI绘画comfyui工作流搭建，（附整合包工作流）",
+      "owner": "秋枼aaakli",
+      "pubdate": 1785315707,
+      "history": [
+        {
+          "time": "2026-08-11 10:00",
+          "view": 47400,
+          "reply": 625,
+          "like": 901,
+          "coin": 1626,
+          "favorite": 925,
+          "share": 363
+        }
+      ]
+    },
+    {
+      "bvid": "BV19wLX61EpR",
+      "sort_order": 10,
+      "title": "最新发布！【秋叶ComfyUI-v13】中文整合包来了！支持20/30/40/50系显卡，Win+Mac一键下载安装,AI生图/AI视（附Comfyui整合包）",
+      "owner": "秋枼aaoki",
+      "pubdate": 1781694000,
+      "history": [
+        {
+          "time": "2026-08-11 10:00",
+          "view": 84379,
+          "reply": 433,
+          "like": 386,
+          "coin": 592,
+          "favorite": 392,
+          "share": 376
+        }
+      ]
+    },
+    {
+      "bvid": "BV1cbuw6eE16",
+      "sort_order": 11,
+      "title": "【秋叶ComfyUI】秋叶最新发布！ComfyUI 中文满血整合包来了！支持50 40 30系显卡，Win+Mac一键下载安装（附新Comfyui整合包）",
+      "owner": "秋枼aaakl",
+      "pubdate": 1785825289,
+      "history": [
+        {
+          "time": "2026-08-11 10:00",
+          "view": 11477,
+          "reply": 11,
+          "like": 79,
+          "coin": 147,
+          "favorite": 75,
+          "share": 102
+        }
+      ]
+    },
+    {
+      "bvid": "BV15AdgB4En4",
+      "sort_order": 12,
+      "title": "7月24日【 秋叶ComfyUI中文版】重磅更新！！ComfyUI 旗舰整合包来了！，Win+Mac一键下载安装无私分享（附Comfyui整合包）",
+      "owner": "秋枼aaakli",
+      "pubdate": 1778241600,
+      "history": [
+        {
+          "time": "2026-08-11 10:00",
+          "view": 120832,
+          "reply": 5480,
+          "like": 11573,
+          "coin": 20136,
+          "favorite": 13037,
+          "share": 1199
+        }
+      ]
+    },
+    {
+      "bvid": "BV1g4Ei6KEWJ",
+      "sort_order": 13,
+      "title": "【全100集】B站最详细StableDiffusion+Comfyui全套保姆级教程——秋叶零基础入门到精通，全程干货无废话，允许白嫖，拿走不谢！（附SD安装包",
+      "owner": "秋枼aaoki",
+      "pubdate": 1781184167,
+      "history": [
+        {
+          "time": "2026-08-11 10:00",
+          "view": 55126,
+          "reply": 233,
+          "like": 246,
+          "coin": 399,
+          "favorite": 274,
+          "share": 231
+        }
+      ]
+    },
+    {
+      "bvid": "BV15c7h6REzw",
+      "sort_order": 14,
+      "title": "【秋叶 ComfyUI】秋叶最新发布！支持20/30/40/50系显卡，ComfyUI V10中文整合包来了！Win+Mac一键安装（附Comfyui整合包）",
+      "owner": "ComfyUI桌面版",
+      "pubdate": 1782376418,
+      "history": [
+        {
+          "time": "2026-08-11 10:00",
+          "view": 51314,
+          "reply": 153,
+          "like": 157,
+          "coin": 262,
+          "favorite": 156,
+          "share": 134
+        }
+      ]
+    }
+  ],
+  "last_update": "2026-08-11 10:35:59",
+  "last_error": "",
+  "repo_url": ""
 }
