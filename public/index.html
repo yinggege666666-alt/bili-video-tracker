@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B站视频数据跟踪</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <h1>B站视频数据跟踪</h1>
+        <p id="statusLine" class="status-line">正在加载数据…</p>
+      </div>
+      <div class="top-actions">
+        <input id="searchInput" class="input search-input" type="search" placeholder="搜索标题或BV号" autocomplete="off">
+        <button id="refreshBtn" class="btn btn-outline" type="button">刷新数据</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="add-bar" aria-label="添加视频">
+      <form id="addForm" class="add-form">
+        <input id="bvInput" class="input" type="text" placeholder="输入BV号，例如 BV1o9uy6jEyM" autocomplete="off">
+        <button class="btn btn-primary" type="submit">添加视频</button>
+      </form>
+      <span class="cloud-hint">云端每小时自动更新；添加/删除后约一小时内生效</span>
+      <span id="message" class="message" role="status"></span>
+    </section>
+
+    <section class="chart-head">
+      <h2>每小时数据趋势</h2>
+      <div id="periodButtons" class="segmented" role="group" aria-label="图表时间范围">
+        <button type="button" data-days="7">近7天</button>
+        <button type="button" data-days="30" class="active">近30天</button>
+        <button type="button" data-days="0">全部</button>
+      </div>
+    </section>
+
+    <section id="cards" class="cards" aria-label="总览卡片"></section>
+
+    <section class="table-section">
+      <div class="table-head">
+        <h2>视频数据</h2>
+        <span id="tableCount" class="table-count"></span>
+      </div>
+      <div class="table-wrap">
+        <table id="videoTable">
+          <thead>
+            <tr>
+              <th class="col-bvid">BV号</th>
+              <th class="col-title">标题</th>
+              <th>播放</th>
+              <th>评论</th>
+              <th>点赞</th>
+              <th>投币</th>
+              <th>收藏</th>
+              <th>分享</th>
+              <th>本小时播放</th>
+              <th>今日播放</th>
+              <th>已发布天数</th>
+              <th>日均播放</th>
+              <th>评论率</th>
+              <th>点赞率</th>
+              <th>投币率</th>
+              <th>收藏率</th>
+              <th>分享率</th>
+              <th class="col-action">操作</th>
+            </tr>
+          </thead>
+          <tbody id="videoTableBody"></tbody>
+        </table>
+        <div id="emptyState" class="empty-state" hidden>没有匹配的视频</div>
+      </div>
+    </section>
+  </main>
+
+  <div id="chartTooltip" class="chart-tooltip" hidden></div>
+
+  <script src="./charts.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
