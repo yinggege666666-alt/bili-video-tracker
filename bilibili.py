@@ -89,8 +89,36 @@ def _fetch_page(bvid: str, timeout: int) -> dict:
     return _video_dict(bvid, video)
 
 
-def fetch_video(bvid: str, max_retries: int = 2, timeout: int = 20) -> dict:
-    """抓取单个视频的信息与统计：先走接口，失败后解析视频页面。"""
+def _fetch_jina_api(bvid: str, timeout: int) -> dict:
+    api_url = f"{API_URL}?bvid={bvid}"
+    proxy_url = "https://r.jina.ai/http://" + api_url.replace("https://", "")
+    request = urllib.request.Request(
+        proxy_url,
+        headers={
+            "User-Agent": "Mozilla/5.0",
+            "Accept": "text/plain, application/json",
+        },
+    )
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        text = _read_response(response).decode("utf-8", "ignore")
+    start = text.find("{")
+    if start < 0:
+        raise BiliFetchError("代理响应中没有 JSON")
+    try:
+        payload, _ = json.JSONDecoder().raw_decode(text[start:])
+    except json.JSONDecodeError as exc:
+        raise BiliFetchError(f"代理响应解析失败：{exc}") from exc
+    if payload.get("code") != 0:
+        message = payload.get("message") or f"接口返回 code={payload.get('code')}"
+        raise BiliFetchError(message)
+    data = payload.get("data") or {}
+    if not data or not data.get("stat"):
+        raise BiliFetchError("代理未返回统计数据")
+    return _video_dict(bvid, data)
+
+
+def fetch_video(bvid: str, max_retries: int = 1, timeout: int = 30) -> dict:
+    """抓取单个视频：接口、视频页面、公开代理依次尝试。"""
     last_error: Exception | None = None
     for attempt in range(max_retries):
         try:
@@ -102,6 +130,9 @@ def fetch_video(bvid: str, max_retries: int = 2, timeout: int = 20) -> dict:
             return _fetch_page(bvid, timeout)
         except Exception as exc:
             last_error = exc
-            if attempt < max_retries - 1:
-                time.sleep(0.8)
+            time.sleep(0.8)
+        try:
+            return _fetch_jina_api(bvid, timeout)
+        except Exception as exc:
+            last_error = exc
     raise BiliFetchError(f"获取 {bvid} 失败：{last_error}")
