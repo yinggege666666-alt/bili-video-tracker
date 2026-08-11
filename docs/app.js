@@ -1,15 +1,21 @@
 (function () {
   "use strict";
 
+  const ALL_VIDEOS_KEY = "__all__";
+
   const state = {
     data: null,
     dashboard: null,
+    rows: [],
     search: "",
     days: 30,
+    selectedBvid: ALL_VIDEOS_KEY,
+    sort: { key: "sort_order", dir: 1 },
+    videoTrends: { hourly: [], daily: [] },
     loading: false,
   };
 
-  const CARD_DEFS = [
+  const AGGREGATE_CARD_DEFS = [
     { key: "video_count", label: "视频数", color: "#0f766e", suffix: "个" },
     { key: "total_plays", label: "总播放", color: "#2563eb", suffix: "" },
     { key: "total_comments", label: "总评论", color: "#7c3aed", suffix: "" },
@@ -20,7 +26,47 @@
     { key: "share_rate", label: "平均分享率", color: "#4f46e5", suffix: "%" },
   ];
 
+  const VIDEO_CARD_DEFS = [
+    { key: "hour_comment", label: "每小时新增评论", color: "#0891b2", suffix: "", series: "hourly", field: "comment_delta", format: "int", note: "最近一小时" },
+    { key: "hour_like", label: "每小时新增点赞", color: "#d97706", suffix: "", series: "hourly", field: "like_delta", format: "int", note: "最近一小时" },
+    { key: "hour_coin", label: "每小时新增投币", color: "#059669", suffix: "", series: "hourly", field: "coin_delta", format: "int", note: "最近一小时" },
+    { key: "hour_favorite", label: "每小时新增收藏", color: "#db2777", suffix: "", series: "hourly", field: "favorite_delta", format: "int", note: "最近一小时" },
+    { key: "hour_share", label: "每小时新增分享", color: "#4f46e5", suffix: "", series: "hourly", field: "share_delta", format: "int", note: "最近一小时" },
+    { key: "hour_play", label: "每小时新增播放", color: "#2563eb", suffix: "", series: "hourly", field: "play_delta", format: "int", note: "最近一小时" },
+    { key: "day_play", label: "每日新增播放", color: "#0ea5e9", suffix: "", series: "daily", field: "play_delta", format: "int", note: "最新一天" },
+    { key: "avg_daily_plays", label: "日均播放", color: "#0f766e", suffix: "", series: "hourly", field: "avg_daily_plays", format: "int", note: "最近快照" },
+    { key: "comment_rate", label: "评论率", color: "#0891b2", suffix: "%", series: "hourly", field: "comment_rate", format: "rate", note: "最近快照" },
+    { key: "like_rate", label: "点赞率", color: "#d97706", suffix: "%", series: "hourly", field: "like_rate", format: "rate", note: "最近快照" },
+    { key: "coin_rate", label: "投币率", color: "#059669", suffix: "%", series: "hourly", field: "coin_rate", format: "rate", note: "最近快照" },
+    { key: "favorite_rate", label: "收藏率", color: "#db2777", suffix: "%", series: "hourly", field: "favorite_rate", format: "rate", note: "最近快照" },
+    { key: "share_rate", label: "分享率", color: "#4f46e5", suffix: "%", series: "hourly", field: "share_rate", format: "rate", note: "最近快照" },
+  ];
+
+  const SORT_COLUMNS = [
+    { key: "sort_order", label: "默认排序" },
+    { key: "bvid", label: "BV号" },
+    { key: "title", label: "标题" },
+    { key: "view", label: "播放" },
+    { key: "reply", label: "评论" },
+    { key: "like", label: "点赞" },
+    { key: "coin", label: "投币" },
+    { key: "favorite", label: "收藏" },
+    { key: "share", label: "分享" },
+    { key: "hour_plays", label: "本小时播放" },
+    { key: "today_plays", label: "今日播放" },
+    { key: "published_days", label: "已发布天数" },
+    { key: "avg_daily_plays", label: "日均播放" },
+    { key: "comment_rate", label: "评论率" },
+    { key: "like_rate", label: "点赞率" },
+    { key: "coin_rate", label: "投币率" },
+    { key: "favorite_rate", label: "收藏率" },
+    { key: "share_rate", label: "分享率" },
+  ];
+
   const cardsEl = document.getElementById("cards");
+  const videoSelect = document.getElementById("videoSelect");
+  const sortSelect = document.getElementById("sortSelect");
+  const sortDirBtn = document.getElementById("sortDirBtn");
   const searchInput = document.getElementById("searchInput");
   const refreshBtn = document.getElementById("refreshBtn");
   const addForm = document.getElementById("addForm");
@@ -30,6 +76,7 @@
   const tableBody = document.getElementById("videoTableBody");
   const tableCount = document.getElementById("tableCount");
   const emptyState = document.getElementById("emptyState");
+  const tableHead = document.querySelector("#videoTable thead");
   const periodButtons = document.querySelectorAll("#periodButtons button");
 
   function escapeHtml(value) {
@@ -64,7 +111,7 @@
   }
 
   function hourToTs(hour) {
-    const parts = hour.match(/^(\d{4})-(\d{2})-(\d{2}) (\d{2}):00$/);
+    const parts = String(hour || "").match(/^(\d{4})-(\d{2})-(\d{2}) (\d{2}):00$/);
     if (!parts) return 0;
     return Date.UTC(
       Number(parts[1]),
@@ -80,11 +127,35 @@
     );
   }
 
+  function defaultDirFor(key) {
+    return key === "sort_order" || key === "title" || key === "bvid" ? 1 : -1;
+  }
+
+  function formatCardValue(def, value) {
+    if (def.format === "rate" || def.key.endsWith("_rate")) {
+      return value.toFixed(2);
+    }
+    return BiliCharts.formatCompact(value);
+  }
+
+  function chartFormat(def) {
+    return def.format === "rate" || def.key.endsWith("_rate")
+      ? formatRate
+      : formatInt;
+  }
+
+  function delta(previous, current, key) {
+    if (!previous) return 0;
+    return Math.max(0, Number(current[key] || 0) - Number(previous[key] || 0));
+  }
+
   function buildVideoRows(videos) {
     const todayPrefix = cnDatePrefix();
     const nowSec = Math.floor(Date.now() / 1000);
     return videos.map((video) => {
-      const history = video.history || [];
+      const history = (video.history || [])
+        .slice()
+        .sort((a, b) => (String(a.time) < String(b.time) ? -1 : 1));
       const latest = history[history.length - 1] || {};
       const previous = history[history.length - 2];
       const view = Number(latest.view || 0);
@@ -93,7 +164,7 @@
         : 0;
 
       const earliestTodayIndex = history.findIndex((item) =>
-        item.time.startsWith(todayPrefix)
+        String(item.time || "").startsWith(todayPrefix)
       );
       let todayPlays = 0;
       if (earliestTodayIndex >= 0) {
@@ -119,6 +190,7 @@
         title: video.title || "等待首次抓取",
         owner: video.owner || "",
         pubdate: pubdate,
+        sort_order: Number(video.sort_order || 0),
         view: view,
         reply: reply,
         like: like,
@@ -212,6 +284,143 @@
     });
   }
 
+  function buildVideoHourly(video, days) {
+    let history = (video.history || [])
+      .slice()
+      .sort((a, b) => (String(a.time) < String(b.time) ? -1 : 1));
+    if (days > 0 && history.length) {
+      const lastTs = hourToTs(history[history.length - 1].time);
+      const cutoffHour = tsToHourCN(lastTs - days * 86400000);
+      history = history.filter((item) => String(item.time || "") >= cutoffHour);
+    }
+    const pubdate = Number(video.pubdate || 0);
+    return history.map((item, index) => {
+      const previous = history[index - 1];
+      const view = Number(item.view || 0);
+      const snapshotSec =
+        hourToTs(item.time) / 1000 || Math.floor(Date.now() / 1000);
+      const publishedDays = pubdate
+        ? Math.max(1, Math.floor((snapshotSec - pubdate) / 86400))
+        : 0;
+      return {
+        time: item.time,
+        comment_delta: delta(previous, item, "reply"),
+        like_delta: delta(previous, item, "like"),
+        coin_delta: delta(previous, item, "coin"),
+        favorite_delta: delta(previous, item, "favorite"),
+        share_delta: delta(previous, item, "share"),
+        play_delta: delta(previous, item, "view"),
+        avg_daily_plays: publishedDays ? Math.round(view / publishedDays) : 0,
+        comment_rate: pct(Number(item.reply || 0), view),
+        like_rate: pct(Number(item.like || 0), view),
+        coin_rate: pct(Number(item.coin || 0), view),
+        favorite_rate: pct(Number(item.favorite || 0), view),
+        share_rate: pct(Number(item.share || 0), view),
+      };
+    });
+  }
+
+  function buildDailyPlays(video, days) {
+    const history = (video.history || [])
+      .slice()
+      .sort((a, b) => (String(a.time) < String(b.time) ? -1 : 1));
+    if (!history.length) return [];
+
+    const byDay = new Map();
+    history.forEach((item) => {
+      const day = String(item.time || "").slice(0, 10);
+      if (!day) return;
+      if (!byDay.has(day)) byDay.set(day, []);
+      byDay.get(day).push(item);
+    });
+
+    const lastTs = hourToTs(history[history.length - 1].time);
+    const cutoffDay =
+      days > 0 ? tsToHourCN(lastTs - days * 86400000).slice(0, 10) : "";
+    const dayKeys = Array.from(byDay.keys()).sort();
+    const points = [];
+    let previousEnd = null;
+
+    dayKeys.forEach((day) => {
+      const entries = byDay
+        .get(day)
+        .slice()
+        .sort((a, b) => (String(a.time) < String(b.time) ? -1 : 1));
+      const end = entries[entries.length - 1];
+      const start = entries[0];
+      const base = previousEnd
+        ? Number(previousEnd.view || 0)
+        : Number(start.view || 0);
+      if (!cutoffDay || day >= cutoffDay) {
+        points.push({
+          time: day,
+          play_delta: Math.max(0, Number(end.view || 0) - base),
+        });
+      }
+      previousEnd = end;
+    });
+
+    return points;
+  }
+
+  function buildVideoTrends(video, days) {
+    return {
+      hourly: buildVideoHourly(video, days),
+      daily: buildDailyPlays(video, days),
+    };
+  }
+
+  function populateVideoSelect(rows) {
+    const previous = state.selectedBvid;
+    videoSelect.innerHTML = "";
+
+    const allOption = document.createElement("option");
+    allOption.value = ALL_VIDEOS_KEY;
+    allOption.textContent = "全部视频（总览）";
+    videoSelect.appendChild(allOption);
+
+    rows.forEach((row) => {
+      const option = document.createElement("option");
+      option.value = row.bvid;
+      option.textContent = (row.title || row.bvid) + " · " + row.bvid;
+      videoSelect.appendChild(option);
+    });
+
+    if (rows.some((row) => row.bvid === previous)) {
+      state.selectedBvid = previous;
+    } else if (rows.length) {
+      state.selectedBvid = rows[0].bvid;
+    } else {
+      state.selectedBvid = ALL_VIDEOS_KEY;
+    }
+    videoSelect.value = state.selectedBvid;
+  }
+
+  function populateSortSelect() {
+    sortSelect.innerHTML = "";
+    SORT_COLUMNS.forEach((column) => {
+      const option = document.createElement("option");
+      option.value = column.key;
+      option.textContent = column.label;
+      sortSelect.appendChild(option);
+    });
+    updateSortControl();
+  }
+
+  function updateSortControl() {
+    sortSelect.value = state.sort.key;
+    sortDirBtn.textContent = state.sort.dir === 1 ? "升序 ↑" : "降序 ↓";
+    document.querySelectorAll("th[data-sort]").forEach((th) => {
+      const active = th.dataset.sort === state.sort.key;
+      th.classList.toggle("sorted", active);
+      th.setAttribute("data-arrow", active ? (state.sort.dir === 1 ? "↑" : "↓") : "");
+      th.setAttribute(
+        "aria-sort",
+        active ? (state.sort.dir === 1 ? "ascending" : "descending") : "none"
+      );
+    });
+  }
+
   function setMessage(text, type) {
     messageEl.textContent = text || "";
     messageEl.className = "message" + (type ? " " + type : "");
@@ -225,54 +434,89 @@
     }
   }
 
+  function updateVideoTrends() {
+    const selected = state.rows.find((row) => row.bvid === state.selectedBvid);
+    state.videoTrends = selected
+      ? buildVideoTrends(selected, state.days)
+      : { hourly: [], daily: [] };
+  }
+
   function renderCards() {
-    const cards = state.dashboard.cards;
-    const history = state.dashboard.history || [];
+    const selected = state.rows.find((row) => row.bvid === state.selectedBvid);
+    const isSingle = Boolean(selected);
+    const defs = isSingle ? VIDEO_CARD_DEFS : AGGREGATE_CARD_DEFS;
     BiliCharts.clearCharts();
     cardsEl.innerHTML = "";
 
-    CARD_DEFS.forEach((def) => {
+    defs.forEach((def) => {
       const card = document.createElement("article");
       card.className = "metric-card";
-      const value = Number(cards[def.key] || 0);
-      const valueText =
-        def.key.endsWith("_rate")
-          ? value.toFixed(2)
-          : BiliCharts.formatCompact(value);
+      const points = isSingle
+        ? def.series === "daily"
+          ? state.videoTrends.daily
+          : state.videoTrends.hourly
+        : state.dashboard.history;
+      let value = 0;
+      if (isSingle) {
+        const last = points[points.length - 1];
+        value = last ? Number(last[def.field] || 0) : 0;
+      } else {
+        value = Number((state.dashboard.cards || {})[def.key] || 0);
+      }
       card.innerHTML =
         '<div class="metric-label">' +
         escapeHtml(def.label) +
         "</div>" +
         '<div class="metric-value">' +
-        escapeHtml(valueText) +
+        escapeHtml(formatCardValue(def, value)) +
         "<small>" +
         escapeHtml(def.suffix) +
         "</small>" +
         "</div>" +
+        (isSingle
+          ? '<div class="metric-note">' + escapeHtml(def.note) + "</div>"
+          : "") +
         '<canvas data-field="' +
-        def.key +
+        escapeHtml(def.key) +
         '"></canvas>';
       cardsEl.appendChild(card);
       const canvas = card.querySelector("canvas");
       BiliCharts.renderLineChart(
         canvas,
-        history,
-        def.key,
+        points,
+        isSingle ? def.field : def.key,
         def.color,
-        def.key.endsWith("_rate") ? formatRate : formatInt
+        chartFormat(def),
+        def.label
       );
     });
   }
 
   function renderTable() {
     const keyword = state.search.trim().toLowerCase();
-    const videos = (state.dashboard.videos || []).filter((video) => {
-      if (!keyword) return true;
-      return (
-        String(video.bvid).toLowerCase().includes(keyword) ||
-        String(video.title).toLowerCase().includes(keyword)
-      );
-    });
+    const videos = state.rows
+      .filter((video) => {
+        if (!keyword) return true;
+        return (
+          String(video.bvid).toLowerCase().includes(keyword) ||
+          String(video.title).toLowerCase().includes(keyword)
+        );
+      })
+      .slice()
+      .sort((a, b) => {
+        const key = state.sort.key;
+        const dir = state.sort.dir;
+        const valueA = a[key];
+        const valueB = b[key];
+        const cmp =
+          typeof valueA === "string" && typeof valueB === "string"
+            ? valueA.localeCompare(valueB, "zh-CN", {
+                numeric: true,
+                sensitivity: "base",
+              })
+            : Number(valueA || 0) - Number(valueB || 0);
+        return cmp * dir;
+      });
 
     tableBody.innerHTML = "";
     tableCount.textContent = "共 " + videos.length + " 个视频";
@@ -339,11 +583,14 @@
       if (!response.ok) throw new Error("HTTP " + response.status);
       state.data = await response.json();
       const rows = buildVideoRows(state.data.videos || []);
+      state.rows = rows;
       state.dashboard = {
-        videos: rows,
         cards: buildCards(rows),
         history: buildChartHistory(state.data.videos || [], state.days),
       };
+      populateVideoSelect(rows);
+      populateSortSelect();
+      updateVideoTrends();
       renderCards();
       renderTable();
       renderStatus();
@@ -406,6 +653,39 @@
     if (button) deleteVideo(button.dataset.bvid);
   });
 
+  tableHead.addEventListener("click", (event) => {
+    const th = event.target.closest("th[data-sort]");
+    if (!th) return;
+    const key = th.dataset.sort;
+    if (state.sort.key === key) {
+      state.sort.dir *= -1;
+    } else {
+      state.sort.key = key;
+      state.sort.dir = defaultDirFor(key);
+    }
+    updateSortControl();
+    renderTable();
+  });
+
+  videoSelect.addEventListener("change", () => {
+    state.selectedBvid = videoSelect.value;
+    updateVideoTrends();
+    renderCards();
+  });
+
+  sortSelect.addEventListener("change", () => {
+    state.sort.key = sortSelect.value;
+    state.sort.dir = defaultDirFor(state.sort.key);
+    updateSortControl();
+    renderTable();
+  });
+
+  sortDirBtn.addEventListener("click", () => {
+    state.sort.dir *= -1;
+    updateSortControl();
+    renderTable();
+  });
+
   periodButtons.forEach((button) => {
     button.addEventListener("click", () => {
       periodButtons.forEach((item) => item.classList.remove("active"));
@@ -413,6 +693,7 @@
       state.days = Number(button.dataset.days);
       if (state.data) {
         state.dashboard.history = buildChartHistory(state.data.videos || [], state.days);
+        updateVideoTrends();
         renderCards();
       }
     });

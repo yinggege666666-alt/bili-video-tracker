@@ -21,10 +21,16 @@
   }
 
   function clearCharts() {
-    activeCharts.length = 0;
+    activeCharts.splice(0).forEach((chart) => {
+      if (chart.observer) chart.observer.disconnect();
+      if (chart.canvas) {
+        chart.canvas.removeEventListener("mousemove", chart.onMove);
+        chart.canvas.removeEventListener("mouseleave", chart.onLeave);
+      }
+    });
   }
 
-  function renderLineChart(canvas, points, field, color, formatValue) {
+  function renderLineChart(canvas, points, field, color, formatValue, label) {
     if (!canvas || !points || points.length === 0) {
       const ctx = canvas && canvas.getContext("2d");
       if (ctx) {
@@ -154,6 +160,7 @@
       const point = points[index];
       const value = formatValue ? formatValue(point[field]) : formatCompact(point[field]);
       tooltip.innerHTML =
+        (label ? "<div>" + label + "</div>" : "") +
         "<div>" + point.time + "</div><div>" + value + "</div>";
       tooltip.hidden = false;
       const tooltipX = event.clientX + 12;
@@ -172,6 +179,8 @@
     const chart = {
       canvas: canvas,
       redraw: draw,
+      onMove: onMove,
+      onLeave: onLeave,
     };
     activeCharts.push(chart);
 

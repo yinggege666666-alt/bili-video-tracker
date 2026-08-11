@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>B站视频数据跟踪</title>
+  <link rel="icon" href="data:,">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -31,7 +32,10 @@
     </section>
 
     <section class="chart-head">
-      <h2>每小时数据趋势</h2>
+      <div class="chart-tools">
+        <h2>单视频数据趋势</h2>
+        <select id="videoSelect" class="input select-input" aria-label="选择视频"></select>
+      </div>
       <div id="periodButtons" class="segmented" role="group" aria-label="图表时间范围">
         <button type="button" data-days="7">近7天</button>
         <button type="button" data-days="30" class="active">近30天</button>
@@ -39,34 +43,38 @@
       </div>
     </section>
 
-    <section id="cards" class="cards" aria-label="总览卡片"></section>
+    <section id="cards" class="cards" aria-label="单视频趋势卡片"></section>
 
     <section class="table-section">
       <div class="table-head">
         <h2>视频数据</h2>
-        <span id="tableCount" class="table-count"></span>
+        <div class="table-tools">
+          <span id="tableCount" class="table-count"></span>
+          <select id="sortSelect" class="input select-input sort-select" aria-label="排序字段"></select>
+          <button id="sortDirBtn" class="btn btn-outline sort-dir-btn" type="button" aria-label="切换排序方向">升序 ↑</button>
+        </div>
       </div>
       <div class="table-wrap">
         <table id="videoTable">
           <thead>
             <tr>
-              <th class="col-bvid">BV号</th>
-              <th class="col-title">标题</th>
-              <th>播放</th>
-              <th>评论</th>
-              <th>点赞</th>
-              <th>投币</th>
-              <th>收藏</th>
-              <th>分享</th>
-              <th>本小时播放</th>
-              <th>今日播放</th>
-              <th>已发布天数</th>
-              <th>日均播放</th>
-              <th>评论率</th>
-              <th>点赞率</th>
-              <th>投币率</th>
-              <th>收藏率</th>
-              <th>分享率</th>
+              <th class="col-bvid sortable" data-sort="bvid">BV号</th>
+              <th class="col-title sortable" data-sort="title">标题</th>
+              <th class="sortable" data-sort="view">播放</th>
+              <th class="sortable" data-sort="reply">评论</th>
+              <th class="sortable" data-sort="like">点赞</th>
+              <th class="sortable" data-sort="coin">投币</th>
+              <th class="sortable" data-sort="favorite">收藏</th>
+              <th class="sortable" data-sort="share">分享</th>
+              <th class="sortable" data-sort="hour_plays">本小时播放</th>
+              <th class="sortable" data-sort="today_plays">今日播放</th>
+              <th class="sortable" data-sort="published_days">已发布天数</th>
+              <th class="sortable" data-sort="avg_daily_plays">日均播放</th>
+              <th class="sortable" data-sort="comment_rate">评论率</th>
+              <th class="sortable" data-sort="like_rate">点赞率</th>
+              <th class="sortable" data-sort="coin_rate">投币率</th>
+              <th class="sortable" data-sort="favorite_rate">收藏率</th>
+              <th class="sortable" data-sort="share_rate">分享率</th>
               <th class="col-action">操作</th>
             </tr>
           </thead>
