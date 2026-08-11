@@ -165,6 +165,18 @@ def run_update(config: dict) -> None:
         except BiliFetchError as exc:
             errors.append(str(exc))
             print(f"FAIL {bvid} {exc}", file=sys.stderr)
+            video = existing.get(bvid)
+            if video is None:
+                video = {
+                    "bvid": bvid,
+                    "sort_order": sort_order,
+                    "title": "等待首次抓取",
+                    "owner": "",
+                    "pubdate": 0,
+                    "history": [],
+                }
+            video["sort_order"] = sort_order
+            videos.append(video)
         time.sleep(0.4)
 
     videos.sort(key=lambda item: item.get("sort_order", 9999))
