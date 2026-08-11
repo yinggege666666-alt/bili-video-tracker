@@ -2,7 +2,9 @@ name: 每小时更新B站数据
 
 on:
   schedule:
-    - cron: "7 * * * *"
+    # 避开整点高峰，两个时间互为备份
+    - cron: "17 * * * *"
+    - cron: "47 * * * *"
   workflow_dispatch:
 
 permissions:
