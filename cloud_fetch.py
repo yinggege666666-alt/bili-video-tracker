@@ -15,7 +15,7 @@ from zoneinfo import ZoneInfo
 from bilibili import BiliFetchError, fetch_video
 
 ROOT = Path(__file__).resolve().parent
-PUBLIC_DIR = ROOT / "public"
+PUBLIC_DIR = ROOT / "docs"
 CONFIG_PATH = ROOT / "config.json"
 DATA_PATH = PUBLIC_DIR / "data.json"
 
