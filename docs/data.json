@@ -1149,6 +1149,15 @@
           "coin": 3435,
           "favorite": 2488,
           "share": 681
+        },
+        {
+          "time": "2026-08-13 17:00",
+          "view": 75711,
+          "reply": 1426,
+          "like": 2164,
+          "coin": 3479,
+          "favorite": 2510,
+          "share": 681
         }
       ]
     },
@@ -2265,6 +2274,15 @@
           "coin": 926,
           "favorite": 671,
           "share": 100
+        },
+        {
+          "time": "2026-08-13 17:00",
+          "view": 15642,
+          "reply": 548,
+          "like": 671,
+          "coin": 1088,
+          "favorite": 756,
+          "share": 100
         }
       ]
     },
@@ -2282,6 +2300,15 @@
           "like": 1,
           "coin": 0,
           "favorite": 1,
+          "share": 0
+        },
+        {
+          "time": "2026-08-13 17:00",
+          "view": 1351,
+          "reply": 3,
+          "like": 23,
+          "coin": 44,
+          "favorite": 23,
           "share": 0
         }
       ]
@@ -2301,11 +2328,56 @@
           "coin": 64,
           "favorite": 34,
           "share": 1
+        },
+        {
+          "time": "2026-08-13 17:00",
+          "view": 2422,
+          "reply": 1,
+          "like": 56,
+          "coin": 108,
+          "favorite": 56,
+          "share": 1
+        }
+      ]
+    },
+    {
+      "bvid": "BV1Zfgp64EmP",
+      "sort_order": 11,
+      "title": "【秋叶ComfyUI最新教程】全中文界面支持中文提示词！支持50 40 30显卡！详细从零开始学习AI绘画comfyui工作流搭建，全程干货无废话",
+      "owner": "秋葉aaakil",
+      "pubdate": 1786610912,
+      "history": [
+        {
+          "time": "2026-08-13 17:00",
+          "view": 194,
+          "reply": 0,
+          "like": 18,
+          "coin": 36,
+          "favorite": 18,
+          "share": 0
+        }
+      ]
+    },
+    {
+      "bvid": "BV1cbuw6eE16",
+      "sort_order": 12,
+      "title": "【秋叶ComfyUI】秋叶最新发布！ComfyUI 中文满血整合包来了！支持50 40 30系显卡，Win+Mac一键下载安装（附新Comfyui整合包）",
+      "owner": "秋枼aaakli",
+      "pubdate": 1785825289,
+      "history": [
+        {
+          "time": "2026-08-13 17:00",
+          "view": 11493,
+          "reply": 14,
+          "like": 102,
+          "coin": 191,
+          "favorite": 97,
+          "share": 102
         }
       ]
     }
   ],
-  "last_update": "2026-08-13 16:24:02",
+  "last_update": "2026-08-13 17:23:58",
   "last_error": "获取 BV1o9uy6jEyM 失败：啥都木有；获取 BV1QZM16zEMK 失败：啥都木有；获取 BV1GFVf6sECB 失败：啥都木有",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
