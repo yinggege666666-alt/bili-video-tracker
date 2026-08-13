@@ -1,233 +1,8 @@
 {
   "videos": [
     {
-      "bvid": "BV1QZM16zEMK",
-      "sort_order": 1,
-      "title": "8月最新【秋叶ComfyUI-VX中文版】全中文界面支持中文提示词！Win+Mac一键安装，支持20304050显卡解压即用，附comfyui本地部署一键安装包",
-      "owner": "秋枼aaoki",
-      "pubdate": 1785974400,
-      "history": [
-        {
-          "time": "2026-08-11 10:00",
-          "view": 32655,
-          "reply": 1258,
-          "like": 1651,
-          "coin": 2590,
-          "favorite": 1898,
-          "share": 211
-        },
-        {
-          "time": "2026-08-11 12:00",
-          "view": 33128,
-          "reply": 1284,
-          "like": 1670,
-          "coin": 2609,
-          "favorite": 1917,
-          "share": 212
-        },
-        {
-          "time": "2026-08-11 15:00",
-          "view": 34650,
-          "reply": 1493,
-          "like": 1772,
-          "coin": 2767,
-          "favorite": 2020,
-          "share": 213
-        },
-        {
-          "time": "2026-08-11 16:00",
-          "view": 34854,
-          "reply": 1509,
-          "like": 1796,
-          "coin": 2811,
-          "favorite": 2045,
-          "share": 214
-        },
-        {
-          "time": "2026-08-11 17:00",
-          "view": 34987,
-          "reply": 1515,
-          "like": 1802,
-          "coin": 2813,
-          "favorite": 2050,
-          "share": 214
-        },
-        {
-          "time": "2026-08-11 18:00",
-          "view": 35177,
-          "reply": 1547,
-          "like": 1844,
-          "coin": 2894,
-          "favorite": 2094,
-          "share": 236
-        },
-        {
-          "time": "2026-08-11 19:00",
-          "view": 35341,
-          "reply": 1569,
-          "like": 1881,
-          "coin": 2957,
-          "favorite": 2132,
-          "share": 237
-        },
-        {
-          "time": "2026-08-11 20:00",
-          "view": 36449,
-          "reply": 1593,
-          "like": 1911,
-          "coin": 3008,
-          "favorite": 2160,
-          "share": 237
-        },
-        {
-          "time": "2026-08-11 21:00",
-          "view": 37401,
-          "reply": 1605,
-          "like": 1921,
-          "coin": 3015,
-          "favorite": 2173,
-          "share": 237
-        },
-        {
-          "time": "2026-08-11 22:00",
-          "view": 37546,
-          "reply": 1616,
-          "like": 1930,
-          "coin": 3021,
-          "favorite": 2182,
-          "share": 238
-        },
-        {
-          "time": "2026-08-11 23:00",
-          "view": 38391,
-          "reply": 1629,
-          "like": 1944,
-          "coin": 3029,
-          "favorite": 2196,
-          "share": 238
-        },
-        {
-          "time": "2026-08-12 00:00",
-          "view": 38878,
-          "reply": 1635,
-          "like": 1951,
-          "coin": 3033,
-          "favorite": 2202,
-          "share": 238
-        },
-        {
-          "time": "2026-08-12 01:00",
-          "view": 39043,
-          "reply": 1639,
-          "like": 2023,
-          "coin": 3167,
-          "favorite": 2274,
-          "share": 240
-        },
-        {
-          "time": "2026-08-12 02:00",
-          "view": 39185,
-          "reply": 1645,
-          "like": 2032,
-          "coin": 3174,
-          "favorite": 2283,
-          "share": 240
-        },
-        {
-          "time": "2026-08-12 03:00",
-          "view": 39245,
-          "reply": 1651,
-          "like": 2035,
-          "coin": 3178,
-          "favorite": 2288,
-          "share": 240
-        },
-        {
-          "time": "2026-08-12 04:00",
-          "view": 39271,
-          "reply": 1652,
-          "like": 2036,
-          "coin": 3180,
-          "favorite": 2292,
-          "share": 240
-        },
-        {
-          "time": "2026-08-12 05:00",
-          "view": 39306,
-          "reply": 1654,
-          "like": 2036,
-          "coin": 3180,
-          "favorite": 2292,
-          "share": 240
-        },
-        {
-          "time": "2026-08-12 06:00",
-          "view": 39349,
-          "reply": 1655,
-          "like": 2037,
-          "coin": 3182,
-          "favorite": 2294,
-          "share": 240
-        },
-        {
-          "time": "2026-08-12 07:00",
-          "view": 39395,
-          "reply": 1656,
-          "like": 2038,
-          "coin": 3182,
-          "favorite": 2297,
-          "share": 240
-        },
-        {
-          "time": "2026-08-12 08:00",
-          "view": 39492,
-          "reply": 1665,
-          "like": 2039,
-          "coin": 3182,
-          "favorite": 2299,
-          "share": 240
-        },
-        {
-          "time": "2026-08-12 09:00",
-          "view": 39593,
-          "reply": 1675,
-          "like": 2052,
-          "coin": 3204,
-          "favorite": 2316,
-          "share": 241
-        },
-        {
-          "time": "2026-08-12 10:00",
-          "view": 39687,
-          "reply": 1685,
-          "like": 2069,
-          "coin": 3236,
-          "favorite": 2336,
-          "share": 241
-        },
-        {
-          "time": "2026-08-12 11:00",
-          "view": 40363,
-          "reply": 1691,
-          "like": 2094,
-          "coin": 3282,
-          "favorite": 2362,
-          "share": 242
-        },
-        {
-          "time": "2026-08-12 12:00",
-          "view": 41656,
-          "reply": 1698,
-          "like": 2098,
-          "coin": 3285,
-          "favorite": 2367,
-          "share": 242
-        }
-      ]
-    },
-    {
       "bvid": "BV1NfKw6AEeo",
-      "sort_order": 2,
+      "sort_order": 1,
       "title": "8月【ComfyUI中文旗舰】全新发布！ai绘画ai视频一键生成，适配20/30/40/50系显卡，Win+Mac一键安装解压即用无私传递（附整合包+工作流）",
       "owner": "ComfyUI桌面版",
       "pubdate": 1784355819,
@@ -711,7 +486,7 @@
         },
         {
           "time": "2026-08-13 18:00",
-          "view": 75715,
+          "view": 75716,
           "reply": 1426,
           "like": 2174,
           "coin": 3499,
@@ -722,7 +497,7 @@
     },
     {
       "bvid": "BV12cut62EXa",
-      "sort_order": 3,
+      "sort_order": 2,
       "title": "8G显存【MiniMax H3】一键整合包，再次提速350％ | 8G显存 10秒只需450秒！6g内存+8g显存也能玩MinimaxH3+加速高达45%!",
       "owner": "ComfyUI本地部署教程",
       "pubdate": 1786070904,
@@ -1170,7 +945,7 @@
         },
         {
           "time": "2026-08-13 18:00",
-          "view": 15668,
+          "view": 15671,
           "reply": 549,
           "like": 671,
           "coin": 1088,
@@ -1181,7 +956,7 @@
     },
     {
       "bvid": "BV1yNgn6dEYL",
-      "sort_order": 4,
+      "sort_order": 3,
       "title": "【秋叶ComfyUI使用教程】全中文界面支持中文提示词！支持50 40 30显卡！详细从零开始学习AI绘画comfyui工作流搭建，全程干货无废话（附资料）",
       "owner": "秋枼aaakli",
       "pubdate": 1786607508,
@@ -1206,7 +981,7 @@
         },
         {
           "time": "2026-08-13 18:00",
-          "view": 2326,
+          "view": 2664,
           "reply": 3,
           "like": 33,
           "coin": 64,
@@ -1217,7 +992,7 @@
     },
     {
       "bvid": "BV13agn6MEDU",
-      "sort_order": 5,
+      "sort_order": 4,
       "title": "【LTX2.3破限制工作流】LTX2.3音画同步生成工作流视频＋本地部署工作流！这可能是全网最详细的一键AI视频制作工作流comfyui桌面版教程（附资料）",
       "owner": "ComfyUI桌面版",
       "pubdate": 1786602958,
@@ -1242,7 +1017,7 @@
         },
         {
           "time": "2026-08-13 18:00",
-          "view": 3444,
+          "view": 3755,
           "reply": 2,
           "like": 68,
           "coin": 130,
@@ -1253,7 +1028,7 @@
     },
     {
       "bvid": "BV1Zfgp64EmP",
-      "sort_order": 6,
+      "sort_order": 5,
       "title": "【秋叶ComfyUI最新教程】全中文界面支持中文提示词！支持50 40 30显卡！详细从零开始学习AI绘画comfyui工作流搭建，全程干货无废话",
       "owner": "秋葉aaakil",
       "pubdate": 1786610912,
@@ -1269,7 +1044,7 @@
         },
         {
           "time": "2026-08-13 18:00",
-          "view": 1090,
+          "view": 1123,
           "reply": 1,
           "like": 34,
           "coin": 66,
@@ -1280,7 +1055,7 @@
     },
     {
       "bvid": "BV1cbuw6eE16",
-      "sort_order": 7,
+      "sort_order": 6,
       "title": "【秋叶ComfyUI】秋叶最新发布！ComfyUI 中文满血整合包来了！支持50 40 30系显卡，Win+Mac一键下载安装（附新Comfyui整合包）",
       "owner": "秋枼aaakli",
       "pubdate": 1785825289,
@@ -1296,7 +1071,7 @@
         },
         {
           "time": "2026-08-13 18:00",
-          "view": 11501,
+          "view": 11535,
           "reply": 14,
           "like": 112,
           "coin": 211,
@@ -1306,7 +1081,7 @@
       ]
     }
   ],
-  "last_update": "2026-08-13 18:23:40",
-  "last_error": "获取 BV1QZM16zEMK 失败：啥都木有",
+  "last_update": "2026-08-13 18:41:08",
+  "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
