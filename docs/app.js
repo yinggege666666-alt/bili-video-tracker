@@ -55,6 +55,7 @@
     { key: "favorite", label: "收藏" },
     { key: "share", label: "分享" },
     { key: "hour_plays", label: "本小时播放" },
+    { key: "hour_comments", label: "本小时评论" },
     { key: "today_plays", label: "今日播放" },
     { key: "published_days", label: "已发布天数" },
     { key: "avg_daily_plays", label: "日均播放" },
@@ -575,6 +576,9 @@
         "<td>" + formatInt(video.share) + "</td>" +
         '<td class="' + (video.hour_plays > 0 ? "num-strong" : "num-muted") + '">' +
         formatInt(video.hour_plays) +
+        "</td>" +
+        '<td class="' + (video.hour_comments > 0 ? "num-strong" : "num-muted") + '">' +
+        formatInt(video.hour_comments) +
         "</td>" +
         '<td class="' + (video.today_plays > 0 ? "num-strong" : "num-muted") + '">' +
         formatInt(video.today_plays) +
