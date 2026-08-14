@@ -16,9 +16,11 @@
   };
 
   const AGGREGATE_CARD_DEFS = [
-    { key: "video_count", label: "视频数", color: "#0f766e", suffix: "个" },
-    { key: "total_plays", label: "总播放", color: "#2563eb", suffix: "" },
-    { key: "total_comments", label: "总评论", color: "#7c3aed", suffix: "" },
+    { key: "video_count", label: "视频数", color: "#0f766e", suffix: "个", field: "videos" },
+    { key: "total_plays", label: "总播放", color: "#2563eb", suffix: "", field: "plays" },
+    { key: "total_comments", label: "总评论", color: "#7c3aed", suffix: "", field: "comments" },
+    { key: "hour_plays", label: "本小时新增播放", color: "#0ea5e9", suffix: "", field: "play_delta" },
+    { key: "hour_comments", label: "本小时新增评论", color: "#db2777", suffix: "", field: "comment_delta" },
     { key: "comment_rate", label: "平均评论率", color: "#0891b2", suffix: "%" },
     { key: "like_rate", label: "平均点赞率", color: "#d97706", suffix: "%" },
     { key: "coin_rate", label: "平均投币率", color: "#059669", suffix: "%" },
@@ -162,6 +164,9 @@
       const hourPlays = previous
         ? Math.max(0, view - Number(previous.view || 0))
         : 0;
+      const hourComments = previous
+        ? Math.max(0, Number(latest.reply || 0) - Number(previous.reply || 0))
+        : 0;
 
       const earliestTodayIndex = history.findIndex((item) =>
         String(item.time || "").startsWith(todayPrefix)
@@ -199,6 +204,7 @@
         favorite: favorite,
         share: share,
         hour_plays: hourPlays,
+        hour_comments: hourComments,
         today_plays: todayPlays,
         published_days: publishedDays,
         avg_daily_plays: publishedDays ? Math.round(view / publishedDays) : 0,
@@ -219,10 +225,14 @@
     const totalCoins = rows.reduce((sum, row) => sum + row.coin, 0);
     const totalFavorites = rows.reduce((sum, row) => sum + row.favorite, 0);
     const totalShares = rows.reduce((sum, row) => sum + row.share, 0);
+    const hourPlays = rows.reduce((sum, row) => sum + row.hour_plays, 0);
+    const hourComments = rows.reduce((sum, row) => sum + row.hour_comments, 0);
     return {
       video_count: rows.length,
       total_plays: totalPlays,
       total_comments: totalComments,
+      hour_plays: hourPlays,
+      hour_comments: hourComments,
       comment_rate: pct(totalComments, totalPlays),
       like_rate: pct(totalLikes, totalPlays),
       coin_rate: pct(totalCoins, totalPlays),
@@ -244,12 +254,18 @@
     }
 
     const pointers = videos.map((video) => ({
-      history: (video.history || []).sort((a, b) => (a.time < b.time ? -1 : 1)),
+      history: (video.history || [])
+        .slice()
+        .sort((a, b) => (String(a.time) < String(b.time) ? -1 : 1)),
       index: -1,
+      previous: null,
+      current: null,
     }));
 
     return hours.map((hour) => {
       const included = [];
+      let playDelta = 0;
+      let commentDelta = 0;
       pointers.forEach((pointer) => {
         while (
           pointer.index + 1 < pointer.history.length &&
@@ -257,9 +273,22 @@
         ) {
           pointer.index += 1;
         }
-        if (pointer.index >= 0) {
-          included.push(pointer.history[pointer.index]);
+        pointer.current =
+          pointer.index >= 0 ? pointer.history[pointer.index] : null;
+        if (pointer.current) {
+          included.push(pointer.current);
+          if (pointer.previous) {
+            playDelta += Math.max(
+              0,
+              Number(pointer.current.view || 0) - Number(pointer.previous.view || 0)
+            );
+            commentDelta += Math.max(
+              0,
+              Number(pointer.current.reply || 0) - Number(pointer.previous.reply || 0)
+            );
+          }
         }
+        pointer.previous = pointer.current;
       });
       const plays = included.reduce((sum, item) => sum + Number(item.view || 0), 0);
       const comments = included.reduce((sum, item) => sum + Number(item.reply || 0), 0);
@@ -272,6 +301,8 @@
         videos: included.length,
         plays: plays,
         comments: comments,
+        play_delta: playDelta,
+        comment_delta: commentDelta,
         likes: likes,
         coins: coins,
         favorites: favorites,
@@ -485,7 +516,7 @@
       BiliCharts.renderLineChart(
         canvas,
         points,
-        isSingle ? def.field : def.key,
+        isSingle ? def.field : def.field || def.key,
         def.color,
         chartFormat(def),
         def.label
