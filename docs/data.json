@@ -690,6 +690,15 @@
           "coin": 3664,
           "favorite": 2608,
           "share": 681
+        },
+        {
+          "time": "2026-08-14 17:00",
+          "view": 80855,
+          "reply": 1438,
+          "like": 2269,
+          "coin": 3684,
+          "favorite": 2619,
+          "share": 681
         }
       ]
     },
@@ -697,7 +706,7 @@
       "bvid": "BV1yNgn6dEYL",
       "sort_order": 2,
       "title": "【秋叶ComfyUI使用教程】全中文界面支持中文提示词！支持50 40 30显卡！详细从零开始学习AI绘画comfyui工作流搭建，全程干货无废话（附资料）",
-      "owner": "秋枼aaakli",
+      "owner": "comfyiu",
       "pubdate": 1786607508,
       "history": [
         {
@@ -923,6 +932,15 @@
           "like": 118,
           "coin": 224,
           "favorite": 118,
+          "share": 0
+        },
+        {
+          "time": "2026-08-14 17:00",
+          "view": 6313,
+          "reply": 5,
+          "like": 128,
+          "coin": 244,
+          "favorite": 128,
           "share": 0
         }
       ]
@@ -1158,6 +1176,15 @@
           "coin": 293,
           "favorite": 167,
           "share": 2
+        },
+        {
+          "time": "2026-08-14 17:00",
+          "view": 7226,
+          "reply": 9,
+          "like": 166,
+          "coin": 315,
+          "favorite": 179,
+          "share": 2
         }
       ]
     },
@@ -1390,7 +1417,7 @@
       "bvid": "BV1cbuw6eE16",
       "sort_order": 5,
       "title": "【秋叶ComfyUI】秋叶最新发布！ComfyUI 中文满血整合包来了！支持50 40 30系显卡，Win+Mac一键下载安装（附新Comfyui整合包）",
-      "owner": "秋枼aaakli",
+      "owner": "comfyiu",
       "pubdate": 1785825289,
       "history": [
         {
@@ -1608,11 +1635,20 @@
           "coin": 377,
           "favorite": 193,
           "share": 102
+        },
+        {
+          "time": "2026-08-14 17:00",
+          "view": 14104,
+          "reply": 14,
+          "like": 197,
+          "coin": 377,
+          "favorite": 193,
+          "share": 102
         }
       ]
     }
   ],
-  "last_update": "2026-08-14 16:23:33",
-  "last_error": "",
+  "last_update": "2026-08-14 17:23:31",
+  "last_error": "获取 BV1Zfgp64EmP 失败：啥都木有",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
