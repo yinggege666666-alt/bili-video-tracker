@@ -765,7 +765,7 @@
         },
         {
           "time": "2026-08-15 01:00",
-          "view": 83027,
+          "view": 83262,
           "reply": 1444,
           "like": 2282,
           "coin": 3708,
@@ -1395,7 +1395,7 @@
         },
         {
           "time": "2026-08-15 01:00",
-          "view": 11177,
+          "view": 11179,
           "reply": 9,
           "like": 176,
           "coin": 335,
@@ -1926,7 +1926,7 @@
         },
         {
           "time": "2026-08-15 01:00",
-          "view": 15020,
+          "view": 15059,
           "reply": 14,
           "like": 207,
           "coin": 397,
@@ -1936,7 +1936,7 @@
       ]
     }
   ],
-  "last_update": "2026-08-15 01:23:32",
+  "last_update": "2026-08-15 01:41:48",
   "last_error": "获取 BV1Zfgp64EmP 失败：啥都木有",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
