@@ -942,6 +942,15 @@
           "coin": 3728,
           "favorite": 2645,
           "share": 683
+        },
+        {
+          "time": "2026-08-15 21:00",
+          "view": 84268,
+          "reply": 1449,
+          "like": 2310,
+          "coin": 3758,
+          "favorite": 2661,
+          "share": 683
         }
       ]
     },
@@ -1427,6 +1436,15 @@
           "like": 151,
           "coin": 284,
           "favorite": 150,
+          "share": 1
+        },
+        {
+          "time": "2026-08-15 21:00",
+          "view": 11150,
+          "reply": 5,
+          "like": 171,
+          "coin": 324,
+          "favorite": 170,
           "share": 1
         }
       ]
@@ -1914,6 +1932,15 @@
           "coin": 355,
           "favorite": 198,
           "share": 3
+        },
+        {
+          "time": "2026-08-15 21:00",
+          "view": 11191,
+          "reply": 9,
+          "like": 207,
+          "coin": 397,
+          "favorite": 219,
+          "share": 3
         }
       ]
     },
@@ -2391,6 +2418,15 @@
           "coin": 417,
           "favorite": 213,
           "share": 103
+        },
+        {
+          "time": "2026-08-15 21:00",
+          "view": 17375,
+          "reply": 14,
+          "like": 234,
+          "coin": 447,
+          "favorite": 230,
+          "share": 103
         }
       ]
     },
@@ -2454,11 +2490,74 @@
           "coin": 66,
           "favorite": 34,
           "share": 1
+        },
+        {
+          "time": "2026-08-15 21:00",
+          "view": 4222,
+          "reply": 27,
+          "like": 57,
+          "coin": 106,
+          "favorite": 56,
+          "share": 1
+        }
+      ]
+    },
+    {
+      "bvid": "BV1pEbk6wEqQ",
+      "sort_order": 6,
+      "title": "8月最新【ComfyUI教程】全中文界面支持中文提示词！支持50 40 30显卡！详细从零开始学习AI绘画comfyui工作流搭建，全程干货无废话（附资料）",
+      "owner": "comfyiu",
+      "pubdate": 1786795200,
+      "history": [
+        {
+          "time": "2026-08-15 21:00",
+          "view": 835,
+          "reply": 1,
+          "like": 21,
+          "coin": 40,
+          "favorite": 21,
+          "share": 0
+        }
+      ]
+    },
+    {
+      "bvid": "BV1i4bk6dE9z",
+      "sort_order": 7,
+      "title": "8月【ComfyUI使用教程】全中文界面支持中文提示词！支持50 40 30显卡！详细从零开始学习AI绘画comfyui工作流搭建，全程干货无废话（附资料）",
+      "owner": "comfyui中文版教程-",
+      "pubdate": 1786791600,
+      "history": [
+        {
+          "time": "2026-08-15 21:00",
+          "view": 841,
+          "reply": 1,
+          "like": 21,
+          "coin": 42,
+          "favorite": 21,
+          "share": 0
+        }
+      ]
+    },
+    {
+      "bvid": "BV16pbk6bE2z",
+      "sort_order": 8,
+      "title": "8月最新【ComfyUI零基础教程】全中文界面支持中文提示词！支持50 40 30显卡！从零开始学习AI绘画comfyui工作流搭建，全程干货无废话（附资料）",
+      "owner": "comfyui软件教程",
+      "pubdate": 1786795200,
+      "history": [
+        {
+          "time": "2026-08-15 21:00",
+          "view": 836,
+          "reply": 1,
+          "like": 21,
+          "coin": 40,
+          "favorite": 21,
+          "share": 0
         }
       ]
     }
   ],
-  "last_update": "2026-08-15 20:23:33",
+  "last_update": "2026-08-15 21:23:52",
   "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
