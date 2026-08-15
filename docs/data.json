@@ -891,7 +891,7 @@
         },
         {
           "time": "2026-08-15 15:00",
-          "view": 83318,
+          "view": 83320,
           "reply": 1449,
           "like": 2284,
           "coin": 3708,
@@ -1332,7 +1332,7 @@
         },
         {
           "time": "2026-08-15 15:00",
-          "view": 10668,
+          "view": 11028,
           "reply": 5,
           "like": 138,
           "coin": 264,
@@ -2205,7 +2205,7 @@
         },
         {
           "time": "2026-08-15 15:00",
-          "view": 16644,
+          "view": 16692,
           "reply": 14,
           "like": 207,
           "coin": 397,
@@ -2213,9 +2213,27 @@
           "share": 102
         }
       ]
+    },
+    {
+      "bvid": "BV1WQgp6AEE2",
+      "sort_order": 5,
+      "title": "8月【ComfyUI最新教程】全中文界面支持中文提示词！支持50 40 30 显卡！从零开始学习AI绘画comfyui桌面版工作流搭建，全程干货无废话（附整合包",
+      "owner": "ComfyUI桌面版",
+      "pubdate": 1786779295,
+      "history": [
+        {
+          "time": "2026-08-15 15:00",
+          "view": 25,
+          "reply": 0,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
+        }
+      ]
     }
   ],
-  "last_update": "2026-08-15 15:23:27",
+  "last_update": "2026-08-15 15:46:14",
   "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
