@@ -1071,7 +1071,7 @@
         },
         {
           "time": "2026-08-16 11:00",
-          "view": 88250,
+          "view": 88306,
           "reply": 1449,
           "like": 2327,
           "coin": 3790,
@@ -1692,7 +1692,7 @@
         },
         {
           "time": "2026-08-16 11:00",
-          "view": 11384,
+          "view": 11391,
           "reply": 5,
           "like": 182,
           "coin": 344,
@@ -2925,7 +2925,7 @@
         },
         {
           "time": "2026-08-16 11:00",
-          "view": 19047,
+          "view": 19056,
           "reply": 14,
           "like": 253,
           "coin": 479,
@@ -3123,7 +3123,7 @@
         },
         {
           "time": "2026-08-16 11:00",
-          "view": 7385,
+          "view": 7386,
           "reply": 46,
           "like": 74,
           "coin": 130,
@@ -3565,7 +3565,7 @@
       ]
     }
   ],
-  "last_update": "2026-08-16 11:29:45",
-  "last_error": "",
+  "last_update": "2026-08-16 11:34:35",
+  "last_error": "获取 BV13agn6MEDU 失败：The read operation timed out",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
