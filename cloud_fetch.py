@@ -149,6 +149,9 @@ def run_update(config: dict) -> None:
         try:
             info = fetch_video(bvid)
             video = existing.get(bvid, {})
+            old_owner = video.get("owner", "")
+            if old_owner and old_owner != info["owner"]:
+                print(f"OWNER_CHANGED {bvid} {old_owner} -> {info['owner']}")
             video.update(
                 {
                     "bvid": bvid,

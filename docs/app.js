@@ -7,6 +7,7 @@
     data: null,
     dashboard: null,
     rows: [],
+    ownerColors: new Map(),
     search: "",
     days: 30,
     selectedBvid: ALL_VIDEOS_KEY,
@@ -46,6 +47,7 @@
 
   const SORT_COLUMNS = [
     { key: "sort_order", label: "默认排序" },
+    { key: "owner", label: "账号" },
     { key: "bvid", label: "BV号" },
     { key: "title", label: "标题" },
     { key: "view", label: "播放" },
@@ -65,6 +67,26 @@
     { key: "favorite_rate", label: "收藏率" },
     { key: "share_rate", label: "分享率" },
   ];
+
+  function ownerColorFor(index) {
+    const hue = Math.round((index * 137.508) % 360);
+    return "hsl(" + hue + " 65% 92%)";
+  }
+
+  function buildOwnerColors(rows) {
+    const colors = new Map();
+    const owners = Array.from(
+      new Set(
+        rows
+          .map((row) => String(row.owner || "").trim())
+          .filter(Boolean)
+      )
+    ).sort((a, b) => a.localeCompare(b, "zh-CN", { sensitivity: "base" }));
+    owners.forEach((owner, index) => {
+      colors.set(owner, ownerColorFor(index));
+    });
+    return colors;
+  }
 
   const cardsEl = document.getElementById("cards");
   const videoSelect = document.getElementById("videoSelect");
@@ -131,7 +153,9 @@
   }
 
   function defaultDirFor(key) {
-    return key === "sort_order" || key === "title" || key === "bvid" ? 1 : -1;
+    return key === "sort_order" || key === "title" || key === "bvid" || key === "owner"
+      ? 1
+      : -1;
   }
 
   function formatCardValue(def, value) {
@@ -532,7 +556,8 @@
         if (!keyword) return true;
         return (
           String(video.bvid).toLowerCase().includes(keyword) ||
-          String(video.title).toLowerCase().includes(keyword)
+          String(video.title).toLowerCase().includes(keyword) ||
+          String(video.owner).toLowerCase().includes(keyword)
         );
       })
       .slice()
@@ -557,7 +582,14 @@
 
     videos.forEach((video) => {
       const tr = document.createElement("tr");
+      const ownerKey = String(video.owner || "").trim();
+      tr.style.backgroundColor = state.ownerColors.get(ownerKey) || "#ffffff";
       tr.innerHTML =
+        '<td class="col-owner" title="' +
+        escapeHtml(ownerKey) +
+        '">' +
+        escapeHtml(ownerKey || "未知") +
+        "</td>" +
         '<td class="col-bvid"><a class="bvid-link" href="https://www.bilibili.com/video/' +
         escapeHtml(video.bvid) +
         '" target="_blank" rel="noopener">' +
@@ -620,6 +652,7 @@
       state.data = await response.json();
       const rows = buildVideoRows(state.data.videos || []);
       state.rows = rows;
+      state.ownerColors = buildOwnerColors(rows);
       state.dashboard = {
         cards: buildCards(rows),
         history: buildChartHistory(state.data.videos || [], state.days),
