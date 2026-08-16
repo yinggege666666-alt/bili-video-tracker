@@ -70,7 +70,7 @@
 
   function ownerColorFor(index) {
     const hue = Math.round((index * 137.508) % 360);
-    return "hsl(" + hue + " 65% 92%)";
+    return "hsl(" + hue + ", 65%, 92%)";
   }
 
   function buildOwnerColors(rows) {
