@@ -1374,6 +1374,15 @@
           "coin": 3832,
           "favorite": 2701,
           "share": 704
+        },
+        {
+          "time": "2026-08-17 21:00",
+          "view": 94187,
+          "reply": 1460,
+          "like": 2349,
+          "coin": 3832,
+          "favorite": 2701,
+          "share": 704
         }
       ]
     },
@@ -2287,6 +2296,15 @@
         {
           "time": "2026-08-17 20:00",
           "view": 15079,
+          "reply": 5,
+          "like": 202,
+          "coin": 384,
+          "favorite": 201,
+          "share": 21
+        },
+        {
+          "time": "2026-08-17 21:00",
+          "view": 15189,
           "reply": 5,
           "like": 202,
           "coin": 384,
@@ -3210,6 +3228,15 @@
           "coin": 497,
           "favorite": 276,
           "share": 23
+        },
+        {
+          "time": "2026-08-17 21:00",
+          "view": 15251,
+          "reply": 12,
+          "like": 265,
+          "coin": 497,
+          "favorite": 276,
+          "share": 23
         }
       ]
     },
@@ -4119,6 +4146,15 @@
           "coin": 519,
           "favorite": 270,
           "share": 124
+        },
+        {
+          "time": "2026-08-17 21:00",
+          "view": 21507,
+          "reply": 36,
+          "like": 273,
+          "coin": 519,
+          "favorite": 270,
+          "share": 124
         }
       ]
     },
@@ -4614,6 +4650,15 @@
           "coin": 238,
           "favorite": 146,
           "share": 22
+        },
+        {
+          "time": "2026-08-17 21:00",
+          "view": 10517,
+          "reply": 63,
+          "like": 138,
+          "coin": 238,
+          "favorite": 146,
+          "share": 22
         }
       ]
     },
@@ -5055,6 +5100,15 @@
           "coin": 140,
           "favorite": 79,
           "share": 20
+        },
+        {
+          "time": "2026-08-17 21:00",
+          "view": 1323,
+          "reply": 17,
+          "like": 76,
+          "coin": 140,
+          "favorite": 79,
+          "share": 20
         }
       ]
     },
@@ -5490,6 +5544,15 @@
         },
         {
           "time": "2026-08-17 20:00",
+          "view": 1246,
+          "reply": 22,
+          "like": 84,
+          "coin": 164,
+          "favorite": 84,
+          "share": 20
+        },
+        {
+          "time": "2026-08-17 21:00",
           "view": 1246,
           "reply": 22,
           "like": 84,
@@ -5937,6 +6000,15 @@
           "coin": 162,
           "favorite": 86,
           "share": 20
+        },
+        {
+          "time": "2026-08-17 21:00",
+          "view": 1693,
+          "reply": 21,
+          "like": 86,
+          "coin": 162,
+          "favorite": 86,
+          "share": 20
         }
       ]
     },
@@ -6009,6 +6081,15 @@
           "coin": 43,
           "favorite": 32,
           "share": 0
+        },
+        {
+          "time": "2026-08-17 21:00",
+          "view": 1790,
+          "reply": 31,
+          "like": 27,
+          "coin": 43,
+          "favorite": 32,
+          "share": 0
         }
       ]
     },
@@ -6027,11 +6108,38 @@
           "coin": 0,
           "favorite": 0,
           "share": 0
+        },
+        {
+          "time": "2026-08-17 21:00",
+          "view": 2620,
+          "reply": 2,
+          "like": 2,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
+        }
+      ]
+    },
+    {
+      "bvid": "BV1LSbX6DEMP",
+      "sort_order": 11,
+      "title": "8月【ComfyUI使用教程】全中文界面支持中文提示词！支持50 40 30显卡！详细从零开始学习AI绘画comfyui工作流搭建，全程干货无废话（附资料）",
+      "owner": "comfyui中文版教程-",
+      "pubdate": 1786969800,
+      "history": [
+        {
+          "time": "2026-08-17 21:00",
+          "view": 6,
+          "reply": 1,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
         }
       ]
     }
   ],
-  "last_update": "2026-08-17 20:23:49",
+  "last_update": "2026-08-17 21:23:55",
   "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
