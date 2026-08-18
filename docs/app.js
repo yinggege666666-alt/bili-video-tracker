@@ -22,6 +22,7 @@
     { key: "total_comments", label: "总评论", color: "#7c3aed", suffix: "", field: "comments" },
     { key: "hour_plays", label: "本小时新增播放", color: "#0ea5e9", suffix: "", field: "play_delta" },
     { key: "hour_comments", label: "本小时新增评论", color: "#db2777", suffix: "", field: "comment_delta" },
+    { key: "today_comments", label: "今日评论", color: "#c2410c", suffix: "", series: "daily", field: "comment_delta" },
     { key: "comment_rate", label: "平均评论率", color: "#0891b2", suffix: "%" },
     { key: "like_rate", label: "平均点赞率", color: "#d97706", suffix: "%" },
     { key: "coin_rate", label: "平均投币率", color: "#059669", suffix: "%" },
@@ -37,6 +38,7 @@
     { key: "hour_share", label: "每小时新增分享", color: "#4f46e5", suffix: "", series: "hourly", field: "share_delta", format: "int", note: "最近一小时" },
     { key: "hour_play", label: "每小时新增播放", color: "#2563eb", suffix: "", series: "hourly", field: "play_delta", format: "int", note: "最近一小时" },
     { key: "day_play", label: "每日新增播放", color: "#0ea5e9", suffix: "", series: "daily", field: "play_delta", format: "int", note: "最新一天" },
+    { key: "day_comment", label: "今日评论", color: "#c2410c", suffix: "", series: "daily", field: "comment_delta", format: "int", note: "最新一天" },
     { key: "avg_daily_plays", label: "日均播放", color: "#0f766e", suffix: "", series: "hourly", field: "avg_daily_plays", format: "int", note: "最近快照" },
     { key: "comment_rate", label: "评论率", color: "#0891b2", suffix: "%", series: "hourly", field: "comment_rate", format: "rate", note: "最近快照" },
     { key: "like_rate", label: "点赞率", color: "#d97706", suffix: "%", series: "hourly", field: "like_rate", format: "rate", note: "最近快照" },
@@ -59,6 +61,7 @@
     { key: "hour_plays", label: "本小时播放" },
     { key: "hour_comments", label: "本小时评论" },
     { key: "today_plays", label: "今日播放" },
+    { key: "today_comments", label: "今日评论" },
     { key: "published_days", label: "已发布天数" },
     { key: "avg_daily_plays", label: "日均播放" },
     { key: "comment_rate", label: "评论率" },
@@ -214,6 +217,14 @@
       const coin = Number(latest.coin || 0);
       const favorite = Number(latest.favorite || 0);
       const share = Number(latest.share || 0);
+      let todayComments = 0;
+      if (earliestTodayIndex >= 0) {
+        const base =
+          earliestTodayIndex > 0
+            ? Number(history[earliestTodayIndex - 1].reply || 0)
+            : Number(history[earliestTodayIndex].reply || 0);
+        todayComments = Math.max(0, reply - base);
+      }
 
       return {
         bvid: video.bvid,
@@ -231,6 +242,7 @@
         hour_plays: hourPlays,
         hour_comments: hourComments,
         today_plays: todayPlays,
+        today_comments: todayComments,
         published_days: publishedDays,
         avg_daily_plays: publishedDays ? Math.round(view / publishedDays) : 0,
         comment_rate: pct(reply, view),
@@ -252,12 +264,14 @@
     const totalShares = rows.reduce((sum, row) => sum + row.share, 0);
     const hourPlays = rows.reduce((sum, row) => sum + row.hour_plays, 0);
     const hourComments = rows.reduce((sum, row) => sum + row.hour_comments, 0);
+    const todayComments = rows.reduce((sum, row) => sum + row.today_comments, 0);
     return {
       video_count: rows.length,
       total_plays: totalPlays,
       total_comments: totalComments,
       hour_plays: hourPlays,
       hour_comments: hourComments,
+      today_comments: todayComments,
       comment_rate: pct(totalComments, totalPlays),
       like_rate: pct(totalLikes, totalPlays),
       coin_rate: pct(totalCoins, totalPlays),
@@ -412,12 +426,80 @@
         points.push({
           time: day,
           play_delta: Math.max(0, Number(end.view || 0) - base),
+          comment_delta: Math.max(
+            0,
+            Number(end.reply || 0) -
+              (previousEnd
+                ? Number(previousEnd.reply || 0)
+                : Number(start.reply || 0))
+          ),
         });
       }
       previousEnd = end;
     });
 
     return points;
+  }
+
+  function buildDailyHistory(videos, days) {
+    const byDay = new Map();
+
+    videos.forEach((video) => {
+      const history = (video.history || [])
+        .slice()
+        .sort((a, b) => (String(a.time) < String(b.time) ? -1 : 1));
+      if (!history.length) return;
+
+      const byVideoDay = new Map();
+      history.forEach((item) => {
+        const day = String(item.time || "").slice(0, 10);
+        if (!day) return;
+        if (!byVideoDay.has(day)) byVideoDay.set(day, []);
+        byVideoDay.get(day).push(item);
+      });
+
+      const lastTs = hourToTs(history[history.length - 1].time);
+      const cutoffDay =
+        days > 0 ? tsToHourCN(lastTs - days * 86400000).slice(0, 10) : "";
+      const dayKeys = Array.from(byVideoDay.keys()).sort();
+      let previousEnd = null;
+
+      dayKeys.forEach((day) => {
+        const entries = byVideoDay
+          .get(day)
+          .slice()
+          .sort((a, b) => (String(a.time) < String(b.time) ? -1 : 1));
+        const end = entries[entries.length - 1];
+        const start = entries[0];
+        const baseView = previousEnd
+          ? Number(previousEnd.view || 0)
+          : Number(start.view || 0);
+        const baseReply = previousEnd
+          ? Number(previousEnd.reply || 0)
+          : Number(start.reply || 0);
+        if (!cutoffDay || day >= cutoffDay) {
+          const point = byDay.get(day) || {
+            time: day,
+            play_delta: 0,
+            comment_delta: 0,
+          };
+          point.play_delta += Math.max(
+            0,
+            Number(end.view || 0) - baseView
+          );
+          point.comment_delta += Math.max(
+            0,
+            Number(end.reply || 0) - baseReply
+          );
+          byDay.set(day, point);
+        }
+        previousEnd = end;
+      });
+    });
+
+    return Array.from(byDay.values()).sort((a, b) =>
+      String(a.time) < String(b.time) ? -1 : 1
+    );
   }
 
   function buildVideoTrends(video, days) {
@@ -512,7 +594,9 @@
         ? def.series === "daily"
           ? state.videoTrends.daily
           : state.videoTrends.hourly
-        : state.dashboard.history;
+        : def.series === "daily"
+          ? state.dashboard.dailyHistory
+          : state.dashboard.history;
       let value = 0;
       if (isSingle) {
         const last = points[points.length - 1];
@@ -615,6 +699,9 @@
         '<td class="' + (video.today_plays > 0 ? "num-strong" : "num-muted") + '">' +
         formatInt(video.today_plays) +
         "</td>" +
+        '<td class="' + (video.today_comments > 0 ? "num-strong" : "num-muted") + '">' +
+        formatInt(video.today_comments) +
+        "</td>" +
         "<td>" + video.published_days + " 天</td>" +
         "<td>" + formatInt(video.avg_daily_plays) + "</td>" +
         "<td>" + formatRate(video.comment_rate) + "</td>" +
@@ -656,6 +743,7 @@
       state.dashboard = {
         cards: buildCards(rows),
         history: buildChartHistory(state.data.videos || [], state.days),
+        dailyHistory: buildDailyHistory(state.data.videos || [], state.days),
       };
       populateVideoSelect(rows);
       populateSortSelect();
@@ -762,6 +850,7 @@
       state.days = Number(button.dataset.days);
       if (state.data) {
         state.dashboard.history = buildChartHistory(state.data.videos || [], state.days);
+        state.dashboard.dailyHistory = buildDailyHistory(state.data.videos || [], state.days);
         updateVideoTrends();
         renderCards();
       }
