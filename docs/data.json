@@ -8893,7 +8893,7 @@
       ]
     }
   ],
-  "last_update": "2026-08-19 00:24:05",
-  "last_error": "",
+  "last_update": "2026-08-19 01:23:57",
+  "last_error": "获取 BV1NfKw6AEeo 失败：HTTP Error 401: Unauthorized；获取 BV1yNgn6dEYL 失败：HTTP Error 401: Unauthorized；获取 BV13agn6MEDU 失败：HTTP Error 401: Unauthorized",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
