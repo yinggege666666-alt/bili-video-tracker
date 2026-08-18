@@ -60,10 +60,10 @@
     { key: "share", label: "分享" },
     { key: "hour_plays", label: "本小时播放" },
     { key: "hour_comments", label: "本小时评论" },
+    { key: "yesterday_plays", label: "昨日播放" },
     { key: "today_plays", label: "今日播放" },
     { key: "today_comments", label: "今日评论" },
     { key: "yesterday_comments", label: "昨日评论" },
-    { key: "yesterday_plays", label: "昨日播放" },
     { key: "published_days", label: "已发布天数" },
     { key: "avg_daily_plays", label: "日均播放" },
     { key: "comment_rate", label: "评论率" },
@@ -732,6 +732,9 @@
         '<td class="' + (video.hour_comments > 0 ? "num-strong" : "num-muted") + '">' +
         formatInt(video.hour_comments) +
         "</td>" +
+        '<td class="' + (video.yesterday_plays > 0 ? "num-strong" : "num-muted") + '">' +
+        formatInt(video.yesterday_plays) +
+        "</td>" +
         '<td class="' + (video.today_plays > 0 ? "num-strong" : "num-muted") + '">' +
         formatInt(video.today_plays) +
         "</td>" +
@@ -740,9 +743,6 @@
         "</td>" +
         '<td class="' + (video.yesterday_comments > 0 ? "num-strong" : "num-muted") + '">' +
         formatInt(video.yesterday_comments) +
-        "</td>" +
-        '<td class="' + (video.yesterday_plays > 0 ? "num-strong" : "num-muted") + '">' +
-        formatInt(video.yesterday_plays) +
         "</td>" +
         "<td>" + video.published_days + " 天</td>" +
         "<td>" + formatInt(video.avg_daily_plays) + "</td>" +
