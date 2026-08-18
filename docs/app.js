@@ -62,6 +62,8 @@
     { key: "hour_comments", label: "本小时评论" },
     { key: "today_plays", label: "今日播放" },
     { key: "today_comments", label: "今日评论" },
+    { key: "yesterday_comments", label: "昨日评论" },
+    { key: "yesterday_plays", label: "昨日播放" },
     { key: "published_days", label: "已发布天数" },
     { key: "avg_daily_plays", label: "日均播放" },
     { key: "comment_rate", label: "评论率" },
@@ -128,13 +130,14 @@
     return total ? Number(((value / total) * 100).toFixed(2)) : 0;
   }
 
-  function cnDatePrefix() {
+  function cnDatePrefix(offsetDays = 0) {
+    const date = new Date(Date.now() + (offsetDays || 0) * 86400000);
     const parts = new Intl.DateTimeFormat("en-CA", {
       timeZone: "Asia/Shanghai",
       year: "numeric",
       month: "2-digit",
       day: "2-digit",
-    }).format(new Date());
+    }).format(date);
     return parts;
   }
 
@@ -181,6 +184,7 @@
 
   function buildVideoRows(videos) {
     const todayPrefix = cnDatePrefix();
+    const yesterdayPrefix = cnDatePrefix(-1);
     const nowSec = Math.floor(Date.now() / 1000);
     return videos.map((video) => {
       const history = (video.history || [])
@@ -226,6 +230,36 @@
         todayComments = Math.max(0, reply - base);
       }
 
+      const firstYesterdayIndex = history.findIndex((item) =>
+        String(item.time || "").startsWith(yesterdayPrefix)
+      );
+      let yesterdayPlays = 0;
+      let yesterdayComments = 0;
+      if (firstYesterdayIndex >= 0) {
+        let lastYesterdayIndex = firstYesterdayIndex;
+        while (
+          lastYesterdayIndex + 1 < history.length &&
+          String(history[lastYesterdayIndex + 1].time || "").startsWith(
+            yesterdayPrefix
+          )
+        ) {
+          lastYesterdayIndex += 1;
+        }
+        const base =
+          firstYesterdayIndex > 0
+            ? history[firstYesterdayIndex - 1]
+            : history[firstYesterdayIndex];
+        const end = history[lastYesterdayIndex];
+        yesterdayPlays = Math.max(
+          0,
+          Number(end.view || 0) - Number(base.view || 0)
+        );
+        yesterdayComments = Math.max(
+          0,
+          Number(end.reply || 0) - Number(base.reply || 0)
+        );
+      }
+
       return {
         bvid: video.bvid,
         title: video.title || "等待首次抓取",
@@ -243,6 +277,8 @@
         hour_comments: hourComments,
         today_plays: todayPlays,
         today_comments: todayComments,
+        yesterday_plays: yesterdayPlays,
+        yesterday_comments: yesterdayComments,
         published_days: publishedDays,
         avg_daily_plays: publishedDays ? Math.round(view / publishedDays) : 0,
         comment_rate: pct(reply, view),
@@ -701,6 +737,12 @@
         "</td>" +
         '<td class="' + (video.today_comments > 0 ? "num-strong" : "num-muted") + '">' +
         formatInt(video.today_comments) +
+        "</td>" +
+        '<td class="' + (video.yesterday_comments > 0 ? "num-strong" : "num-muted") + '">' +
+        formatInt(video.yesterday_comments) +
+        "</td>" +
+        '<td class="' + (video.yesterday_plays > 0 ? "num-strong" : "num-muted") + '">' +
+        formatInt(video.yesterday_plays) +
         "</td>" +
         "<td>" + video.published_days + " 天</td>" +
         "<td>" + formatInt(video.avg_daily_plays) + "</td>" +
