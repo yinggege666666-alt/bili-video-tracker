@@ -65,6 +65,7 @@
     { key: "today_comments", label: "今日评论" },
     { key: "yesterday_comments", label: "昨日评论" },
     { key: "published_days", label: "已发布天数" },
+    { key: "published_at", label: "发布时间" },
     { key: "avg_daily_plays", label: "日均播放" },
     { key: "comment_rate", label: "评论率" },
     { key: "like_rate", label: "点赞率" },
@@ -124,6 +125,14 @@
 
   function formatRate(value) {
     return BiliCharts.formatPercent(value);
+  }
+
+  function formatPublishTime(timestamp) {
+    if (!timestamp) return "";
+    return new Date(Number(timestamp) * 1000 + 8 * 3600000)
+      .toISOString()
+      .slice(0, 16)
+      .replace("T", " ");
   }
 
   function pct(value, total) {
@@ -280,6 +289,7 @@
         yesterday_plays: yesterdayPlays,
         yesterday_comments: yesterdayComments,
         published_days: publishedDays,
+        published_at: formatPublishTime(pubdate),
         avg_daily_plays: publishedDays ? Math.round(view / publishedDays) : 0,
         comment_rate: pct(reply, view),
         like_rate: pct(like, view),
@@ -745,6 +755,7 @@
         formatInt(video.yesterday_comments) +
         "</td>" +
         "<td>" + video.published_days + " 天</td>" +
+        "<td>" + escapeHtml(video.published_at || "-") + "</td>" +
         "<td>" + formatInt(video.avg_daily_plays) + "</td>" +
         "<td>" + formatRate(video.comment_rate) + "</td>" +
         "<td>" + formatRate(video.like_rate) + "</td>" +
