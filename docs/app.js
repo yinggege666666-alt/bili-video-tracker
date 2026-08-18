@@ -724,7 +724,9 @@
         escapeHtml(video.bvid) +
         '" target="_blank" rel="noopener">' +
         escapeHtml(video.bvid) +
-        "</a></td>" +
+        '</a><button class="bvid-copy" type="button" data-copy-bvid="' +
+        escapeHtml(video.bvid) +
+        '" title="复制BV号" aria-label="复制BV号"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2" ry="2"></rect><path d="M5 15V5a2 2 0 0 1 2-2h10"></path></svg></button></td>' +
         '<td class="col-title" title="' +
         escapeHtml(video.title) +
         '">' +
@@ -829,6 +831,30 @@
     setMessage("已打开 GitHub 提交页面，约一小时内自动生效", "success");
   }
 
+  async function copyBvid(bvid, button) {
+    const original = button.innerHTML;
+    try {
+      await navigator.clipboard.writeText(bvid);
+    } catch {
+      const textarea = document.createElement("textarea");
+      textarea.value = bvid;
+      textarea.style.position = "fixed";
+      textarea.style.opacity = "0";
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand("copy");
+      textarea.remove();
+    }
+    button.classList.add("copied");
+    button.innerHTML =
+      '<svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg>';
+    setMessage("已复制 " + bvid, "success");
+    window.setTimeout(() => {
+      button.innerHTML = original;
+      button.classList.remove("copied");
+    }, 1200);
+  }
+
   function addVideo(bvid) {
     if (!/^BV[0-9A-Za-z]{10}$/.test(bvid)) {
       setMessage("BV号格式不正确，示例：BV1o9uy6jEyM", "error");
@@ -859,6 +885,11 @@
   });
 
   tableBody.addEventListener("click", (event) => {
+    const copyButton = event.target.closest("button[data-copy-bvid]");
+    if (copyButton) {
+      copyBvid(copyButton.dataset.copyBvid, copyButton);
+      return;
+    }
     const button = event.target.closest("button[data-bvid]");
     if (button) deleteVideo(button.dataset.bvid);
   });

@@ -431,6 +431,41 @@ th.col-title {
   text-decoration: underline;
 }
 
+.bvid-copy {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--panel);
+  color: var(--accent);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.12s ease, background 0.12s ease, border-color 0.12s ease;
+  z-index: 1;
+}
+
+tbody tr:hover .bvid-copy,
+.bvid-copy:focus-visible {
+  opacity: 1;
+}
+
+.bvid-copy:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+}
+
+.bvid-copy.copied {
+  color: var(--warm);
+  border-color: var(--warm);
+}
+
 .num-strong {
   color: var(--warm);
   font-weight: 700;
