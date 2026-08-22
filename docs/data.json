@@ -2355,6 +2355,15 @@
           "coin": 4065,
           "favorite": 2832,
           "share": 755
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 105550,
+          "reply": 1454,
+          "like": 2473,
+          "coin": 4067,
+          "favorite": 2833,
+          "share": 755
         }
       ]
     },
@@ -4254,6 +4263,15 @@
           "coin": 545,
           "favorite": 305,
           "share": 23
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 28137,
+          "reply": 20,
+          "like": 291,
+          "coin": 545,
+          "favorite": 305,
+          "share": 23
         }
       ]
     },
@@ -6144,6 +6162,15 @@
           "coin": 519,
           "favorite": 271,
           "share": 124
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 21530,
+          "reply": 39,
+          "like": 273,
+          "coin": 519,
+          "favorite": 271,
+          "share": 124
         }
       ]
     },
@@ -7620,6 +7647,15 @@
           "coin": 635,
           "favorite": 350,
           "share": 73
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 13226,
+          "reply": 89,
+          "like": 341,
+          "coin": 635,
+          "favorite": 350,
+          "share": 73
         }
       ]
     },
@@ -9036,6 +9072,15 @@
         },
         {
           "time": "2026-08-22 10:00",
+          "view": 11325,
+          "reply": 22,
+          "like": 144,
+          "coin": 272,
+          "favorite": 147,
+          "share": 20
+        },
+        {
+          "time": "2026-08-22 11:00",
           "view": 11325,
           "reply": 22,
           "like": 144,
@@ -10464,6 +10509,15 @@
           "coin": 478,
           "favorite": 243,
           "share": 70
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 11254,
+          "reply": 31,
+          "like": 245,
+          "coin": 478,
+          "favorite": 243,
+          "share": 70
         }
       ]
     },
@@ -11886,6 +11940,15 @@
           "coin": 474,
           "favorite": 243,
           "share": 70
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 3111,
+          "reply": 35,
+          "like": 244,
+          "coin": 474,
+          "favorite": 243,
+          "share": 70
         }
       ]
     },
@@ -12939,6 +13002,15 @@
           "coin": 351,
           "favorite": 192,
           "share": 50
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 14776,
+          "reply": 41,
+          "like": 187,
+          "coin": 351,
+          "favorite": 192,
+          "share": 50
         }
       ]
     },
@@ -13924,6 +13996,15 @@
         {
           "time": "2026-08-22 10:00",
           "view": 2939,
+          "reply": 7,
+          "like": 143,
+          "coin": 268,
+          "favorite": 143,
+          "share": 51
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 2940,
           "reply": 7,
           "like": 143,
           "coin": 268,
@@ -14919,6 +15000,15 @@
           "coin": 266,
           "favorite": 141,
           "share": 51
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 12328,
+          "reply": 22,
+          "like": 139,
+          "coin": 266,
+          "favorite": 141,
+          "share": 51
         }
       ]
     },
@@ -15697,6 +15787,15 @@
         {
           "time": "2026-08-22 10:00",
           "view": 9719,
+          "reply": 22,
+          "like": 117,
+          "coin": 228,
+          "favorite": 116,
+          "share": 1
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 9774,
           "reply": 22,
           "like": 117,
           "coin": 228,
@@ -16485,6 +16584,15 @@
           "coin": 140,
           "favorite": 72,
           "share": 0
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 9718,
+          "reply": 10,
+          "like": 72,
+          "coin": 140,
+          "favorite": 72,
+          "share": 0
         }
       ]
     },
@@ -17268,786 +17376,21 @@
           "coin": 142,
           "favorite": 73,
           "share": 0
-        }
-      ]
-    },
-    {
-      "bvid": "BV1mngW6GEfr",
-      "sort_order": 14,
-      "title": "【懒人ComfyUI教程】2026新版秋叶Comfyui整合包无私分享！全面适配50 40 30显卡，Win+Mac一键安装，解压即用（附零基精通教程）效率拉满",
-      "owner": "comfyui系统教程",
-      "pubdate": 1786612696,
-      "history": [
-        {
-          "time": "2026-08-18 21:00",
-          "view": 17788,
-          "reply": 2164,
-          "like": 1439,
-          "coin": 1853,
-          "favorite": 1588,
-          "share": 130
-        },
-        {
-          "time": "2026-08-18 22:00",
-          "view": 18019,
-          "reply": 2164,
-          "like": 1472,
-          "coin": 1899,
-          "favorite": 1617,
-          "share": 141
-        },
-        {
-          "time": "2026-08-18 23:00",
-          "view": 18315,
-          "reply": 2164,
-          "like": 1488,
-          "coin": 1914,
-          "favorite": 1633,
-          "share": 142
-        },
-        {
-          "time": "2026-08-19 00:00",
-          "view": 18397,
-          "reply": 2164,
-          "like": 1494,
-          "coin": 1919,
-          "favorite": 1637,
-          "share": 142
-        },
-        {
-          "time": "2026-08-19 01:00",
-          "view": 18574,
-          "reply": 2164,
-          "like": 1505,
-          "coin": 1929,
-          "favorite": 1653,
-          "share": 144
-        },
-        {
-          "time": "2026-08-19 02:00",
-          "view": 18596,
-          "reply": 2164,
-          "like": 1506,
-          "coin": 1931,
-          "favorite": 1654,
-          "share": 144
-        },
-        {
-          "time": "2026-08-19 03:00",
-          "view": 18687,
-          "reply": 2164,
-          "like": 1512,
-          "coin": 1941,
-          "favorite": 1657,
-          "share": 144
-        },
-        {
-          "time": "2026-08-19 04:00",
-          "view": 18728,
-          "reply": 2164,
-          "like": 1512,
-          "coin": 1941,
-          "favorite": 1657,
-          "share": 144
-        },
-        {
-          "time": "2026-08-19 05:00",
-          "view": 18747,
-          "reply": 2164,
-          "like": 1513,
-          "coin": 1943,
-          "favorite": 1657,
-          "share": 144
-        },
-        {
-          "time": "2026-08-19 06:00",
-          "view": 18783,
-          "reply": 2164,
-          "like": 1516,
-          "coin": 1945,
-          "favorite": 1659,
-          "share": 144
-        },
-        {
-          "time": "2026-08-19 07:00",
-          "view": 18830,
-          "reply": 2164,
-          "like": 1519,
-          "coin": 1949,
-          "favorite": 1663,
-          "share": 144
-        },
-        {
-          "time": "2026-08-19 08:00",
-          "view": 18862,
-          "reply": 2164,
-          "like": 1523,
-          "coin": 1954,
-          "favorite": 1668,
-          "share": 144
-        },
-        {
-          "time": "2026-08-19 09:00",
-          "view": 18974,
-          "reply": 2164,
-          "like": 1526,
-          "coin": 1958,
-          "favorite": 1671,
-          "share": 144
-        },
-        {
-          "time": "2026-08-19 10:00",
-          "view": 19106,
-          "reply": 2164,
-          "like": 1535,
-          "coin": 1968,
-          "favorite": 1683,
-          "share": 146
-        },
-        {
-          "time": "2026-08-19 11:00",
-          "view": 19283,
-          "reply": 2164,
-          "like": 1549,
-          "coin": 1987,
-          "favorite": 1698,
-          "share": 147
-        },
-        {
-          "time": "2026-08-19 12:00",
-          "view": 19420,
-          "reply": 2164,
-          "like": 1554,
-          "coin": 1994,
-          "favorite": 1703,
-          "share": 148
-        },
-        {
-          "time": "2026-08-19 13:00",
-          "view": 19688,
-          "reply": 2575,
-          "like": 1569,
-          "coin": 2010,
-          "favorite": 1714,
-          "share": 149
-        },
-        {
-          "time": "2026-08-19 14:00",
-          "view": 19805,
-          "reply": 2586,
-          "like": 1588,
-          "coin": 2044,
-          "favorite": 1732,
-          "share": 151
-        },
-        {
-          "time": "2026-08-19 15:00",
-          "view": 20082,
-          "reply": 2586,
-          "like": 1610,
-          "coin": 2070,
-          "favorite": 1756,
-          "share": 153
-        },
-        {
-          "time": "2026-08-19 16:00",
-          "view": 20170,
-          "reply": 2586,
-          "like": 1620,
-          "coin": 2079,
-          "favorite": 1763,
-          "share": 153
-        },
-        {
-          "time": "2026-08-19 17:00",
-          "view": 20463,
-          "reply": 2853,
-          "like": 1669,
-          "coin": 2153,
-          "favorite": 1813,
-          "share": 158
-        },
-        {
-          "time": "2026-08-19 18:00",
-          "view": 20568,
-          "reply": 2864,
-          "like": 1678,
-          "coin": 2165,
-          "favorite": 1822,
-          "share": 158
-        },
-        {
-          "time": "2026-08-19 20:00",
-          "view": 20701,
-          "reply": 2895,
-          "like": 1681,
-          "coin": 2166,
-          "favorite": 1828,
-          "share": 158
-        },
-        {
-          "time": "2026-08-19 21:00",
-          "view": 20981,
-          "reply": 2926,
-          "like": 1717,
-          "coin": 2224,
-          "favorite": 1860,
-          "share": 160
-        },
-        {
-          "time": "2026-08-19 22:00",
-          "view": 21264,
-          "reply": 2926,
-          "like": 1755,
-          "coin": 2298,
-          "favorite": 1903,
-          "share": 193
-        },
-        {
-          "time": "2026-08-19 23:00",
-          "view": 21642,
-          "reply": 2926,
-          "like": 1768,
-          "coin": 2316,
-          "favorite": 1914,
-          "share": 193
-        },
-        {
-          "time": "2026-08-20 00:00",
-          "view": 21758,
-          "reply": 2926,
-          "like": 1775,
-          "coin": 2320,
-          "favorite": 1918,
-          "share": 193
-        },
-        {
-          "time": "2026-08-20 01:00",
-          "view": 22045,
-          "reply": 2945,
-          "like": 1789,
-          "coin": 2337,
-          "favorite": 1935,
-          "share": 193
-        },
-        {
-          "time": "2026-08-20 02:00",
-          "view": 22069,
-          "reply": 2947,
-          "like": 1790,
-          "coin": 2337,
-          "favorite": 1937,
-          "share": 193
-        },
-        {
-          "time": "2026-08-20 03:00",
-          "view": 22114,
-          "reply": 2953,
-          "like": 1793,
-          "coin": 2340,
-          "favorite": 1940,
-          "share": 193
-        },
-        {
-          "time": "2026-08-20 04:00",
-          "view": 22123,
-          "reply": 2955,
-          "like": 1795,
-          "coin": 2344,
-          "favorite": 1942,
-          "share": 193
-        },
-        {
-          "time": "2026-08-20 05:00",
-          "view": 22158,
-          "reply": 2962,
-          "like": 1799,
-          "coin": 2350,
-          "favorite": 1947,
-          "share": 193
-        },
-        {
-          "time": "2026-08-20 06:00",
-          "view": 22164,
-          "reply": 2964,
-          "like": 1801,
-          "coin": 2351,
-          "favorite": 1949,
-          "share": 194
-        },
-        {
-          "time": "2026-08-20 07:00",
-          "view": 22215,
-          "reply": 2972,
-          "like": 1803,
-          "coin": 2353,
-          "favorite": 1951,
-          "share": 194
-        },
-        {
-          "time": "2026-08-20 08:00",
-          "view": 22237,
-          "reply": 2974,
-          "like": 1803,
-          "coin": 2353,
-          "favorite": 1951,
-          "share": 194
-        },
-        {
-          "time": "2026-08-20 09:00",
-          "view": 22314,
-          "reply": 2982,
-          "like": 1810,
-          "coin": 2358,
-          "favorite": 1958,
-          "share": 195
-        },
-        {
-          "time": "2026-08-20 10:00",
-          "view": 22432,
-          "reply": 2996,
-          "like": 1821,
-          "coin": 2374,
-          "favorite": 1970,
-          "share": 195
-        },
-        {
-          "time": "2026-08-20 11:00",
-          "view": 22601,
-          "reply": 3025,
-          "like": 1837,
-          "coin": 2386,
-          "favorite": 1983,
-          "share": 198
-        },
-        {
-          "time": "2026-08-20 12:00",
-          "view": 22743,
-          "reply": 3042,
-          "like": 1844,
-          "coin": 2395,
-          "favorite": 1993,
-          "share": 200
-        },
-        {
-          "time": "2026-08-20 13:00",
-          "view": 22880,
-          "reply": 3150,
-          "like": 1852,
-          "coin": 2402,
-          "favorite": 2003,
-          "share": 201
-        },
-        {
-          "time": "2026-08-20 14:00",
-          "view": 23045,
-          "reply": 3180,
-          "like": 1860,
-          "coin": 2412,
-          "favorite": 2010,
-          "share": 201
-        },
-        {
-          "time": "2026-08-20 15:00",
-          "view": 23258,
-          "reply": 3219,
-          "like": 1877,
-          "coin": 2431,
-          "favorite": 2022,
-          "share": 204
-        },
-        {
-          "time": "2026-08-20 16:00",
-          "view": 23466,
-          "reply": 3260,
-          "like": 1890,
-          "coin": 2442,
-          "favorite": 2034,
-          "share": 205
-        },
-        {
-          "time": "2026-08-20 17:00",
-          "view": 23779,
-          "reply": 3388,
-          "like": 1939,
-          "coin": 2523,
-          "favorite": 2086,
-          "share": 206
-        },
-        {
-          "time": "2026-08-20 18:00",
-          "view": 23824,
-          "reply": 3388,
-          "like": 1942,
-          "coin": 2527,
-          "favorite": 2089,
-          "share": 206
-        },
-        {
-          "time": "2026-08-20 19:00",
-          "view": 24052,
-          "reply": 3388,
-          "like": 1960,
-          "coin": 2540,
-          "favorite": 2103,
-          "share": 207
-        },
-        {
-          "time": "2026-08-20 20:00",
-          "view": 24121,
-          "reply": 3388,
-          "like": 1965,
-          "coin": 2546,
-          "favorite": 2106,
-          "share": 207
-        },
-        {
-          "time": "2026-08-20 21:00",
-          "view": 24287,
-          "reply": 3388,
-          "like": 1994,
-          "coin": 2600,
-          "favorite": 2138,
-          "share": 218
-        },
-        {
-          "time": "2026-08-20 22:00",
-          "view": 24639,
-          "reply": 3388,
-          "like": 2016,
-          "coin": 2625,
-          "favorite": 2159,
-          "share": 219
-        },
-        {
-          "time": "2026-08-20 23:00",
-          "view": 24960,
-          "reply": 3388,
-          "like": 2028,
-          "coin": 2633,
-          "favorite": 2178,
-          "share": 219
-        },
-        {
-          "time": "2026-08-21 00:00",
-          "view": 25139,
-          "reply": 3388,
-          "like": 2043,
-          "coin": 2651,
-          "favorite": 2194,
-          "share": 221
-        },
-        {
-          "time": "2026-08-21 01:00",
-          "view": 25315,
-          "reply": 3388,
-          "like": 2055,
-          "coin": 2666,
-          "favorite": 2213,
-          "share": 222
-        },
-        {
-          "time": "2026-08-21 02:00",
-          "view": 25337,
-          "reply": 3388,
-          "like": 2057,
-          "coin": 2668,
-          "favorite": 2215,
-          "share": 223
-        },
-        {
-          "time": "2026-08-21 03:00",
-          "view": 25402,
-          "reply": 3388,
-          "like": 2063,
-          "coin": 2675,
-          "favorite": 2221,
-          "share": 223
-        },
-        {
-          "time": "2026-08-21 04:00",
-          "view": 25410,
-          "reply": 3388,
-          "like": 2064,
-          "coin": 2677,
-          "favorite": 2222,
-          "share": 223
-        },
-        {
-          "time": "2026-08-21 05:00",
-          "view": 25439,
-          "reply": 3388,
-          "like": 2065,
-          "coin": 2679,
-          "favorite": 2224,
-          "share": 223
-        },
-        {
-          "time": "2026-08-21 06:00",
-          "view": 25444,
-          "reply": 3388,
-          "like": 2065,
-          "coin": 2679,
-          "favorite": 2225,
-          "share": 223
-        },
-        {
-          "time": "2026-08-21 07:00",
-          "view": 25494,
-          "reply": 3388,
-          "like": 2067,
-          "coin": 2680,
-          "favorite": 2228,
-          "share": 223
-        },
-        {
-          "time": "2026-08-21 08:00",
-          "view": 25518,
-          "reply": 3388,
-          "like": 2069,
-          "coin": 2682,
-          "favorite": 2231,
-          "share": 223
-        },
-        {
-          "time": "2026-08-21 09:00",
-          "view": 25606,
-          "reply": 3388,
-          "like": 2075,
-          "coin": 2690,
-          "favorite": 2236,
-          "share": 223
-        },
-        {
-          "time": "2026-08-21 10:00",
-          "view": 25748,
-          "reply": 3388,
-          "like": 2085,
-          "coin": 2702,
-          "favorite": 2245,
-          "share": 223
-        },
-        {
-          "time": "2026-08-21 11:00",
-          "view": 25951,
-          "reply": 3388,
-          "like": 2103,
-          "coin": 2723,
-          "favorite": 2265,
-          "share": 224
-        },
-        {
-          "time": "2026-08-21 12:00",
-          "view": 26056,
-          "reply": 3388,
-          "like": 2116,
-          "coin": 2733,
-          "favorite": 2276,
-          "share": 225
-        },
-        {
-          "time": "2026-08-21 13:00",
-          "view": 26269,
-          "reply": 3597,
-          "like": 2145,
-          "coin": 2782,
-          "favorite": 2307,
-          "share": 226
-        },
-        {
-          "time": "2026-08-21 14:00",
-          "view": 26368,
-          "reply": 3918,
-          "like": 2155,
-          "coin": 2797,
-          "favorite": 2313,
-          "share": 226
-        },
-        {
-          "time": "2026-08-21 15:00",
-          "view": 26576,
-          "reply": 3986,
-          "like": 2170,
-          "coin": 2812,
-          "favorite": 2329,
-          "share": 228
-        },
-        {
-          "time": "2026-08-21 16:00",
-          "view": 26796,
-          "reply": 4017,
-          "like": 2189,
-          "coin": 2840,
-          "favorite": 2348,
-          "share": 229
-        },
-        {
-          "time": "2026-08-21 17:00",
-          "view": 27327,
-          "reply": 4103,
-          "like": 2222,
-          "coin": 2874,
-          "favorite": 2382,
-          "share": 233
-        },
-        {
-          "time": "2026-08-21 18:00",
-          "view": 27391,
-          "reply": 4108,
-          "like": 2226,
-          "coin": 2881,
-          "favorite": 2387,
-          "share": 235
-        },
-        {
-          "time": "2026-08-21 19:00",
-          "view": 27624,
-          "reply": 4108,
-          "like": 2264,
-          "coin": 2937,
-          "favorite": 2421,
-          "share": 235
-        },
-        {
-          "time": "2026-08-21 20:00",
-          "view": 27728,
-          "reply": 4108,
-          "like": 2277,
-          "coin": 2951,
-          "favorite": 2430,
-          "share": 235
-        },
-        {
-          "time": "2026-08-21 21:00",
-          "view": 27895,
-          "reply": 4108,
-          "like": 2290,
-          "coin": 2961,
-          "favorite": 2439,
-          "share": 245
-        },
-        {
-          "time": "2026-08-21 22:00",
-          "view": 28070,
-          "reply": 4114,
-          "like": 2308,
-          "coin": 2980,
-          "favorite": 2454,
-          "share": 245
-        },
-        {
-          "time": "2026-08-21 23:00",
-          "view": 28379,
-          "reply": 4114,
-          "like": 2451,
-          "coin": 3005,
-          "favorite": 2763,
-          "share": 307
-        },
-        {
-          "time": "2026-08-22 00:00",
-          "view": 28441,
-          "reply": 4114,
-          "like": 2453,
-          "coin": 3007,
-          "favorite": 2766,
-          "share": 307
-        },
-        {
-          "time": "2026-08-22 01:00",
-          "view": 28646,
-          "reply": 4114,
-          "like": 2470,
-          "coin": 3027,
-          "favorite": 2784,
-          "share": 308
-        },
-        {
-          "time": "2026-08-22 02:00",
-          "view": 28670,
-          "reply": 4114,
-          "like": 2472,
-          "coin": 3027,
-          "favorite": 2786,
-          "share": 308
-        },
-        {
-          "time": "2026-08-22 03:00",
-          "view": 28742,
-          "reply": 4114,
-          "like": 2478,
-          "coin": 3030,
-          "favorite": 2792,
-          "share": 308
-        },
-        {
-          "time": "2026-08-22 04:00",
-          "view": 28786,
-          "reply": 4114,
-          "like": 2481,
-          "coin": 3033,
-          "favorite": 2797,
-          "share": 308
-        },
-        {
-          "time": "2026-08-22 05:00",
-          "view": 28811,
-          "reply": 4114,
-          "like": 2482,
-          "coin": 3033,
-          "favorite": 2798,
-          "share": 308
-        },
-        {
-          "time": "2026-08-22 06:00",
-          "view": 28862,
-          "reply": 4114,
-          "like": 2489,
-          "coin": 3039,
-          "favorite": 2805,
-          "share": 308
-        },
-        {
-          "time": "2026-08-22 07:00",
-          "view": 28905,
-          "reply": 4114,
-          "like": 2490,
-          "coin": 3041,
-          "favorite": 2809,
-          "share": 308
-        },
-        {
-          "time": "2026-08-22 08:00",
-          "view": 28927,
-          "reply": 4114,
-          "like": 2492,
-          "coin": 3043,
-          "favorite": 2812,
-          "share": 308
-        },
-        {
-          "time": "2026-08-22 09:00",
-          "view": 29016,
-          "reply": 4114,
-          "like": 2499,
-          "coin": 3049,
-          "favorite": 2818,
-          "share": 308
         },
         {
-          "time": "2026-08-22 10:00",
-          "view": 29196,
-          "reply": 4114,
-          "like": 2511,
-          "coin": 3063,
-          "favorite": 2832,
-          "share": 308
+          "time": "2026-08-22 11:00",
+          "view": 9713,
+          "reply": 19,
+          "like": 72,
+          "coin": 142,
+          "favorite": 73,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1ud8u6QEbg",
-      "sort_order": 15,
+      "sort_order": 14,
       "title": "8月【ComfyUI教程】2026新版Comfyui整合包无私分享！全面适配50 40 30显卡，Win+Mac一键安装，解压即用（附零基精通教程）效率拉满！",
       "owner": "comfyiu",
       "pubdate": 1787056200,
@@ -18600,12 +17943,21 @@
           "coin": 567,
           "favorite": 300,
           "share": 0
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 15273,
+          "reply": 94,
+          "like": 297,
+          "coin": 567,
+          "favorite": 300,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1Vx8g6wEdQ",
-      "sort_order": 16,
+      "sort_order": 15,
       "title": "8月【ComfyUI使用教程】全中文界面支持中文提示词！支持50 40 30显卡！详细从零开始学习AI绘画comfyui工作流搭建，全程干货无废话（附资料）",
       "owner": "comfyui中文版教程-",
       "pubdate": 1787108400,
@@ -19131,12 +18483,21 @@
           "coin": 386,
           "favorite": 200,
           "share": 1
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 3318,
+          "reply": 2,
+          "like": 198,
+          "coin": 386,
+          "favorite": 200,
+          "share": 1
         }
       ]
     },
     {
       "bvid": "BV1mZ8u6JEhS",
-      "sort_order": 17,
+      "sort_order": 16,
       "title": "【懒人ComfyUI教程】2026八月新版Comfyui整合包无私分享！全面适配50 40 30显卡，Win+Mac一键安装，解压即用（附桌面版整合包）效率拉满",
       "owner": "ComfyUI桌面版",
       "pubdate": 1787209073,
@@ -19536,12 +18897,21 @@
           "coin": 701,
           "favorite": 367,
           "share": 51
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 20059,
+          "reply": 248,
+          "like": 367,
+          "coin": 701,
+          "favorite": 366,
+          "share": 51
         }
       ]
     },
     {
       "bvid": "BV1mf8u6UE4U",
-      "sort_order": 18,
+      "sort_order": 17,
       "title": "8月【ComfyUI使用教程】全中文界面支持中文提示词！支持50 40 30显卡！详细从零开始学习AI绘画comfyui工作流搭建，全程干货无废话（附资料）",
       "owner": "comfyui入门零基础教程",
       "pubdate": 1787216400,
@@ -19923,12 +19293,21 @@
           "coin": 109,
           "favorite": 57,
           "share": 50
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 7058,
+          "reply": 4,
+          "like": 56,
+          "coin": 109,
+          "favorite": 57,
+          "share": 50
         }
       ]
     },
     {
       "bvid": "BV1PQ8c6pEbL",
-      "sort_order": 19,
+      "sort_order": 18,
       "title": "【新手ComfyUI教程】2026全新Comfyui整合包无私分享！全面适配50 40 30显卡，Win+Mac一键安装，解压即用（附零基精通教程）效率拉满",
       "owner": "ComfyUI整合包分享",
       "pubdate": 1787226776,
@@ -20283,12 +19662,21 @@
           "coin": 122,
           "favorite": 63,
           "share": 50
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 2363,
+          "reply": 1,
+          "like": 64,
+          "coin": 122,
+          "favorite": 63,
+          "share": 50
         }
       ]
     },
     {
       "bvid": "BV1nF8P69ERn",
-      "sort_order": 20,
+      "sort_order": 19,
       "title": "【8月全新ComfyUI教程】从零基础到精通（2026新手入门实用版comfyui教程）详细从零开始学习AI绘画comfyui工作流搭建，全程干货无废话！",
       "owner": "最新comfyui教程",
       "pubdate": 1787234001,
@@ -20625,12 +20013,21 @@
           "coin": 421,
           "favorite": 223,
           "share": 51
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 13200,
+          "reply": 50,
+          "like": 216,
+          "coin": 421,
+          "favorite": 223,
+          "share": 51
         }
       ]
     },
     {
       "bvid": "BV1VY8A6VEcK",
-      "sort_order": 21,
+      "sort_order": 20,
       "title": "【8月全新ComfyUI教程】ai绘画，ai视频，ai短剧，ai漫剧，文生视频，图生视频，首尾帧视频，零开始学习comfyui工作流搭建，全程干货无废话！",
       "owner": "comfyui工作流教程_",
       "pubdate": 1787237727,
@@ -20958,12 +20355,21 @@
           "coin": 699,
           "favorite": 387,
           "share": 53
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 9734,
+          "reply": 124,
+          "like": 367,
+          "coin": 699,
+          "favorite": 387,
+          "share": 53
         }
       ]
     },
     {
       "bvid": "BV1UQ8T61Es6",
-      "sort_order": 22,
+      "sort_order": 21,
       "title": "8月【ComfyUI全新教程】全中文界面支持中文提示词！支持50 40 30显卡！详细从零开始学习AI绘画comfyui工作流搭建，全程干货无废话（附资料）",
       "owner": "comfyiu",
       "pubdate": 1787299200,
@@ -21129,12 +20535,21 @@
           "coin": 100,
           "favorite": 51,
           "share": 0
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 810,
+          "reply": 7,
+          "like": 51,
+          "coin": 100,
+          "favorite": 51,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1818q6wEM4",
-      "sort_order": 23,
+      "sort_order": 22,
       "title": "8月【ComfyUI使用教程】全中文界面支持中文提示词！支持50 40 30显卡！详细从零开始学习AI绘画comfyui工作流搭建，全程干货无废话（附资料）",
       "owner": "comfyui软件教程",
       "pubdate": 1787302800,
@@ -21300,12 +20715,21 @@
           "coin": 102,
           "favorite": 52,
           "share": 0
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 2138,
+          "reply": 6,
+          "like": 52,
+          "coin": 102,
+          "favorite": 52,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1Xz8q6KEH4",
-      "sort_order": 24,
+      "sort_order": 23,
       "title": "【8月全新ComfyUI教程】ai绘画，ai视频，ai短剧，ai漫剧，文生视频，图生视频，首尾帧视频，零开始学习comfyui工作流搭建，全程干货无废话！",
       "owner": "comfyui入门零基础教程",
       "pubdate": 1787313600,
@@ -21327,12 +20751,21 @@
           "coin": 76,
           "favorite": 38,
           "share": 0
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 1277,
+          "reply": 5,
+          "like": 38,
+          "coin": 76,
+          "favorite": 38,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1t18q6wENA",
-      "sort_order": 25,
+      "sort_order": 24,
       "title": "2026【ComfyUI教程】全中文界面支持中文提示词！支持50 40 30显卡！详细从零开始学习AI绘画comfyui工作流搭建，全程干货无废话（附资料）",
       "owner": "comfyui中文版教程-",
       "pubdate": 1787306400,
@@ -21354,12 +20787,21 @@
           "coin": 76,
           "favorite": 41,
           "share": 0
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 1300,
+          "reply": 4,
+          "like": 42,
+          "coin": 76,
+          "favorite": 41,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1tU8q6FEkk",
-      "sort_order": 26,
+      "sort_order": 25,
       "title": "【ComfyUI教程】2027新版秋叶Comfyui整合包中文版无私分享！全面适配50 40 30系显卡，Win+Mac一键安装，秋叶comfyui整合包下载",
       "owner": "comfyui中文版教学",
       "pubdate": 1787320800,
@@ -21372,12 +20814,21 @@
           "coin": 78,
           "favorite": 41,
           "share": 0
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 1322,
+          "reply": 12,
+          "like": 44,
+          "coin": 78,
+          "favorite": 41,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1FE8q6DEyX",
-      "sort_order": 27,
+      "sort_order": 26,
       "title": "Comfyui从零基础到精通（2027新手入门实用版comfyui教程）详细从零开始学习comfyui工作流搭建，全程干货无废话！AI绘画AI视频生成",
       "owner": "comfyui免费版",
       "pubdate": 1787304600,
@@ -21390,12 +20841,21 @@
           "coin": 82,
           "favorite": 43,
           "share": 0
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 2168,
+          "reply": 3,
+          "like": 44,
+          "coin": 82,
+          "favorite": 43,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1UU8q6FEAp",
-      "sort_order": 28,
+      "sort_order": 27,
       "title": "【秋叶ComfyUI】秋叶最新发布！全中文界面支持中文提示词！全面适配50 40 30系显卡，Win+Mac一键安装，解压即用（附零基精通教程）效率直接拉满！",
       "owner": "ComfyUI整合包分享",
       "pubdate": 1787317200,
@@ -21408,11 +20868,20 @@
           "coin": 186,
           "favorite": 95,
           "share": 0
+        },
+        {
+          "time": "2026-08-22 11:00",
+          "view": 3051,
+          "reply": 13,
+          "like": 95,
+          "coin": 186,
+          "favorite": 94,
+          "share": 0
         }
       ]
     }
   ],
-  "last_update": "2026-08-22 10:44:54",
+  "last_update": "2026-08-22 11:12:52",
   "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
