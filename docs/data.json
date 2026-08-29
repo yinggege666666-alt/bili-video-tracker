@@ -64117,7 +64117,7 @@
       ]
     }
   ],
-  "last_update": "2026-08-29 09:22:14",
-  "last_error": "获取 BV1vr8u6cEdx 失败：稿件不可见",
+  "last_update": "2026-08-29 09:24:57",
+  "last_error": "获取 BV1vr8u6cEdx 失败：稿件不可见；获取 BV1nF8P69ERn 失败：HTTP Error 503: Service Unavailable",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
