@@ -43044,6 +43044,15 @@
           "coin": 386,
           "favorite": 202,
           "share": 1
+        },
+        {
+          "time": "2026-08-30 07:00",
+          "view": 10269,
+          "reply": 2,
+          "like": 198,
+          "coin": 386,
+          "favorite": 202,
+          "share": 1
         }
       ]
     },
@@ -69850,7 +69859,7 @@
       ]
     }
   ],
-  "last_update": "2026-08-30 07:22:37",
-  "last_error": "获取 BV1vr8u6cEdx 失败：稿件不可见；获取 BV1Vx8g6wEdQ 失败：HTTP Error 503: Service Unavailable",
+  "last_update": "2026-08-30 07:24:56",
+  "last_error": "获取 BV1vr8u6cEdx 失败：稿件不可见",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
