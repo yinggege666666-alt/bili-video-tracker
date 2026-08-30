@@ -4140,7 +4140,7 @@
         },
         {
           "time": "2026-08-30 19:00",
-          "view": 105778,
+          "view": 105779,
           "reply": 1468,
           "like": 2478,
           "coin": 4069,
@@ -7830,7 +7830,7 @@
         },
         {
           "time": "2026-08-30 19:00",
-          "view": 31237,
+          "view": 31238,
           "reply": 24,
           "like": 294,
           "coin": 545,
@@ -72991,7 +72991,7 @@
       ]
     }
   ],
-  "last_update": "2026-08-30 19:25:04",
+  "last_update": "2026-08-30 19:53:47",
   "last_error": "获取 BV1vr8u6cEdx 失败：稿件不可见",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
