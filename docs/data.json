@@ -81082,7 +81082,7 @@
       ]
     }
   ],
-  "last_update": "2026-09-01 02:22:22",
-  "last_error": "获取 BV1vr8u6cEdx 失败：稿件不可见",
+  "last_update": "2026-09-01 02:24:57",
+  "last_error": "获取 BV1vr8u6cEdx 失败：稿件不可见；获取 BV1nF8P69ERn 失败：代理响应中没有 JSON；获取 BV1818q6wEM4 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
