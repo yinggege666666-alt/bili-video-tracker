@@ -82126,7 +82126,7 @@
       ]
     }
   ],
-  "last_update": "2026-09-01 06:25:10",
-  "last_error": "获取 BV1vr8u6cEdx 失败：稿件不可见；获取 BV1mZ8u6JEhS 失败：代理响应中没有 JSON；获取 BV1UU8q6FEAp 失败：代理响应中没有 JSON",
+  "last_update": "2026-09-01 06:53:56",
+  "last_error": "获取 BV1WQgp6AEE2 失败：请求过于频繁，请稍后再试；获取 BV1vr8u6cEdx 失败：稿件不可见；获取 BV1ud8u6QEbg 失败：请求过于频繁，请稍后再试",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
