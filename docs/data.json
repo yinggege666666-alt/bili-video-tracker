@@ -12921,6 +12921,15 @@
           "coin": 519,
           "favorite": 271,
           "share": 124
+        },
+        {
+          "time": "2026-09-02 00:00",
+          "view": 21543,
+          "reply": 41,
+          "like": 273,
+          "coin": 519,
+          "favorite": 271,
+          "share": 124
         }
       ]
     },
@@ -20337,6 +20346,15 @@
           "coin": 272,
           "favorite": 147,
           "share": 20
+        },
+        {
+          "time": "2026-09-02 00:00",
+          "view": 11344,
+          "reply": 22,
+          "like": 144,
+          "coin": 272,
+          "favorite": 147,
+          "share": 20
         }
       ]
     },
@@ -20344,7 +20362,7 @@
       "bvid": "BV1i4bk6dE9z",
       "sort_order": 6,
       "title": "8月【ComfyUI使用教程】全中文界面支持中文提示词！支持50 40 30显卡！详细从零开始学习AI绘画comfyui工作流搭建，全程干货无废话（附资料）",
-      "owner": "comfyui中文版教程-",
+      "owner": "comfyui整合包免费下载",
       "pubdate": 1786791600,
       "history": [
         {
@@ -24012,6 +24030,15 @@
         },
         {
           "time": "2026-09-01 23:00",
+          "view": 11268,
+          "reply": 31,
+          "like": 245,
+          "coin": 478,
+          "favorite": 243,
+          "share": 70
+        },
+        {
+          "time": "2026-09-02 00:00",
           "view": 11268,
           "reply": 31,
           "like": 245,
@@ -45501,6 +45528,15 @@
           "coin": 142,
           "favorite": 73,
           "share": 0
+        },
+        {
+          "time": "2026-09-02 00:00",
+          "view": 11122,
+          "reply": 19,
+          "like": 72,
+          "coin": 142,
+          "favorite": 73,
+          "share": 0
         }
       ]
     },
@@ -59028,6 +59064,15 @@
           "coin": 124,
           "favorite": 63,
           "share": 50
+        },
+        {
+          "time": "2026-09-02 00:00",
+          "view": 2368,
+          "reply": 3,
+          "like": 65,
+          "coin": 124,
+          "favorite": 63,
+          "share": 50
         }
       ]
     },
@@ -69063,6 +69108,15 @@
           "coin": 242,
           "favorite": 124,
           "share": 48
+        },
+        {
+          "time": "2026-09-02 00:00",
+          "view": 10004,
+          "reply": 17,
+          "like": 124,
+          "coin": 242,
+          "favorite": 124,
+          "share": 48
         }
       ]
     },
@@ -75912,6 +75966,15 @@
           "coin": 102,
           "favorite": 53,
           "share": 75
+        },
+        {
+          "time": "2026-09-02 00:00",
+          "view": 10022,
+          "reply": 15,
+          "like": 56,
+          "coin": 102,
+          "favorite": 53,
+          "share": 75
         }
       ]
     },
@@ -78189,6 +78252,15 @@
           "coin": 106,
           "favorite": 62,
           "share": 65
+        },
+        {
+          "time": "2026-09-02 00:00",
+          "view": 2529,
+          "reply": 5,
+          "like": 58,
+          "coin": 106,
+          "favorite": 62,
+          "share": 65
         }
       ]
     },
@@ -80460,6 +80532,15 @@
         },
         {
           "time": "2026-09-01 23:00",
+          "view": 4323,
+          "reply": 23,
+          "like": 168,
+          "coin": 326,
+          "favorite": 168,
+          "share": 48
+        },
+        {
+          "time": "2026-09-02 00:00",
           "view": 4323,
           "reply": 23,
           "like": 168,
@@ -86527,7 +86608,7 @@
       ]
     }
   ],
-  "last_update": "2026-09-01 23:50:02",
-  "last_error": "获取 BV1NfKw6AEeo 失败：代理响应中没有 JSON；获取 BV13agn6MEDU 失败：代理响应中没有 JSON；获取 BV1cbuw6eE16 失败：代理响应中没有 JSON",
+  "last_update": "2026-09-02 00:26:20",
+  "last_error": "获取 BV1NfKw6AEeo 失败：代理响应中没有 JSON；获取 BV13agn6MEDU 失败：代理响应中没有 JSON；获取 BV1WQgp6AEE2 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
