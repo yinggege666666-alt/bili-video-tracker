@@ -28446,6 +28446,15 @@
           "coin": 474,
           "favorite": 242,
           "share": 70
+        },
+        {
+          "time": "2026-09-02 11:00",
+          "view": 3111,
+          "reply": 35,
+          "like": 244,
+          "coin": 474,
+          "favorite": 242,
+          "share": 70
         }
       ]
     },
@@ -46779,6 +46788,15 @@
           "coin": 142,
           "favorite": 73,
           "share": 0
+        },
+        {
+          "time": "2026-09-02 11:00",
+          "view": 11122,
+          "reply": 19,
+          "like": 72,
+          "coin": 142,
+          "favorite": 73,
+          "share": 0
         }
       ]
     },
@@ -52587,6 +52605,15 @@
         },
         {
           "time": "2026-09-02 10:00",
+          "view": 10278,
+          "reply": 2,
+          "like": 199,
+          "coin": 386,
+          "favorite": 203,
+          "share": 1
+        },
+        {
+          "time": "2026-09-02 11:00",
           "view": 10278,
           "reply": 2,
           "like": 199,
@@ -66240,7 +66267,7 @@
         },
         {
           "time": "2026-09-02 11:00",
-          "view": 35582,
+          "view": 35584,
           "reply": 449,
           "like": 1003,
           "coin": 1891,
@@ -68760,6 +68787,15 @@
         },
         {
           "time": "2026-09-02 10:00",
+          "view": 890,
+          "reply": 9,
+          "like": 149,
+          "coin": 290,
+          "favorite": 151,
+          "share": 77
+        },
+        {
+          "time": "2026-09-02 11:00",
           "view": 890,
           "reply": 9,
           "like": 149,
@@ -73680,6 +73716,15 @@
           "coin": 100,
           "favorite": 53,
           "share": 17
+        },
+        {
+          "time": "2026-09-02 11:00",
+          "view": 10050,
+          "reply": 9,
+          "like": 52,
+          "coin": 100,
+          "favorite": 53,
+          "share": 17
         }
       ]
     },
@@ -76068,7 +76113,7 @@
         },
         {
           "time": "2026-09-02 11:00",
-          "view": 10081,
+          "view": 10082,
           "reply": 11,
           "like": 57,
           "coin": 102,
@@ -78444,6 +78489,15 @@
         },
         {
           "time": "2026-09-02 10:00",
+          "view": 10022,
+          "reply": 15,
+          "like": 56,
+          "coin": 102,
+          "favorite": 53,
+          "share": 75
+        },
+        {
+          "time": "2026-09-02 11:00",
           "view": 10022,
           "reply": 15,
           "like": 56,
@@ -89605,7 +89659,7 @@
       ]
     }
   ],
-  "last_update": "2026-09-02 11:28:15",
-  "last_error": "获取 BV1NfKw6AEeo 失败：代理响应中没有 JSON；获取 BV1pEbk6wEqQ 失败：代理响应中没有 JSON；获取 BV16pbk6bE2z 失败：代理响应中没有 JSON",
+  "last_update": "2026-09-02 11:54:21",
+  "last_error": "获取 BV1vr8u6cEdx 失败：稿件不可见",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
