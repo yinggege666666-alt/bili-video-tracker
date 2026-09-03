@@ -171,7 +171,7 @@
         },
         {
           "time": "2026-09-03 17:00",
-          "view": 3115,
+          "view": 3117,
           "reply": 80,
           "like": 231,
           "coin": 352,
@@ -226,7 +226,7 @@
       ]
     }
   ],
-  "last_update": "2026-09-03 17:27:41",
-  "last_error": "",
+  "last_update": "2026-09-03 17:54:00",
+  "last_error": "获取 BV172td64EG6 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
