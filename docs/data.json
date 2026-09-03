@@ -172,7 +172,7 @@
       ]
     }
   ],
-  "last_update": "2026-09-03 14:56:54",
-  "last_error": "",
+  "last_update": "2026-09-03 15:23:31",
+  "last_error": "获取 BV12mtm6XEXm 失败：代理响应中没有 JSON；获取 BV172td64EG6 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
