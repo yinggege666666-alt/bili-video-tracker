@@ -334,7 +334,7 @@
       ]
     }
   ],
-  "last_update": "2026-09-03 23:23:23",
-  "last_error": "",
+  "last_update": "2026-09-03 23:29:28",
+  "last_error": "获取 BV12mtm6XEXm 失败：HTTP Error 401: Unauthorized；获取 BV172td64EG6 失败：HTTP Error 401: Unauthorized",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
