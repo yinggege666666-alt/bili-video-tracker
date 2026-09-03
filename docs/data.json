@@ -225,7 +225,7 @@
         },
         {
           "time": "2026-09-03 23:00",
-          "view": 4191,
+          "view": 4192,
           "reply": 80,
           "like": 231,
           "coin": 352,
@@ -324,17 +324,17 @@
         },
         {
           "time": "2026-09-03 23:00",
-          "view": 5178,
-          "reply": 37,
-          "like": 128,
-          "coin": 146,
-          "favorite": 130,
+          "view": 5188,
+          "reply": 39,
+          "like": 129,
+          "coin": 148,
+          "favorite": 131,
           "share": 1
         }
       ]
     }
   ],
-  "last_update": "2026-09-03 23:29:28",
-  "last_error": "获取 BV12mtm6XEXm 失败：HTTP Error 401: Unauthorized；获取 BV172td64EG6 失败：HTTP Error 401: Unauthorized",
+  "last_update": "2026-09-03 23:53:32",
+  "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
