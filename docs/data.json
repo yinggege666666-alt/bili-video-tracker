@@ -375,6 +375,15 @@
           "coin": 352,
           "favorite": 230,
           "share": 61
+        },
+        {
+          "time": "2026-09-04 16:00",
+          "view": 5811,
+          "reply": 87,
+          "like": 249,
+          "coin": 386,
+          "favorite": 247,
+          "share": 61
         }
       ]
     },
@@ -620,9 +629,27 @@
           "share": 1
         }
       ]
+    },
+    {
+      "bvid": "BV1Viti6aEr2",
+      "sort_order": 3,
+      "title": "【ComfyUI视频生成教学】AI视频，AI短剧，AI漫剧，文生视频，图生视频，首尾帧视频，零开始学习comfyui工作流大全搭建，全程干货无废话！软件无私分享",
+      "owner": "comfyui工作流大全--",
+      "pubdate": 1788508973,
+      "history": [
+        {
+          "time": "2026-09-04 16:00",
+          "view": 22,
+          "reply": 1,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
+        }
+      ]
     }
   ],
-  "last_update": "2026-09-04 15:53:56",
-  "last_error": "",
+  "last_update": "2026-09-04 16:23:37",
+  "last_error": "获取 BV172td64EG6 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
