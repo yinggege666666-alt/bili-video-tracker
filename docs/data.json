@@ -510,6 +510,15 @@
           "coin": 508,
           "favorite": 359,
           "share": 61
+        },
+        {
+          "time": "2026-09-05 07:00",
+          "view": 8495,
+          "reply": 87,
+          "like": 360,
+          "coin": 508,
+          "favorite": 359,
+          "share": 61
         }
       ]
     },
@@ -888,6 +897,15 @@
           "coin": 442,
           "favorite": 336,
           "share": 1
+        },
+        {
+          "time": "2026-09-05 07:00",
+          "view": 8462,
+          "reply": 66,
+          "like": 326,
+          "coin": 442,
+          "favorite": 336,
+          "share": 1
         }
       ]
     },
@@ -1032,11 +1050,20 @@
           "coin": 80,
           "favorite": 41,
           "share": 0
+        },
+        {
+          "time": "2026-09-05 07:00",
+          "view": 772,
+          "reply": 2,
+          "like": 41,
+          "coin": 80,
+          "favorite": 42,
+          "share": 0
         }
       ]
     }
   ],
-  "last_update": "2026-09-05 06:52:34",
-  "last_error": "获取 BV12mtm6XEXm 失败：The read operation timed out；获取 BV172td64EG6 失败：代理响应中没有 JSON；获取 BV1Viti6aEr2 失败：代理响应中没有 JSON",
+  "last_update": "2026-09-05 07:22:55",
+  "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
