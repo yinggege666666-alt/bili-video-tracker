@@ -7,6 +7,7 @@ import time
 import urllib.request
 
 API_URL = "https://api.bilibili.com/x/web-interface/view"
+VIEW_DETAIL_API_URL = "https://api.bilibili.com/x/web-interface/view/detail"
 PAGE_URL = "https://www.bilibili.com/video/{bvid}"
 REQUEST_HEADERS = {
     "User-Agent": (
@@ -49,7 +50,7 @@ def _video_dict(bvid: str, data: dict) -> dict:
 
 
 def _fetch_api(bvid: str, timeout: int) -> dict:
-    url = f"{API_URL}?bvid={bvid}"
+    url = f"{VIEW_DETAIL_API_URL}?bvid={bvid}"
     request = urllib.request.Request(url, headers=REQUEST_HEADERS)
     with urllib.request.urlopen(request, timeout=timeout) as response:
         payload = json.loads(_read_response(response).decode("utf-8", "ignore"))
@@ -57,9 +58,10 @@ def _fetch_api(bvid: str, timeout: int) -> dict:
         message = payload.get("message") or f"接口返回 code={payload.get('code')}"
         raise BiliFetchError(message)
     data = payload.get("data") or {}
-    if not data or not data.get("stat"):
+    video = data.get("View") or data
+    if not video or not video.get("stat"):
         raise BiliFetchError("接口未返回统计数据")
-    return _video_dict(bvid, data)
+    return _video_dict(bvid, video)
 
 
 def _fetch_page(bvid: str, timeout: int) -> dict:
@@ -90,7 +92,7 @@ def _fetch_page(bvid: str, timeout: int) -> dict:
 
 
 def _fetch_jina_api(bvid: str, timeout: int) -> dict:
-    api_url = f"{API_URL}?bvid={bvid}"
+    api_url = f"{VIEW_DETAIL_API_URL}?bvid={bvid}"
     proxy_url = "https://r.jina.ai/http://" + api_url.replace("https://", "")
     request = urllib.request.Request(
         proxy_url,
@@ -112,9 +114,10 @@ def _fetch_jina_api(bvid: str, timeout: int) -> dict:
         message = payload.get("message") or f"接口返回 code={payload.get('code')}"
         raise BiliFetchError(message)
     data = payload.get("data") or {}
-    if not data or not data.get("stat"):
+    video = data.get("View") or data
+    if not video or not video.get("stat"):
         raise BiliFetchError("代理未返回统计数据")
-    return _video_dict(bvid, data)
+    return _video_dict(bvid, video)
 
 
 def fetch_video(bvid: str, max_retries: int = 1, timeout: int = 30) -> dict:
