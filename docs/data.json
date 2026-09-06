@@ -2277,17 +2277,17 @@
         },
         {
           "time": "2026-09-07 01:00",
-          "view": 2052,
-          "reply": 50,
+          "view": 2055,
+          "reply": 53,
           "like": 24,
           "coin": 42,
           "favorite": 27,
-          "share": 0
+          "share": 1
         }
       ]
     }
   ],
-  "last_update": "2026-09-07 01:23:20",
+  "last_update": "2026-09-07 01:52:30",
   "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
