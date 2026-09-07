@@ -2088,12 +2088,12 @@
         },
         {
           "time": "2026-09-08 01:00",
-          "view": 20789,
+          "view": 20791,
           "reply": 89,
-          "like": 550,
-          "coin": 876,
-          "favorite": 568,
-          "share": 1
+          "like": 602,
+          "coin": 978,
+          "favorite": 620,
+          "share": 45
         }
       ]
     },
@@ -3141,7 +3141,7 @@
         },
         {
           "time": "2026-09-08 01:00",
-          "view": 4314,
+          "view": 4315,
           "reply": 143,
           "like": 26,
           "coin": 42,
@@ -3149,9 +3149,27 @@
           "share": 1
         }
       ]
+    },
+    {
+      "bvid": "BV1pCbp6VEEa",
+      "sort_order": 5,
+      "title": "【秋叶ComfyUI】2027最新版秋叶Comfyui整合包中文版无私分享！全面适配50 40 30系显卡，Win+Mac一键安装，秋叶comfyui整合包下载",
+      "owner": "comfyui软件教程",
+      "pubdate": 1788753600,
+      "history": [
+        {
+          "time": "2026-09-08 01:00",
+          "view": 1272,
+          "reply": 6,
+          "like": 19,
+          "coin": 34,
+          "favorite": 19,
+          "share": 22
+        }
+      ]
     }
   ],
-  "last_update": "2026-09-08 01:25:37",
+  "last_update": "2026-09-08 01:53:10",
   "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
