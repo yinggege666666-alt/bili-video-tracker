@@ -17820,7 +17820,7 @@
         },
         {
           "time": "2026-09-20 04:00",
-          "view": 13414,
+          "view": 13415,
           "reply": 179,
           "like": 174,
           "coin": 331,
@@ -19242,7 +19242,7 @@
         },
         {
           "time": "2026-09-20 04:00",
-          "view": 13632,
+          "view": 13667,
           "reply": 124,
           "like": 158,
           "coin": 308,
@@ -21420,7 +21420,7 @@
         },
         {
           "time": "2026-09-20 04:00",
-          "view": 24231,
+          "view": 24267,
           "reply": 82,
           "like": 593,
           "coin": 1158,
@@ -22438,7 +22438,7 @@
       ]
     }
   ],
-  "last_update": "2026-09-20 04:23:29",
+  "last_update": "2026-09-20 04:40:27",
   "last_error": "获取 BV1cKbp6zE3v 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
