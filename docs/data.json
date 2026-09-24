@@ -30006,7 +30006,7 @@
         },
         {
           "time": "2026-09-24 14:00",
-          "view": 35857,
+          "view": 35898,
           "reply": 102,
           "like": 691,
           "coin": 1343,
@@ -31978,7 +31978,7 @@
       ]
     }
   ],
-  "last_update": "2026-09-24 14:23:29",
+  "last_update": "2026-09-24 14:46:52",
   "last_error": "获取 BV1cKbp6zE3v 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
