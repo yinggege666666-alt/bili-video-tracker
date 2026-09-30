@@ -6117,6 +6117,15 @@
           "coin": 749,
           "favorite": 481,
           "share": 61
+        },
+        {
+          "time": "2026-10-01 07:00",
+          "view": 18742,
+          "reply": 98,
+          "like": 485,
+          "coin": 749,
+          "favorite": 481,
+          "share": 61
         }
       ]
     },
@@ -12102,6 +12111,15 @@
           "coin": 1180,
           "favorite": 724,
           "share": 45
+        },
+        {
+          "time": "2026-10-01 07:00",
+          "view": 28314,
+          "reply": 101,
+          "like": 709,
+          "coin": 1180,
+          "favorite": 724,
+          "share": 45
         }
       ]
     },
@@ -17847,6 +17865,15 @@
         },
         {
           "time": "2026-10-01 06:00",
+          "view": 897,
+          "reply": 9,
+          "like": 65,
+          "coin": 126,
+          "favorite": 68,
+          "share": 0
+        },
+        {
+          "time": "2026-10-01 07:00",
           "view": 897,
           "reply": 9,
           "like": 65,
@@ -24117,6 +24144,15 @@
           "coin": 88,
           "favorite": 44,
           "share": 22
+        },
+        {
+          "time": "2026-10-01 07:00",
+          "view": 5831,
+          "reply": 6,
+          "like": 48,
+          "coin": 88,
+          "favorite": 44,
+          "share": 22
         }
       ]
     },
@@ -28374,6 +28410,15 @@
           "coin": 52,
           "favorite": 27,
           "share": 88
+        },
+        {
+          "time": "2026-10-01 07:00",
+          "view": 8268,
+          "reply": 16,
+          "like": 28,
+          "coin": 52,
+          "favorite": 27,
+          "share": 88
         }
       ]
     },
@@ -32184,6 +32229,15 @@
         },
         {
           "time": "2026-10-01 06:00",
+          "view": 13432,
+          "reply": 166,
+          "like": 176,
+          "coin": 331,
+          "favorite": 188,
+          "share": 95
+        },
+        {
+          "time": "2026-10-01 07:00",
           "view": 13432,
           "reply": 166,
           "like": 176,
@@ -36006,6 +36060,15 @@
           "coin": 331,
           "favorite": 177,
           "share": 54
+        },
+        {
+          "time": "2026-10-01 07:00",
+          "view": 16875,
+          "reply": 126,
+          "like": 171,
+          "coin": 331,
+          "favorite": 177,
+          "share": 54
         }
       ]
     },
@@ -39570,6 +39633,15 @@
           "coin": 135,
           "favorite": 72,
           "share": 82
+        },
+        {
+          "time": "2026-10-01 07:00",
+          "view": 11108,
+          "reply": 36,
+          "like": 75,
+          "coin": 135,
+          "favorite": 72,
+          "share": 82
         }
       ]
     },
@@ -42967,6 +43039,15 @@
         {
           "time": "2026-10-01 06:00",
           "view": 39709,
+          "reply": 120,
+          "like": 726,
+          "coin": 1413,
+          "favorite": 729,
+          "share": 424
+        },
+        {
+          "time": "2026-10-01 07:00",
+          "view": 39710,
           "reply": 120,
           "like": 726,
           "coin": 1413,
@@ -46374,11 +46455,38 @@
           "coin": 124,
           "favorite": 70,
           "share": 54
+        },
+        {
+          "time": "2026-10-01 07:00",
+          "view": 8575,
+          "reply": 18,
+          "like": 66,
+          "coin": 124,
+          "favorite": 70,
+          "share": 54
+        }
+      ]
+    },
+    {
+      "bvid": "BV1MRad6dE16",
+      "sort_order": 12,
+      "title": "【秋叶ComfyUI教程】2027新版秋叶Comfyui整合包无私分享！全面适配50 40 30显卡，Win+Mac一键安装，解压即用（附零基精通教程）附整合包",
+      "owner": "秋枽aaakil",
+      "pubdate": 1790738522,
+      "history": [
+        {
+          "time": "2026-10-01 07:00",
+          "view": 1083,
+          "reply": 48,
+          "like": 136,
+          "coin": 248,
+          "favorite": 157,
+          "share": 114
         }
       ]
     }
   ],
-  "last_update": "2026-10-01 06:23:31",
+  "last_update": "2026-10-01 07:23:35",
   "last_error": "获取 BV1cKbp6zE3v 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
