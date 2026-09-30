@@ -46476,17 +46476,17 @@
       "history": [
         {
           "time": "2026-10-01 07:00",
-          "view": 1083,
-          "reply": 48,
-          "like": 136,
-          "coin": 248,
-          "favorite": 157,
-          "share": 114
+          "view": 1117,
+          "reply": 49,
+          "like": 148,
+          "coin": 268,
+          "favorite": 169,
+          "share": 115
         }
       ]
     }
   ],
-  "last_update": "2026-10-01 07:23:35",
+  "last_update": "2026-10-01 07:49:35",
   "last_error": "获取 BV1cKbp6zE3v 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
