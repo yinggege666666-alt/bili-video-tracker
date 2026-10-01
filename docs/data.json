@@ -177,6 +177,15 @@
           "coin": 950,
           "favorite": 604,
           "share": 169
+        },
+        {
+          "time": "2026-10-02 02:00",
+          "view": 3007,
+          "reply": 241,
+          "like": 537,
+          "coin": 971,
+          "favorite": 618,
+          "share": 170
         }
       ]
     },
@@ -184,7 +193,7 @@
       "bvid": "BV1bnaA6MEri",
       "sort_order": 2,
       "title": "【秋叶ComfyUI整合包】最低8g显存也能流畅跑！MiniMaxH3使用教程15秒视频+2K画质+24FPS+全能参考模式，一键安装，解压即用（附整合包）",
-      "owner": "comfyuiai视频",
+      "owner": "秋枽aaaki-",
       "pubdate": 1790766000,
       "history": [
         {
@@ -321,11 +330,20 @@
           "coin": 494,
           "favorite": 273,
           "share": 62
+        },
+        {
+          "time": "2026-10-02 02:00",
+          "view": 1757,
+          "reply": 56,
+          "like": 262,
+          "coin": 516,
+          "favorite": 284,
+          "share": 62
         }
       ]
     }
   ],
-  "last_update": "2026-10-02 01:23:16",
+  "last_update": "2026-10-02 02:23:17",
   "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
