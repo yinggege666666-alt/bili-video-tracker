@@ -825,6 +825,15 @@
           "coin": 3024,
           "favorite": 1822,
           "share": 329
+        },
+        {
+          "time": "2026-10-05 02:00",
+          "view": 8194,
+          "reply": 839,
+          "like": 1701,
+          "coin": 3088,
+          "favorite": 1855,
+          "share": 329
         }
       ]
     },
@@ -1617,11 +1626,38 @@
           "coin": 969,
           "favorite": 506,
           "share": 169
+        },
+        {
+          "time": "2026-10-05 02:00",
+          "view": 2272,
+          "reply": 87,
+          "like": 492,
+          "coin": 969,
+          "favorite": 506,
+          "share": 169
+        }
+      ]
+    },
+    {
+      "bvid": "BV1W4ac6xET2",
+      "sort_order": 3,
+      "title": "【秋叶ComfyUI】秋叶最新发布！全中文界面支持中文提示词！全面适配50 40 30系显卡，Win+Mac一键安装，解压即用（附零基精通教程）效率直接拉满！",
+      "owner": "ai視頻",
+      "pubdate": 1790560800,
+      "history": [
+        {
+          "time": "2026-10-05 02:00",
+          "view": 1813,
+          "reply": 77,
+          "like": 236,
+          "coin": 446,
+          "favorite": 233,
+          "share": 144
         }
       ]
     }
   ],
-  "last_update": "2026-10-05 01:23:15",
+  "last_update": "2026-10-05 02:23:53",
   "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
