@@ -891,11 +891,11 @@
         },
         {
           "time": "2026-10-05 09:00",
-          "view": 8395,
-          "reply": 852,
-          "like": 1833,
-          "coin": 3352,
-          "favorite": 1993,
+          "view": 8399,
+          "reply": 853,
+          "like": 1843,
+          "coin": 3372,
+          "favorite": 2003,
           "share": 329
         }
       ]
@@ -1846,7 +1846,7 @@
       ]
     }
   ],
-  "last_update": "2026-10-05 09:17:42",
+  "last_update": "2026-10-05 09:23:17",
   "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
