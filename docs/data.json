@@ -1131,6 +1131,15 @@
           "coin": 4038,
           "favorite": 2380,
           "share": 331
+        },
+        {
+          "time": "2026-10-06 12:00",
+          "view": 9980,
+          "reply": 1092,
+          "like": 2229,
+          "coin": 4061,
+          "favorite": 2397,
+          "share": 331
         }
       ]
     },
@@ -2229,6 +2238,15 @@
           "coin": 1283,
           "favorite": 665,
           "share": 169
+        },
+        {
+          "time": "2026-10-06 12:00",
+          "view": 2355,
+          "reply": 100,
+          "like": 652,
+          "coin": 1283,
+          "favorite": 665,
+          "share": 169
         }
       ]
     },
@@ -2544,11 +2562,20 @@
           "coin": 710,
           "favorite": 371,
           "share": 144
+        },
+        {
+          "time": "2026-10-06 12:00",
+          "view": 1994,
+          "reply": 91,
+          "like": 368,
+          "coin": 710,
+          "favorite": 371,
+          "share": 144
         }
       ]
     }
   ],
-  "last_update": "2026-10-06 11:23:18",
+  "last_update": "2026-10-06 12:23:17",
   "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
