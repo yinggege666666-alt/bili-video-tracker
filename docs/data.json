@@ -4,7 +4,7 @@
       "bvid": "BV1MRad6dE16",
       "sort_order": 1,
       "title": "【秋叶ComfyUI教程】2027新版秋叶Comfyui整合包无私分享！全面适配50 40 30显卡，Win+Mac一键安装，解压即用（附零基精通教程）附整合包",
-      "owner": "秋枽aaakil",
+      "owner": "comfyui_",
       "pubdate": 1790738522,
       "history": [
         {
@@ -1617,6 +1617,15 @@
           "coin": 5261,
           "favorite": 3147,
           "share": 446
+        },
+        {
+          "time": "2026-10-08 18:00",
+          "view": 16347,
+          "reply": 1936,
+          "like": 2965,
+          "coin": 5289,
+          "favorite": 3166,
+          "share": 446
         }
       ]
     },
@@ -3201,6 +3210,15 @@
           "coin": 1521,
           "favorite": 782,
           "share": 192
+        },
+        {
+          "time": "2026-10-08 18:00",
+          "view": 2706,
+          "reply": 116,
+          "like": 778,
+          "coin": 1521,
+          "favorite": 782,
+          "share": 192
         }
       ]
     },
@@ -4002,6 +4020,15 @@
           "coin": 932,
           "favorite": 480,
           "share": 167
+        },
+        {
+          "time": "2026-10-08 18:00",
+          "view": 2104,
+          "reply": 101,
+          "like": 481,
+          "coin": 932,
+          "favorite": 480,
+          "share": 167
         }
       ]
     },
@@ -4461,11 +4488,20 @@
           "coin": 228,
           "favorite": 122,
           "share": 24
+        },
+        {
+          "time": "2026-10-08 18:00",
+          "view": 1674,
+          "reply": 30,
+          "like": 119,
+          "coin": 228,
+          "favorite": 122,
+          "share": 24
         }
       ]
     }
   ],
-  "last_update": "2026-10-08 17:29:54",
+  "last_update": "2026-10-08 18:23:18",
   "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
