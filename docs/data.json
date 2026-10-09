@@ -1770,6 +1770,15 @@
           "coin": 5684,
           "favorite": 3413,
           "share": 510
+        },
+        {
+          "time": "2026-10-09 11:00",
+          "view": 18449,
+          "reply": 2120,
+          "like": 3217,
+          "coin": 5728,
+          "favorite": 3436,
+          "share": 510
         }
       ]
     },
@@ -3507,6 +3516,15 @@
           "coin": 1521,
           "favorite": 777,
           "share": 192
+        },
+        {
+          "time": "2026-10-09 11:00",
+          "view": 2867,
+          "reply": 116,
+          "like": 777,
+          "coin": 1521,
+          "favorite": 777,
+          "share": 192
         }
       ]
     },
@@ -4461,6 +4479,15 @@
           "coin": 932,
           "favorite": 478,
           "share": 167
+        },
+        {
+          "time": "2026-10-09 11:00",
+          "view": 2119,
+          "reply": 101,
+          "like": 479,
+          "coin": 932,
+          "favorite": 478,
+          "share": 167
         }
       ]
     },
@@ -5073,11 +5100,38 @@
           "coin": 229,
           "favorite": 123,
           "share": 24
+        },
+        {
+          "time": "2026-10-09 11:00",
+          "view": 1682,
+          "reply": 32,
+          "like": 120,
+          "coin": 229,
+          "favorite": 123,
+          "share": 24
+        }
+      ]
+    },
+    {
+      "bvid": "BV1c6eb6MEzB",
+      "sort_order": 5,
+      "title": "【秋叶ComfyUI】秋叶最新发布！ComfyUI V100中文整合包来了！支持50 40 30系显卡，Win+Mac一键下载安装（附新Comfyui整合包）",
+      "owner": "comfyui--",
+      "pubdate": 1790143200,
+      "history": [
+        {
+          "time": "2026-10-09 11:00",
+          "view": 5390,
+          "reply": 109,
+          "like": 291,
+          "coin": 541,
+          "favorite": 302,
+          "share": 254
         }
       ]
     }
   ],
-  "last_update": "2026-10-09 10:34:52",
+  "last_update": "2026-10-09 11:23:19",
   "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
