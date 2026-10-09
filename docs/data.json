@@ -1923,6 +1923,15 @@
           "coin": 6456,
           "favorite": 3845,
           "share": 572
+        },
+        {
+          "time": "2026-10-10 04:00",
+          "view": 20221,
+          "reply": 2322,
+          "like": 3641,
+          "coin": 6507,
+          "favorite": 3871,
+          "share": 572
         }
       ]
     },
@@ -3813,6 +3822,15 @@
           "coin": 1543,
           "favorite": 788,
           "share": 215
+        },
+        {
+          "time": "2026-10-10 04:00",
+          "view": 2895,
+          "reply": 120,
+          "like": 788,
+          "coin": 1543,
+          "favorite": 788,
+          "share": 215
         }
       ]
     },
@@ -4920,6 +4938,15 @@
           "coin": 932,
           "favorite": 478,
           "share": 167
+        },
+        {
+          "time": "2026-10-10 04:00",
+          "view": 2121,
+          "reply": 101,
+          "like": 479,
+          "coin": 932,
+          "favorite": 478,
+          "share": 167
         }
       ]
     },
@@ -5685,6 +5712,15 @@
           "coin": 229,
           "favorite": 123,
           "share": 24
+        },
+        {
+          "time": "2026-10-10 04:00",
+          "view": 1934,
+          "reply": 34,
+          "like": 120,
+          "coin": 229,
+          "favorite": 123,
+          "share": 24
         }
       ]
     },
@@ -5847,6 +5883,15 @@
           "coin": 588,
           "favorite": 328,
           "share": 287
+        },
+        {
+          "time": "2026-10-10 04:00",
+          "view": 5525,
+          "reply": 125,
+          "like": 327,
+          "coin": 610,
+          "favorite": 339,
+          "share": 287
         }
       ]
     },
@@ -5946,11 +5991,20 @@
           "coin": 42,
           "favorite": 23,
           "share": 1
+        },
+        {
+          "time": "2026-10-10 04:00",
+          "view": 1056,
+          "reply": 3,
+          "like": 23,
+          "coin": 42,
+          "favorite": 23,
+          "share": 1
         }
       ]
     }
   ],
-  "last_update": "2026-10-10 03:23:20",
+  "last_update": "2026-10-10 04:23:21",
   "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
