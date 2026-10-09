@@ -1833,6 +1833,15 @@
           "coin": 6002,
           "favorite": 3595,
           "share": 510
+        },
+        {
+          "time": "2026-10-09 18:00",
+          "view": 19204,
+          "reply": 2195,
+          "like": 3398,
+          "coin": 6052,
+          "favorite": 3622,
+          "share": 510
         }
       ]
     },
@@ -3633,6 +3642,15 @@
           "coin": 1521,
           "favorite": 777,
           "share": 192
+        },
+        {
+          "time": "2026-10-09 18:00",
+          "view": 2873,
+          "reply": 119,
+          "like": 777,
+          "coin": 1521,
+          "favorite": 777,
+          "share": 192
         }
       ]
     },
@@ -4650,6 +4668,15 @@
           "coin": 932,
           "favorite": 478,
           "share": 167
+        },
+        {
+          "time": "2026-10-09 18:00",
+          "view": 2120,
+          "reply": 101,
+          "like": 479,
+          "coin": 932,
+          "favorite": 478,
+          "share": 167
         }
       ]
     },
@@ -5325,6 +5352,15 @@
           "coin": 229,
           "favorite": 123,
           "share": 24
+        },
+        {
+          "time": "2026-10-09 18:00",
+          "view": 1733,
+          "reply": 32,
+          "like": 120,
+          "coin": 229,
+          "favorite": 123,
+          "share": 24
         }
       ]
     },
@@ -5397,11 +5433,38 @@
           "coin": 548,
           "favorite": 306,
           "share": 254
+        },
+        {
+          "time": "2026-10-09 18:00",
+          "view": 5453,
+          "reply": 118,
+          "like": 296,
+          "coin": 548,
+          "favorite": 306,
+          "share": 254
+        }
+      ]
+    },
+    {
+      "bvid": "BV1Stp46EExi",
+      "sort_order": 6,
+      "title": "【秋叶ComfyUI全教程】Comfyui整合包最新vx旗舰版无私分享！全面适配50 40 30显卡，Win+Mac零基础一键安装，秋叶comfyui整合包下载",
+      "owner": "秋枽aaakil",
+      "pubdate": 1791534012,
+      "history": [
+        {
+          "time": "2026-10-09 18:00",
+          "view": 475,
+          "reply": 3,
+          "like": 21,
+          "coin": 42,
+          "favorite": 21,
+          "share": 1
         }
       ]
     }
   ],
-  "last_update": "2026-10-09 17:39:17",
+  "last_update": "2026-10-09 18:23:22",
   "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
