@@ -2025,11 +2025,11 @@
         },
         {
           "time": "2026-10-10 15:00",
-          "view": 21360,
-          "reply": 2455,
+          "view": 21417,
+          "reply": 2462,
           "like": 3788,
           "coin": 6780,
-          "favorite": 4028,
+          "favorite": 4029,
           "share": 573
         }
       ]
@@ -6111,7 +6111,7 @@
         },
         {
           "time": "2026-10-10 15:00",
-          "view": 1957,
+          "view": 1958,
           "reply": 34,
           "like": 120,
           "coin": 229,
@@ -6381,12 +6381,12 @@
         },
         {
           "time": "2026-10-10 15:00",
-          "view": 5650,
-          "reply": 132,
+          "view": 5655,
+          "reply": 133,
           "like": 370,
           "coin": 692,
-          "favorite": 382,
-          "share": 287
+          "favorite": 383,
+          "share": 288
         }
       ]
     },
@@ -6588,17 +6588,35 @@
         },
         {
           "time": "2026-10-10 15:00",
-          "view": 1175,
-          "reply": 6,
+          "view": 1181,
+          "reply": 8,
           "like": 33,
           "coin": 46,
-          "favorite": 35,
+          "favorite": 36,
           "share": 1
+        }
+      ]
+    },
+    {
+      "bvid": "BV1CDaw6ZENc",
+      "sort_order": 7,
+      "title": "【秋叶ComfyUI】秋叶最新发布！全中文界面支持中文提示词！全面适配50 40 30系显卡，Win+Mac一键安装，解压即用（附零基精通教程）效率直接拉满！",
+      "owner": "秋枽aaakil",
+      "pubdate": 1791543600,
+      "history": [
+        {
+          "time": "2026-10-10 15:00",
+          "view": 410,
+          "reply": 11,
+          "like": 22,
+          "coin": 42,
+          "favorite": 24,
+          "share": 0
         }
       ]
     }
   ],
-  "last_update": "2026-10-10 15:06:59",
+  "last_update": "2026-10-10 15:23:21",
   "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
