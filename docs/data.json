@@ -2841,6 +2841,15 @@
           "coin": 8931,
           "favorite": 5587,
           "share": 881
+        },
+        {
+          "time": "2026-10-14 10:00",
+          "view": 39404,
+          "reply": 4277,
+          "like": 5198,
+          "coin": 8949,
+          "favorite": 5599,
+          "share": 882
         }
       ]
     },
@@ -5649,6 +5658,15 @@
           "coin": 1563,
           "favorite": 788,
           "share": 245
+        },
+        {
+          "time": "2026-10-14 10:00",
+          "view": 2945,
+          "reply": 125,
+          "like": 799,
+          "coin": 1563,
+          "favorite": 788,
+          "share": 245
         }
       ]
     },
@@ -7674,6 +7692,15 @@
           "coin": 1144,
           "favorite": 575,
           "share": 167
+        },
+        {
+          "time": "2026-10-14 10:00",
+          "view": 2204,
+          "reply": 117,
+          "like": 596,
+          "coin": 1164,
+          "favorite": 585,
+          "share": 167
         }
       ]
     },
@@ -9357,6 +9384,15 @@
           "coin": 229,
           "favorite": 122,
           "share": 24
+        },
+        {
+          "time": "2026-10-14 10:00",
+          "view": 2033,
+          "reply": 34,
+          "like": 120,
+          "coin": 229,
+          "favorite": 122,
+          "share": 24
         }
       ]
     },
@@ -10437,6 +10473,15 @@
           "coin": 1199,
           "favorite": 653,
           "share": 403
+        },
+        {
+          "time": "2026-10-14 10:00",
+          "view": 6217,
+          "reply": 186,
+          "like": 637,
+          "coin": 1199,
+          "favorite": 653,
+          "share": 403
         }
       ]
     },
@@ -11454,6 +11499,15 @@
           "coin": 66,
           "favorite": 46,
           "share": 1
+        },
+        {
+          "time": "2026-10-14 10:00",
+          "view": 1942,
+          "reply": 17,
+          "like": 44,
+          "coin": 66,
+          "favorite": 46,
+          "share": 1
         }
       ]
     },
@@ -12282,6 +12336,15 @@
           "coin": 65,
           "favorite": 38,
           "share": 0
+        },
+        {
+          "time": "2026-10-14 10:00",
+          "view": 713,
+          "reply": 21,
+          "like": 37,
+          "coin": 65,
+          "favorite": 38,
+          "share": 0
         }
       ]
     },
@@ -12705,6 +12768,15 @@
           "coin": 85,
           "favorite": 43,
           "share": 24
+        },
+        {
+          "time": "2026-10-14 10:00",
+          "view": 1337,
+          "reply": 17,
+          "like": 44,
+          "coin": 85,
+          "favorite": 43,
+          "share": 24
         }
       ]
     },
@@ -12804,11 +12876,38 @@
           "coin": 90,
           "favorite": 52,
           "share": 11
+        },
+        {
+          "time": "2026-10-14 10:00",
+          "view": 732,
+          "reply": 19,
+          "like": 61,
+          "coin": 110,
+          "favorite": 62,
+          "share": 11
+        }
+      ]
+    },
+    {
+      "bvid": "BV1qAp36JEnW",
+      "sort_order": 10,
+      "title": "【秋叶ComfyUI整合包】最低8g显存也能流畅跑！MiniMaxH3使用教程25秒视频+4K画质+24FPS+全能参考模式，一键安装，解压即用（附整合包）",
+      "owner": "秋枽aaaki-",
+      "pubdate": 1791626882,
+      "history": [
+        {
+          "time": "2026-10-14 10:00",
+          "view": 375,
+          "reply": 11,
+          "like": 4,
+          "coin": 2,
+          "favorite": 6,
+          "share": 1
         }
       ]
     }
   ],
-  "last_update": "2026-10-14 09:23:23",
+  "last_update": "2026-10-14 10:10:34",
   "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
