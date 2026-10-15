@@ -3129,6 +3129,15 @@
           "coin": 9461,
           "favorite": 6037,
           "share": 899
+        },
+        {
+          "time": "2026-10-15 18:00",
+          "view": 45520,
+          "reply": 4929,
+          "like": 5592,
+          "coin": 9487,
+          "favorite": 6058,
+          "share": 949
         }
       ]
     },
@@ -6225,6 +6234,15 @@
           "coin": 1563,
           "favorite": 783,
           "share": 245
+        },
+        {
+          "time": "2026-10-15 18:00",
+          "view": 2948,
+          "reply": 125,
+          "like": 799,
+          "coin": 1563,
+          "favorite": 783,
+          "share": 245
         }
       ]
     },
@@ -8538,6 +8556,15 @@
           "coin": 1194,
           "favorite": 603,
           "share": 168
+        },
+        {
+          "time": "2026-10-15 18:00",
+          "view": 2318,
+          "reply": 143,
+          "like": 626,
+          "coin": 1218,
+          "favorite": 614,
+          "share": 188
         }
       ]
     },
@@ -9906,6 +9933,15 @@
           "coin": 1225,
           "favorite": 669,
           "share": 403
+        },
+        {
+          "time": "2026-10-15 18:00",
+          "view": 6499,
+          "reply": 207,
+          "like": 655,
+          "coin": 1225,
+          "favorite": 669,
+          "share": 403
         }
       ]
     },
@@ -11211,6 +11247,15 @@
           "coin": 66,
           "favorite": 45,
           "share": 1
+        },
+        {
+          "time": "2026-10-15 18:00",
+          "view": 1947,
+          "reply": 18,
+          "like": 44,
+          "coin": 66,
+          "favorite": 45,
+          "share": 1
         }
       ]
     },
@@ -12327,6 +12372,15 @@
           "coin": 65,
           "favorite": 38,
           "share": 0
+        },
+        {
+          "time": "2026-10-15 18:00",
+          "view": 716,
+          "reply": 23,
+          "like": 37,
+          "coin": 65,
+          "favorite": 38,
+          "share": 0
         }
       ]
     },
@@ -12714,6 +12768,15 @@
           "coin": 297,
           "favorite": 162,
           "share": 11
+        },
+        {
+          "time": "2026-10-15 18:00",
+          "view": 1232,
+          "reply": 43,
+          "like": 167,
+          "coin": 319,
+          "favorite": 173,
+          "share": 34
         }
       ]
     },
@@ -13011,6 +13074,15 @@
           "coin": 22,
           "favorite": 17,
           "share": 1
+        },
+        {
+          "time": "2026-10-15 18:00",
+          "view": 583,
+          "reply": 21,
+          "like": 35,
+          "coin": 64,
+          "favorite": 38,
+          "share": 1
         }
       ]
     },
@@ -13290,11 +13362,74 @@
           "coin": 83,
           "favorite": 67,
           "share": 0
+        },
+        {
+          "time": "2026-10-15 18:00",
+          "view": 679,
+          "reply": 21,
+          "like": 61,
+          "coin": 103,
+          "favorite": 77,
+          "share": 20
+        }
+      ]
+    },
+    {
+      "bvid": "BV1jwJ16MEEh",
+      "sort_order": 10,
+      "title": "Comfyui基础教学（从0开始的AI视频教程）",
+      "owner": "comfyui__",
+      "pubdate": 1792056169,
+      "history": [
+        {
+          "time": "2026-10-15 18:00",
+          "view": 51,
+          "reply": 1,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
+        }
+      ]
+    },
+    {
+      "bvid": "BV1d4p26SEjC",
+      "sort_order": 11,
+      "title": "2026全新comfyui从零到精通课程精讲版",
+      "owner": "秋業aaaki",
+      "pubdate": 1791969442,
+      "history": [
+        {
+          "time": "2026-10-15 18:00",
+          "view": 549,
+          "reply": 1,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
+        }
+      ]
+    },
+    {
+      "bvid": "BV1FSJy6jEdy",
+      "sort_order": 12,
+      "title": "【秋叶ComfyUI全教程】秋叶Comfyui整合包最新满血版无私分享！全面适配50 40 30显卡，Win+Mac零基础一键安装，秋叶comfyui整合包下载",
+      "owner": "秋枽aaaakil",
+      "pubdate": 1792054273,
+      "history": [
+        {
+          "time": "2026-10-15 18:00",
+          "view": 215,
+          "reply": 1,
+          "like": 20,
+          "coin": 40,
+          "favorite": 20,
+          "share": 0
         }
       ]
     }
   ],
-  "last_update": "2026-10-15 17:23:24",
+  "last_update": "2026-10-15 18:23:32",
   "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
