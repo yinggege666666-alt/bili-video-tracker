@@ -15859,7 +15859,7 @@
       ]
     }
   ],
-  "last_update": "2026-10-16 20:24:25",
-  "last_error": "获取 BV1MRad6dE16 失败：代理响应中没有 JSON；获取 BV1bnaA6MEri 失败：代理响应中没有 JSON；获取 BV1W4ac6xET2 失败：啥都木有",
+  "last_update": "2026-10-16 20:25:39",
+  "last_error": "获取 BV1MRad6dE16 失败：啥都木有；获取 BV1bnaA6MEri 失败：啥都木有；获取 BV1W4ac6xET2 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
