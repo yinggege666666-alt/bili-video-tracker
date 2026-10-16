@@ -3267,7 +3267,7 @@
         },
         {
           "time": "2026-10-16 09:00",
-          "view": 47726,
+          "view": 47738,
           "reply": 5214,
           "like": 5671,
           "coin": 9559,
@@ -14580,8 +14580,8 @@
         },
         {
           "time": "2026-10-16 09:00",
-          "view": 760,
-          "reply": 39,
+          "view": 761,
+          "reply": 40,
           "like": 90,
           "coin": 150,
           "favorite": 110,
@@ -14745,7 +14745,7 @@
     {
       "bvid": "BV1d4p26SEjC",
       "sort_order": 11,
-      "title": "2026全新comfyui从零到精通课程精讲版",
+      "title": "【秋叶ComfyUI整合包】最低8g显存也能流畅跑！MiniMaxH3使用教程25秒视频+4K画质+24FPS+全能参考模式，一键安装，解压即用（附整合包）",
       "owner": "秋業aaaki",
       "pubdate": 1791969442,
       "history": [
@@ -15049,7 +15049,7 @@
       ]
     }
   ],
-  "last_update": "2026-10-16 09:20:26",
+  "last_update": "2026-10-16 09:23:25",
   "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
