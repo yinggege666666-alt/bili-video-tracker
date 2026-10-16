@@ -9138,7 +9138,7 @@
     {
       "bvid": "BV1c6eb6MEzB",
       "sort_order": 4,
-      "title": "【秋叶ComfyUI】秋叶最新发布！ComfyUI V100中文整合包来了！支持50 40 30系显卡，Win+Mac一键下载安装（附新Comfyui整合包）",
+      "title": "【十月comfyui教程】全新Comfyui整合包最新中文版无私分享！全面适配50 40 30显卡，Win+Mac零基础一键安装，秋叶comfyui整合包下载",
       "owner": "comfyui--",
       "pubdate": 1790143200,
       "history": [
@@ -10697,6 +10697,15 @@
           "like": 678,
           "coin": 1268,
           "favorite": 697,
+          "share": 403
+        },
+        {
+          "time": "2026-10-16 16:00",
+          "view": 6671,
+          "reply": 222,
+          "like": 678,
+          "coin": 1268,
+          "favorite": 698,
           "share": 403
         }
       ]
@@ -14601,7 +14610,7 @@
     {
       "bvid": "BV1Lkpr6NEp1",
       "sort_order": 9,
-      "title": "【秋叶comfyui全教程】秋叶Comfyui整合包最新中文版无私分享！全面适配50 40 30显卡，Win+Mac零基础一键安装，秋叶comfyui整合包下载",
+      "title": "【十月comfyui教程】全新Comfyui整合包最新中文版无私分享！全面适配50 40 30显卡，Win+Mac零基础一键安装，秋叶comfyui整合包下载",
       "owner": "comfyui--",
       "pubdate": 1791948382,
       "history": [
@@ -15072,13 +15081,22 @@
           "coin": 150,
           "favorite": 116,
           "share": 20
+        },
+        {
+          "time": "2026-10-16 16:00",
+          "view": 818,
+          "reply": 46,
+          "like": 90,
+          "coin": 150,
+          "favorite": 116,
+          "share": 20
         }
       ]
     },
     {
       "bvid": "BV1jwJ16MEEh",
       "sort_order": 10,
-      "title": "【秋叶ComfyUI】2026最新版秋叶Comfyui整合包中文版无私分享！全面适配50 40 30系显卡，Win+Mac一键安装，秋叶comfyui整合包下载",
+      "title": "【ComfyUI】2026最新版秋叶Comfyui整合包中文版无私分享！全面适配50 40 30系显卡，Win+Mac一键安装，秋叶comfyui整合包下载",
       "owner": "comfyui__",
       "pubdate": 1792056169,
       "history": [
@@ -15274,6 +15292,15 @@
         {
           "time": "2026-10-16 15:00",
           "view": 675,
+          "reply": 5,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
+        },
+        {
+          "time": "2026-10-16 16:00",
+          "view": 677,
           "reply": 5,
           "like": 0,
           "coin": 0,
@@ -15742,7 +15769,7 @@
       ]
     }
   ],
-  "last_update": "2026-10-16 15:23:25",
-  "last_error": "",
+  "last_update": "2026-10-16 16:24:19",
+  "last_error": "获取 BV1MRad6dE16 失败：代理响应中没有 JSON；获取 BV1bnaA6MEri 失败：代理响应中没有 JSON；获取 BV1W4ac6xET2 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
