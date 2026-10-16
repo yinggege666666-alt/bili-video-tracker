@@ -3267,11 +3267,11 @@
         },
         {
           "time": "2026-10-16 09:00",
-          "view": 47738,
-          "reply": 5214,
+          "view": 47797,
+          "reply": 5218,
           "like": 5671,
           "coin": 9559,
-          "favorite": 6172,
+          "favorite": 6175,
           "share": 954
         }
       ]
@@ -10476,7 +10476,7 @@
         },
         {
           "time": "2026-10-16 09:00",
-          "view": 6643,
+          "view": 6645,
           "reply": 222,
           "like": 678,
           "coin": 1268,
@@ -13716,7 +13716,7 @@
         },
         {
           "time": "2026-10-16 09:00",
-          "view": 1646,
+          "view": 1652,
           "reply": 59,
           "like": 221,
           "coin": 423,
@@ -14580,11 +14580,11 @@
         },
         {
           "time": "2026-10-16 09:00",
-          "view": 761,
+          "view": 765,
           "reply": 40,
           "like": 90,
           "coin": 150,
-          "favorite": 110,
+          "favorite": 111,
           "share": 20
         }
       ]
@@ -14592,7 +14592,7 @@
     {
       "bvid": "BV1jwJ16MEEh",
       "sort_order": 10,
-      "title": "Comfyui基础教学（从0开始的AI视频教程）",
+      "title": "【秋叶ComfyUI】2026最新版秋叶Comfyui整合包中文版无私分享！全面适配50 40 30系显卡，Win+Mac一键安装，秋叶comfyui整合包下载",
       "owner": "comfyui__",
       "pubdate": 1792056169,
       "history": [
@@ -14733,8 +14733,8 @@
         },
         {
           "time": "2026-10-16 09:00",
-          "view": 668,
-          "reply": 2,
+          "view": 672,
+          "reply": 5,
           "like": 0,
           "coin": 0,
           "favorite": 0,
@@ -14886,7 +14886,7 @@
         },
         {
           "time": "2026-10-16 09:00",
-          "view": 551,
+          "view": 581,
           "reply": 1,
           "like": 0,
           "coin": 0,
@@ -15039,8 +15039,8 @@
         },
         {
           "time": "2026-10-16 09:00",
-          "view": 1047,
-          "reply": 1,
+          "view": 1048,
+          "reply": 0,
           "like": 20,
           "coin": 40,
           "favorite": 20,
@@ -15049,7 +15049,7 @@
       ]
     }
   ],
-  "last_update": "2026-10-16 09:23:25",
+  "last_update": "2026-10-16 09:40:53",
   "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
