@@ -11922,13 +11922,22 @@
           "coin": 156,
           "favorite": 123,
           "share": 20
+        },
+        {
+          "time": "2026-10-17 09:00",
+          "view": 953,
+          "reply": 54,
+          "like": 95,
+          "coin": 156,
+          "favorite": 123,
+          "share": 20
         }
       ]
     },
     {
       "bvid": "BV1jwJ16MEEh",
       "sort_order": 9,
-      "title": "【ComfyUI】2026最新版秋叶Comfyui整合包中文版无私分享！全面适配50 40 30系显卡，Win+Mac一键安装，秋叶comfyui整合包下载",
+      "title": "【ComfyUI】2026最新版Comfyui整合包中文版无私分享！全面适配50 40 30系显卡，Win+Mac一键安装，秋叶comfyui整合包下载",
       "owner": "comfyui__",
       "pubdate": 1792056169,
       "history": [
@@ -12277,6 +12286,15 @@
         {
           "time": "2026-10-17 08:00",
           "view": 681,
+          "reply": 5,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
+        },
+        {
+          "time": "2026-10-17 09:00",
+          "view": 682,
           "reply": 5,
           "like": 0,
           "coin": 0,
@@ -12745,7 +12763,7 @@
       ]
     }
   ],
-  "last_update": "2026-10-17 08:24:28",
+  "last_update": "2026-10-17 09:24:21",
   "last_error": "获取 BV1bnaA6MEri 失败：代理响应中没有 JSON；获取 BV1W4ac6xET2 失败：代理响应中没有 JSON；获取 BV1c6eb6MEzB 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
