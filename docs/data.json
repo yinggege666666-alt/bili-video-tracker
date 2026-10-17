@@ -12003,6 +12003,15 @@
           "coin": 179,
           "favorite": 140,
           "share": 20
+        },
+        {
+          "time": "2026-10-17 18:00",
+          "view": 1009,
+          "reply": 64,
+          "like": 108,
+          "coin": 179,
+          "favorite": 140,
+          "share": 20
         }
       ]
     },
@@ -12439,6 +12448,15 @@
         {
           "time": "2026-10-17 17:00",
           "view": 684,
+          "reply": 5,
+          "like": 20,
+          "coin": 18,
+          "favorite": 20,
+          "share": 30
+        },
+        {
+          "time": "2026-10-17 18:00",
+          "view": 685,
           "reply": 5,
           "like": 20,
           "coin": 18,
@@ -12905,9 +12923,45 @@
           "share": 0
         }
       ]
+    },
+    {
+      "bvid": "BV1V2Je6BErd",
+      "sort_order": 13,
+      "title": "【秋叶ComfyUI整合包】10月最新发布！零基础教教你用秋叶comfyui教程！最低8g显存可跑！全面适配50 40 30显卡，Win+Mac下载即用教程！",
+      "owner": "comfyuii",
+      "pubdate": 1792223326,
+      "history": [
+        {
+          "time": "2026-10-17 18:00",
+          "view": 427,
+          "reply": 1,
+          "like": 10,
+          "coin": 20,
+          "favorite": 10,
+          "share": 0
+        }
+      ]
+    },
+    {
+      "bvid": "BV12LJe6oE6T",
+      "sort_order": 14,
+      "title": "【ComfyUI教程】2026新版入门Comfyui整合包无私分享！全面适配50 40 30显卡，Win+Mac一键安装，解压即用（附零基精通教程）附整合包",
+      "owner": "-comfyui",
+      "pubdate": 1792228602,
+      "history": [
+        {
+          "time": "2026-10-17 18:00",
+          "view": 53,
+          "reply": 1,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
+        }
+      ]
     }
   ],
-  "last_update": "2026-10-17 17:24:15",
+  "last_update": "2026-10-17 18:24:23",
   "last_error": "获取 BV1bnaA6MEri 失败：代理响应中没有 JSON；获取 BV1W4ac6xET2 失败：代理响应中没有 JSON；获取 BV1c6eb6MEzB 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
