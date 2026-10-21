@@ -1,1511 +1,8 @@
 {
   "videos": [
     {
-      "bvid": "BV1Stp46EExi",
-      "sort_order": 1,
-      "title": "【秋叶ComfyUI全教程】Comfyui整合包最新vx旗舰版无私分享！全面适配50 40 30显卡，Win+Mac零基础一键安装，秋叶comfyui整合包下载",
-      "owner": "秋枽aaakil",
-      "pubdate": 1791534012,
-      "history": [
-        {
-          "time": "2026-10-09 18:00",
-          "view": 475,
-          "reply": 3,
-          "like": 21,
-          "coin": 42,
-          "favorite": 21,
-          "share": 1
-        },
-        {
-          "time": "2026-10-09 19:00",
-          "view": 481,
-          "reply": 3,
-          "like": 21,
-          "coin": 42,
-          "favorite": 21,
-          "share": 1
-        },
-        {
-          "time": "2026-10-09 20:00",
-          "view": 498,
-          "reply": 3,
-          "like": 21,
-          "coin": 42,
-          "favorite": 21,
-          "share": 1
-        },
-        {
-          "time": "2026-10-09 21:00",
-          "view": 512,
-          "reply": 3,
-          "like": 22,
-          "coin": 42,
-          "favorite": 21,
-          "share": 1
-        },
-        {
-          "time": "2026-10-09 22:00",
-          "view": 531,
-          "reply": 3,
-          "like": 22,
-          "coin": 42,
-          "favorite": 21,
-          "share": 1
-        },
-        {
-          "time": "2026-10-09 23:00",
-          "view": 570,
-          "reply": 3,
-          "like": 23,
-          "coin": 42,
-          "favorite": 22,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 00:00",
-          "view": 611,
-          "reply": 3,
-          "like": 23,
-          "coin": 42,
-          "favorite": 23,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 01:00",
-          "view": 977,
-          "reply": 3,
-          "like": 23,
-          "coin": 42,
-          "favorite": 23,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 02:00",
-          "view": 1045,
-          "reply": 3,
-          "like": 23,
-          "coin": 42,
-          "favorite": 23,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 03:00",
-          "view": 1056,
-          "reply": 3,
-          "like": 23,
-          "coin": 42,
-          "favorite": 23,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 04:00",
-          "view": 1056,
-          "reply": 3,
-          "like": 23,
-          "coin": 42,
-          "favorite": 23,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 05:00",
-          "view": 1058,
-          "reply": 3,
-          "like": 23,
-          "coin": 42,
-          "favorite": 23,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 06:00",
-          "view": 1060,
-          "reply": 3,
-          "like": 23,
-          "coin": 42,
-          "favorite": 23,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 07:00",
-          "view": 1067,
-          "reply": 3,
-          "like": 23,
-          "coin": 42,
-          "favorite": 25,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 08:00",
-          "view": 1085,
-          "reply": 3,
-          "like": 23,
-          "coin": 42,
-          "favorite": 25,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 09:00",
-          "view": 1096,
-          "reply": 3,
-          "like": 23,
-          "coin": 42,
-          "favorite": 26,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 10:00",
-          "view": 1109,
-          "reply": 3,
-          "like": 25,
-          "coin": 42,
-          "favorite": 27,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 11:00",
-          "view": 1125,
-          "reply": 4,
-          "like": 29,
-          "coin": 46,
-          "favorite": 30,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 12:00",
-          "view": 1132,
-          "reply": 4,
-          "like": 29,
-          "coin": 46,
-          "favorite": 31,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 13:00",
-          "view": 1154,
-          "reply": 5,
-          "like": 31,
-          "coin": 46,
-          "favorite": 34,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 14:00",
-          "view": 1166,
-          "reply": 6,
-          "like": 33,
-          "coin": 46,
-          "favorite": 35,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 15:00",
-          "view": 1188,
-          "reply": 8,
-          "like": 33,
-          "coin": 46,
-          "favorite": 36,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 16:00",
-          "view": 1198,
-          "reply": 9,
-          "like": 33,
-          "coin": 46,
-          "favorite": 37,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 17:00",
-          "view": 1210,
-          "reply": 11,
-          "like": 33,
-          "coin": 46,
-          "favorite": 37,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 18:00",
-          "view": 1239,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 47,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 19:00",
-          "view": 1286,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 47,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 20:00",
-          "view": 1365,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 21:00",
-          "view": 1501,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 22:00",
-          "view": 1502,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-10 23:00",
-          "view": 1532,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 00:00",
-          "view": 1586,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 01:00",
-          "view": 1647,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 02:00",
-          "view": 1712,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 03:00",
-          "view": 1753,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 04:00",
-          "view": 1819,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 05:00",
-          "view": 1894,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 06:00",
-          "view": 1924,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 07:00",
-          "view": 1924,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 08:00",
-          "view": 1924,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 09:00",
-          "view": 1925,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 10:00",
-          "view": 1925,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 11:00",
-          "view": 1925,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 12:00",
-          "view": 1926,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 13:00",
-          "view": 1926,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 14:00",
-          "view": 1926,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 15:00",
-          "view": 1926,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 16:00",
-          "view": 1927,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 17:00",
-          "view": 1927,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 18:00",
-          "view": 1927,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 19:00",
-          "view": 1927,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 20:00",
-          "view": 1927,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 21:00",
-          "view": 1927,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 22:00",
-          "view": 1928,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-11 23:00",
-          "view": 1928,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 00:00",
-          "view": 1928,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 01:00",
-          "view": 1928,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 02:00",
-          "view": 1928,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 03:00",
-          "view": 1928,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 04:00",
-          "view": 1928,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 05:00",
-          "view": 1928,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 06:00",
-          "view": 1928,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 07:00",
-          "view": 1928,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 08:00",
-          "view": 1928,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 09:00",
-          "view": 1929,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 10:00",
-          "view": 1929,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 11:00",
-          "view": 1929,
-          "reply": 13,
-          "like": 43,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 12:00",
-          "view": 1931,
-          "reply": 13,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 13:00",
-          "view": 1931,
-          "reply": 13,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 14:00",
-          "view": 1931,
-          "reply": 13,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 15:00",
-          "view": 1931,
-          "reply": 13,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 16:00",
-          "view": 1931,
-          "reply": 13,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 17:00",
-          "view": 1931,
-          "reply": 13,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 18:00",
-          "view": 1931,
-          "reply": 13,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 19:00",
-          "view": 1931,
-          "reply": 13,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 20:00",
-          "view": 1931,
-          "reply": 13,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 21:00",
-          "view": 1931,
-          "reply": 13,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 22:00",
-          "view": 1933,
-          "reply": 15,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-12 23:00",
-          "view": 1933,
-          "reply": 15,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 00:00",
-          "view": 1933,
-          "reply": 15,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 01:00",
-          "view": 1934,
-          "reply": 15,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 02:00",
-          "view": 1934,
-          "reply": 15,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 03:00",
-          "view": 1934,
-          "reply": 15,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 04:00",
-          "view": 1934,
-          "reply": 15,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 05:00",
-          "view": 1934,
-          "reply": 15,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 06:00",
-          "view": 1934,
-          "reply": 15,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 07:00",
-          "view": 1934,
-          "reply": 15,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 08:00",
-          "view": 1934,
-          "reply": 15,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 09:00",
-          "view": 1934,
-          "reply": 15,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 10:00",
-          "view": 1934,
-          "reply": 15,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 11:00",
-          "view": 1934,
-          "reply": 15,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 12:00",
-          "view": 1934,
-          "reply": 15,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 13:00",
-          "view": 1934,
-          "reply": 15,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 14:00",
-          "view": 1934,
-          "reply": 15,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 15:00",
-          "view": 1935,
-          "reply": 15,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 16:00",
-          "view": 1936,
-          "reply": 15,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 17:00",
-          "view": 1937,
-          "reply": 15,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 18:00",
-          "view": 1937,
-          "reply": 16,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 19:00",
-          "view": 1938,
-          "reply": 16,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 20:00",
-          "view": 1938,
-          "reply": 16,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 21:00",
-          "view": 1941,
-          "reply": 17,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 22:00",
-          "view": 1941,
-          "reply": 17,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-13 23:00",
-          "view": 1941,
-          "reply": 17,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 00:00",
-          "view": 1942,
-          "reply": 17,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 01:00",
-          "view": 1942,
-          "reply": 17,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 02:00",
-          "view": 1942,
-          "reply": 17,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 03:00",
-          "view": 1942,
-          "reply": 17,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 04:00",
-          "view": 1942,
-          "reply": 17,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 05:00",
-          "view": 1942,
-          "reply": 17,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 06:00",
-          "view": 1942,
-          "reply": 17,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 07:00",
-          "view": 1942,
-          "reply": 17,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 08:00",
-          "view": 1942,
-          "reply": 17,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 09:00",
-          "view": 1942,
-          "reply": 17,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 10:00",
-          "view": 1942,
-          "reply": 17,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 11:00",
-          "view": 1944,
-          "reply": 17,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 12:00",
-          "view": 1944,
-          "reply": 17,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 13:00",
-          "view": 1944,
-          "reply": 17,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 14:00",
-          "view": 1944,
-          "reply": 17,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 15:00",
-          "view": 1944,
-          "reply": 17,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 16:00",
-          "view": 1945,
-          "reply": 17,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 17:00",
-          "view": 1945,
-          "reply": 17,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 18:00",
-          "view": 1945,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 19:00",
-          "view": 1945,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 20:00",
-          "view": 1946,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 46,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 21:00",
-          "view": 1946,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 22:00",
-          "view": 1946,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-14 23:00",
-          "view": 1946,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 00:00",
-          "view": 1946,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 01:00",
-          "view": 1946,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 02:00",
-          "view": 1946,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 03:00",
-          "view": 1946,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 04:00",
-          "view": 1946,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 05:00",
-          "view": 1946,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 06:00",
-          "view": 1946,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 07:00",
-          "view": 1946,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 08:00",
-          "view": 1946,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 09:00",
-          "view": 1946,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 10:00",
-          "view": 1946,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 11:00",
-          "view": 1946,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 12:00",
-          "view": 1946,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 13:00",
-          "view": 1946,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 14:00",
-          "view": 1946,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 15:00",
-          "view": 1946,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 16:00",
-          "view": 1947,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 17:00",
-          "view": 1947,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 18:00",
-          "view": 1947,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 19:00",
-          "view": 1947,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 20:00",
-          "view": 1947,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 21:00",
-          "view": 1949,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 22:00",
-          "view": 1949,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-15 23:00",
-          "view": 1949,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-16 00:00",
-          "view": 1949,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-16 01:00",
-          "view": 1949,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-16 02:00",
-          "view": 1950,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-16 03:00",
-          "view": 1950,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-16 04:00",
-          "view": 1950,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-16 05:00",
-          "view": 1950,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-16 06:00",
-          "view": 1950,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-16 07:00",
-          "view": 1950,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-16 08:00",
-          "view": 1950,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-16 09:00",
-          "view": 1950,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-16 10:00",
-          "view": 1950,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-16 11:00",
-          "view": 1950,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-16 12:00",
-          "view": 1950,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-16 13:00",
-          "view": 1950,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-16 14:00",
-          "view": 1950,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        },
-        {
-          "time": "2026-10-16 15:00",
-          "view": 1950,
-          "reply": 18,
-          "like": 44,
-          "coin": 66,
-          "favorite": 45,
-          "share": 1
-        }
-      ]
-    },
-    {
       "bvid": "BV1CDaw6ZENc",
-      "sort_order": 2,
+      "sort_order": 1,
       "title": "【秋叶ComfyUI】秋叶最新发布！全中文界面支持中文提示词！全面适配50 40 30系显卡，Win+Mac一键安装，解压即用（附零基精通教程）效率直接拉满！",
       "owner": "秋枽aaakil",
       "pubdate": 1791543600,
@@ -2819,7 +1316,7 @@
     },
     {
       "bvid": "BV1Lkpr6NEp1",
-      "sort_order": 3,
+      "sort_order": 2,
       "title": "【秋叶ComfyUI教程】秋叶Comfyui整合包最新中文版教程来啦！全面适配50 40 30显卡，Win+Mac零基础一键安装，秋叶comfyui整合包下载",
       "owner": "comfyui--",
       "pubdate": 1791948382,
@@ -3957,12 +2454,21 @@
           "coin": 279,
           "favorite": 187,
           "share": 20
+        },
+        {
+          "time": "2026-10-21 18:00",
+          "view": 1638,
+          "reply": 68,
+          "like": 158,
+          "coin": 279,
+          "favorite": 187,
+          "share": 20
         }
       ]
     },
     {
       "bvid": "BV1jwJ16MEEh",
-      "sort_order": 4,
+      "sort_order": 3,
       "title": "【ComfyUI】2026最新版Comfyui整合包中文版无私分享！全面适配50 40 30系显卡，Win+Mac一键安装，秋叶comfyui整合包下载",
       "owner": "comfyui__",
       "pubdate": 1792056169,
@@ -4781,7 +3287,7 @@
     },
     {
       "bvid": "BV1d4p26SEjC",
-      "sort_order": 5,
+      "sort_order": 4,
       "title": "【秋叶ComfyUI整合包】最低8g显存也能流畅跑！MiniMaxH3使用教程25秒视频+4K画质+24FPS+全能参考模式，一键安装，解压即用（附整合包）",
       "owner": "秋業aaaki",
       "pubdate": 1791969442,
@@ -4988,7 +3494,7 @@
     },
     {
       "bvid": "BV1FSJy6jEdy",
-      "sort_order": 6,
+      "sort_order": 5,
       "title": "【秋叶ComfyUI全教程】秋叶Comfyui整合包最新满血版无私分享！全面适配50 40 30显卡，Win+Mac零基础一键安装，秋叶comfyui整合包下载",
       "owner": "秋僷aaakil",
       "pubdate": 1792054273,
@@ -5195,7 +3701,7 @@
     },
     {
       "bvid": "BV1vdJQ6WE3N",
-      "sort_order": 7,
+      "sort_order": 6,
       "title": "【秋叶ComfyUI教程】2027新版秋叶Comfyui整合包无私分享！全面适配50 40 30显卡，Win+Mac一键安装，解压即用（附零基精通教程）附整合包",
       "owner": "秋枽aaaki_",
       "pubdate": 1792117056,
@@ -5240,7 +3746,7 @@
     },
     {
       "bvid": "BV1V2Je6BErd",
-      "sort_order": 8,
+      "sort_order": 7,
       "title": "【秋叶ComfyUI整合包】10月最新发布！零基础教教你用秋叶comfyui教程！最低8g显存可跑！全面适配50 40 30显卡，Win+Mac下载即用教程！",
       "owner": "comfyuii",
       "pubdate": 1792223326,
@@ -6108,12 +4614,21 @@
           "coin": 22,
           "favorite": 10,
           "share": 0
+        },
+        {
+          "time": "2026-10-21 18:00",
+          "view": 884,
+          "reply": 5,
+          "like": 11,
+          "coin": 22,
+          "favorite": 10,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV13EnG63Eeo",
-      "sort_order": 9,
+      "sort_order": 8,
       "title": "【2026最新版】这绝对是B站最全面的最系统的ComfyUI+SD教程，ComfyUI零基础到精通，全程干货小白必看！ComfyUI下载+安装教程（附整合包）",
       "owner": "comfyui_",
       "pubdate": 1792313346,
@@ -6351,12 +4866,21 @@
           "coin": 22,
           "favorite": 14,
           "share": 0
+        },
+        {
+          "time": "2026-10-21 18:00",
+          "view": 944,
+          "reply": 1,
+          "like": 14,
+          "coin": 22,
+          "favorite": 14,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1Ktng64EgE",
-      "sort_order": 10,
+      "sort_order": 9,
       "title": "【秋叶ComfyUI教程】教你用8G显存流畅跑AI漫剧！秋叶ComfyUI零基础入门教程，150S长视频+2K画质+图生图+图生视频+AI漫剧制作（附整合包）",
       "owner": "_comfyui_",
       "pubdate": 1792303090,
@@ -6594,12 +5118,21 @@
           "coin": 0,
           "favorite": 1,
           "share": 0
+        },
+        {
+          "time": "2026-10-21 18:00",
+          "view": 756,
+          "reply": 1,
+          "like": 1,
+          "coin": 0,
+          "favorite": 1,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1EDnq6xECp",
-      "sort_order": 11,
+      "sort_order": 10,
       "title": "【秋叶ComfyUI教程】秋叶Comfyui整合包最新中文版无私分享！全面适配50 40 30显卡，Win+Mac零基础一键安装，秋叶comfyui整合包下载",
       "owner": "comfyuii",
       "pubdate": 1792559077,
@@ -6648,12 +5181,21 @@
           "coin": 40,
           "favorite": 22,
           "share": 0
+        },
+        {
+          "time": "2026-10-21 18:00",
+          "view": 862,
+          "reply": 1,
+          "like": 23,
+          "coin": 40,
+          "favorite": 22,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1WBnq6eE5J",
-      "sort_order": 12,
+      "sort_order": 11,
       "title": "【2026最全面ComfyUI教程】从零基础到精通（2026新手入门实用版comfyui教程）详细从零开始学习AI绘画comfyui工作流搭建，全程干货无废话！",
       "owner": "comfyui_",
       "pubdate": 1792565063,
@@ -6675,12 +5217,21 @@
           "coin": 0,
           "favorite": 0,
           "share": 0
+        },
+        {
+          "time": "2026-10-21 18:00",
+          "view": 526,
+          "reply": 1,
+          "like": 18,
+          "coin": 20,
+          "favorite": 18,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1Gwni6gEgK",
-      "sort_order": 13,
+      "sort_order": 12,
       "title": "【2026最全面ComfyUI教程】从零基础到精通（2026新手入门实用版comfyui教程）详细从零开始学习AI绘画comfyui工作流搭建，全程干货无废话！",
       "owner": "_comfyui_",
       "pubdate": 1792548594,
@@ -6702,12 +5253,21 @@
           "coin": 20,
           "favorite": 12,
           "share": 0
+        },
+        {
+          "time": "2026-10-21 18:00",
+          "view": 529,
+          "reply": 1,
+          "like": 12,
+          "coin": 20,
+          "favorite": 12,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV12LJe6oE6T",
-      "sort_order": 14,
+      "sort_order": 13,
       "title": "【ComfyUI教程】2026新版入门Comfyui整合包无私分享！全面适配50 40 30显卡，Win+Mac一键安装，解压即用（附零基精通教程）附整合包",
       "owner": "-comfyui",
       "pubdate": 1792228602,
@@ -6720,11 +5280,38 @@
           "coin": 0,
           "favorite": 2,
           "share": 1
+        },
+        {
+          "time": "2026-10-21 18:00",
+          "view": 1549,
+          "reply": 2,
+          "like": 1,
+          "coin": 0,
+          "favorite": 2,
+          "share": 1
+        }
+      ]
+    },
+    {
+      "bvid": "BV1oSnv6EEYy",
+      "sort_order": 14,
+      "title": "【2026最全面ComfyUI教程】从零基础到精通（2026新手入门实用版comfyui教程）详细从零开始学习AI绘画comfyui工作流搭建，全程干货无废话！",
+      "owner": "comfyui零基础教程-",
+      "pubdate": 1792546442,
+      "history": [
+        {
+          "time": "2026-10-21 18:00",
+          "view": 527,
+          "reply": 1,
+          "like": 11,
+          "coin": 20,
+          "favorite": 11,
+          "share": 0
         }
       ]
     }
   ],
-  "last_update": "2026-10-21 17:24:05",
-  "last_error": "获取 BV1Stp46EExi 失败：代理响应中没有 JSON；获取 BV1CDaw6ZENc 失败：代理响应中没有 JSON；获取 BV1jwJ16MEEh 失败：代理响应中没有 JSON",
+  "last_update": "2026-10-21 18:24:08",
+  "last_error": "获取 BV1CDaw6ZENc 失败：代理响应中没有 JSON；获取 BV1jwJ16MEEh 失败：代理响应中没有 JSON；获取 BV1d4p26SEjC 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
