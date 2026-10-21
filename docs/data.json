@@ -9096,6 +9096,15 @@
           "coin": 179,
           "favorite": 137,
           "share": 20
+        },
+        {
+          "time": "2026-10-21 13:00",
+          "view": 1023,
+          "reply": 67,
+          "like": 108,
+          "coin": 179,
+          "favorite": 137,
+          "share": 20
         }
       ]
     },
@@ -11202,6 +11211,15 @@
           "coin": 22,
           "favorite": 10,
           "share": 0
+        },
+        {
+          "time": "2026-10-21 13:00",
+          "view": 883,
+          "reply": 5,
+          "like": 11,
+          "coin": 22,
+          "favorite": 10,
+          "share": 0
         }
       ]
     },
@@ -12030,6 +12048,15 @@
           "coin": 0,
           "favorite": 2,
           "share": 1
+        },
+        {
+          "time": "2026-10-21 13:00",
+          "view": 1539,
+          "reply": 4,
+          "like": 1,
+          "coin": 0,
+          "favorite": 2,
+          "share": 1
         }
       ]
     },
@@ -12223,6 +12250,15 @@
         {
           "time": "2026-10-21 12:00",
           "view": 675,
+          "reply": 1,
+          "like": 14,
+          "coin": 22,
+          "favorite": 14,
+          "share": 0
+        },
+        {
+          "time": "2026-10-21 13:00",
+          "view": 723,
           "reply": 1,
           "like": 14,
           "coin": 22,
@@ -12426,11 +12462,38 @@
           "coin": 0,
           "favorite": 1,
           "share": 0
+        },
+        {
+          "time": "2026-10-21 13:00",
+          "view": 755,
+          "reply": 1,
+          "like": 1,
+          "coin": 0,
+          "favorite": 1,
+          "share": 0
+        }
+      ]
+    },
+    {
+      "bvid": "BV1EDnq6xECp",
+      "sort_order": 16,
+      "title": "【秋叶ComfyUI教程】秋叶Comfyui整合包最新中文版无私分享！全面适配50 40 30显卡，Win+Mac零基础一键安装，秋叶comfyui整合包下载",
+      "owner": "comfyuii",
+      "pubdate": 1792559077,
+      "history": [
+        {
+          "time": "2026-10-21 13:00",
+          "view": 4,
+          "reply": 1,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
         }
       ]
     }
   ],
-  "last_update": "2026-10-21 12:24:31",
+  "last_update": "2026-10-21 13:24:26",
   "last_error": "获取 BV1W4ac6xET2 失败：代理响应中没有 JSON；获取 BV1c6eb6MEzB 失败：代理响应中没有 JSON；获取 BV1Stp46EExi 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
