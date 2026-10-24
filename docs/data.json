@@ -1318,7 +1318,7 @@
       "bvid": "BV1Lkpr6NEp1",
       "sort_order": 2,
       "title": "【秋叶ComfyUI教程】秋叶Comfyui整合包最新中文版教程来啦！全面适配50 40 30显卡，Win+Mac零基础一键安装，秋叶comfyui整合包下载",
-      "owner": "comfyui--",
+      "owner": "comfyui部署安装",
       "pubdate": 1791948382,
       "history": [
         {
@@ -3118,7 +3118,7 @@
       "bvid": "BV1V2Je6BErd",
       "sort_order": 3,
       "title": "【秋叶ComfyUI整合包】10月最新发布！零基础教教你用秋叶comfyui教程！最低8g显存可跑！全面适配50 40 30显卡，Win+Mac下载即用教程！",
-      "owner": "comfyuii",
+      "owner": "-comfyui整合包-",
       "pubdate": 1792223326,
       "history": [
         {
@@ -4635,7 +4635,7 @@
         },
         {
           "time": "2026-10-24 18:00",
-          "view": 2005,
+          "view": 2069,
           "reply": 5,
           "like": 11,
           "coin": 22,
@@ -5359,7 +5359,7 @@
       "bvid": "BV1EDnq6xECp",
       "sort_order": 5,
       "title": "【秋叶ComfyUI教程】秋叶Comfyui整合包最新中文版无私分享！全面适配50 40 30显卡，Win+Mac零基础一键安装，秋叶comfyui整合包下载",
-      "owner": "comfyuii",
+      "owner": "-comfyui整合包-",
       "pubdate": 1792559077,
       "history": [
         {
@@ -9049,7 +9049,7 @@
       "bvid": "BV1Ehn46bEBY",
       "sort_order": 11,
       "title": "【秋叶ComfyUI教程】教你用8G显存流畅跑AI漫剧！秋叶ComfyUI零基础入门教程，150S长视频+2K画质+图生图+图生视频+AI漫剧制作（附整合包）",
-      "owner": "comfyuii",
+      "owner": "-comfyui整合包-",
       "pubdate": 1792732692,
       "history": [
         {
@@ -9316,7 +9316,7 @@
         {
           "time": "2026-10-24 18:00",
           "view": 1063,
-          "reply": 2,
+          "reply": 3,
           "like": 14,
           "coin": 20,
           "favorite": 13,
@@ -9602,7 +9602,7 @@
       "history": [
         {
           "time": "2026-10-24 18:00",
-          "view": 546,
+          "view": 612,
           "reply": 3,
           "like": 15,
           "coin": 26,
@@ -9615,12 +9615,12 @@
       "bvid": "BV122HK6DERg",
       "sort_order": 15,
       "title": "【秋叶ComfyUI教程】秋叶Comfyui整合包最新中文版教程来啦！全面适配50 40 30显卡，Win+Mac零基础一键安装，秋叶comfyui整合包下载",
-      "owner": "comfyui--",
+      "owner": "comfyui部署安装",
       "pubdate": 1792836315,
       "history": [
         {
           "time": "2026-10-24 18:00",
-          "view": 109,
+          "view": 402,
           "reply": 1,
           "like": 0,
           "coin": 0,
@@ -9638,9 +9638,9 @@
       "history": [
         {
           "time": "2026-10-24 18:00",
-          "view": 33951,
-          "reply": 2386,
-          "like": 1234,
+          "view": 33958,
+          "reply": 2387,
+          "like": 1235,
           "coin": 1523,
           "favorite": 1797,
           "share": 215
@@ -9674,7 +9674,7 @@
       "history": [
         {
           "time": "2026-10-24 18:00",
-          "view": 3981,
+          "view": 4155,
           "reply": 113,
           "like": 197,
           "coin": 244,
@@ -9692,7 +9692,7 @@
       "history": [
         {
           "time": "2026-10-24 18:00",
-          "view": 3059,
+          "view": 3061,
           "reply": 98,
           "like": 191,
           "coin": 194,
@@ -9702,7 +9702,7 @@
       ]
     }
   ],
-  "last_update": "2026-10-24 18:24:10",
+  "last_update": "2026-10-24 19:00:14",
   "last_error": "获取 BV1CDaw6ZENc 失败：代理响应中没有 JSON；获取 BV13EnG63Eeo 失败：代理响应中没有 JSON；获取 BV1hiHK6bEnR 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
