@@ -10926,7 +10926,7 @@
         },
         {
           "time": "2026-10-25 09:00",
-          "view": 731,
+          "view": 732,
           "reply": 9,
           "like": 14,
           "coin": 24,
@@ -11061,8 +11061,8 @@
         },
         {
           "time": "2026-10-25 09:00",
-          "view": 117,
-          "reply": 4,
+          "view": 122,
+          "reply": 7,
           "like": 2,
           "coin": 2,
           "favorite": 2,
@@ -11367,8 +11367,8 @@
         },
         {
           "time": "2026-10-25 09:00",
-          "view": 1606,
-          "reply": 5,
+          "view": 1609,
+          "reply": 2,
           "like": 23,
           "coin": 22,
           "favorite": 23,
@@ -11520,7 +11520,7 @@
         },
         {
           "time": "2026-10-25 09:00",
-          "view": 34131,
+          "view": 34133,
           "reply": 2393,
           "like": 1239,
           "coin": 1526,
@@ -11826,7 +11826,7 @@
         },
         {
           "time": "2026-10-25 09:00",
-          "view": 4639,
+          "view": 4641,
           "reply": 115,
           "like": 199,
           "coin": 248,
@@ -11979,17 +11979,17 @@
         },
         {
           "time": "2026-10-25 09:00",
-          "view": 3337,
-          "reply": 101,
-          "like": 193,
-          "coin": 195,
-          "favorite": 241,
-          "share": 43
+          "view": 3340,
+          "reply": 102,
+          "like": 206,
+          "coin": 209,
+          "favorite": 253,
+          "share": 46
         }
       ]
     }
   ],
-  "last_update": "2026-10-25 09:12:18",
+  "last_update": "2026-10-25 09:23:40",
   "last_error": "获取 BV1CDaw6ZENc 失败：代理响应中没有 JSON；获取 BV13EnG63Eeo 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
