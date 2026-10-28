@@ -16128,7 +16128,7 @@
         },
         {
           "time": "2026-10-28 21:00",
-          "view": 35393,
+          "view": 35397,
           "reply": 2500,
           "like": 1276,
           "coin": 1555,
@@ -17946,7 +17946,7 @@
         },
         {
           "time": "2026-10-28 21:00",
-          "view": 5071,
+          "view": 5072,
           "reply": 131,
           "like": 202,
           "coin": 251,
@@ -18855,11 +18855,11 @@
         },
         {
           "time": "2026-10-28 21:00",
-          "view": 3771,
-          "reply": 124,
-          "like": 214,
+          "view": 3773,
+          "reply": 125,
+          "like": 215,
           "coin": 215,
-          "favorite": 266,
+          "favorite": 267,
           "share": 47
         }
       ]
@@ -21942,7 +21942,7 @@
         },
         {
           "time": "2026-10-28 21:00",
-          "view": 504,
+          "view": 512,
           "reply": 1,
           "like": 2,
           "coin": 0,
@@ -22059,7 +22059,7 @@
         },
         {
           "time": "2026-10-28 21:00",
-          "view": 479,
+          "view": 488,
           "reply": 1,
           "like": 1,
           "coin": 0,
@@ -22383,7 +22383,7 @@
         },
         {
           "time": "2026-10-28 21:00",
-          "view": 480,
+          "view": 488,
           "reply": 1,
           "like": 1,
           "coin": 0,
@@ -22446,7 +22446,7 @@
         },
         {
           "time": "2026-10-28 21:00",
-          "view": 249,
+          "view": 259,
           "reply": 1,
           "like": 0,
           "coin": 0,
@@ -22491,7 +22491,7 @@
         },
         {
           "time": "2026-10-28 21:00",
-          "view": 229,
+          "view": 231,
           "reply": 1,
           "like": 12,
           "coin": 20,
@@ -22536,7 +22536,7 @@
         },
         {
           "time": "2026-10-28 21:00",
-          "view": 167,
+          "view": 175,
           "reply": 1,
           "like": 0,
           "coin": 0,
@@ -22546,7 +22546,7 @@
       ]
     }
   ],
-  "last_update": "2026-10-28 21:23:55",
-  "last_error": "获取 BV1CDaw6ZENc 失败：代理响应中没有 JSON；获取 BV12mn168EKR 失败：代理响应中没有 JSON；获取 BV1Ehn46bEBY 失败：稿件不可见",
+  "last_update": "2026-10-28 21:34:12",
+  "last_error": "获取 BV1CDaw6ZENc 失败：代理响应中没有 JSON；获取 BV12mn168EKR 失败：代理响应中没有 JSON；获取 BV1Ehn46bEBY 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
