@@ -4650,6 +4650,15 @@
           "coin": 319,
           "favorite": 211,
           "share": 20
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 5071,
+          "reply": 71,
+          "like": 185,
+          "coin": 319,
+          "favorite": 212,
+          "share": 21
         }
       ]
     },
@@ -6867,6 +6876,15 @@
         },
         {
           "time": "2026-10-31 22:00",
+          "view": 1048,
+          "reply": 5,
+          "like": 22,
+          "coin": 22,
+          "favorite": 22,
+          "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
           "view": 1048,
           "reply": 5,
           "like": 22,
@@ -9096,6 +9114,15 @@
           "coin": 20,
           "favorite": 12,
           "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 866,
+          "reply": 3,
+          "like": 12,
+          "coin": 20,
+          "favorite": 12,
+          "share": 0
         }
       ]
     },
@@ -11295,6 +11322,15 @@
         },
         {
           "time": "2026-10-31 22:00",
+          "view": 828,
+          "reply": 6,
+          "like": 13,
+          "coin": 21,
+          "favorite": 13,
+          "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
           "view": 828,
           "reply": 6,
           "like": 13,
@@ -13956,6 +13992,15 @@
           "coin": 22,
           "favorite": 15,
           "share": 1
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 899,
+          "reply": 3,
+          "like": 16,
+          "coin": 22,
+          "favorite": 15,
+          "share": 1
         }
       ]
     },
@@ -16404,6 +16449,15 @@
           "coin": 24,
           "favorite": 15,
           "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 751,
+          "reply": 10,
+          "like": 14,
+          "coin": 24,
+          "favorite": 15,
+          "share": 0
         }
       ]
     },
@@ -17938,6 +17992,15 @@
         {
           "time": "2026-10-31 22:00",
           "view": 4058,
+          "reply": 23,
+          "like": 60,
+          "coin": 86,
+          "favorite": 82,
+          "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 4162,
           "reply": 23,
           "like": 60,
           "coin": 86,
@@ -19500,6 +19563,15 @@
           "coin": 26,
           "favorite": 16,
           "share": 2
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 896,
+          "reply": 7,
+          "like": 17,
+          "coin": 26,
+          "favorite": 16,
+          "share": 2
         }
       ]
     },
@@ -21051,6 +21123,15 @@
         },
         {
           "time": "2026-10-31 22:00",
+          "view": 3607,
+          "reply": 26,
+          "like": 28,
+          "coin": 25,
+          "favorite": 28,
+          "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
           "view": 3607,
           "reply": 26,
           "like": 28,
@@ -22614,6 +22695,15 @@
           "coin": 1589,
           "favorite": 1906,
           "share": 222
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 36562,
+          "reply": 2580,
+          "like": 1314,
+          "coin": 1591,
+          "favorite": 1907,
+          "share": 222
         }
       ]
     },
@@ -24165,6 +24255,15 @@
         },
         {
           "time": "2026-10-31 22:00",
+          "view": 1780,
+          "reply": 88,
+          "like": 103,
+          "coin": 76,
+          "favorite": 131,
+          "share": 7
+        },
+        {
+          "time": "2026-10-31 23:00",
           "view": 1780,
           "reply": 88,
           "like": 103,
@@ -25728,6 +25827,15 @@
           "coin": 251,
           "favorite": 255,
           "share": 35
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 5174,
+          "reply": 134,
+          "like": 202,
+          "coin": 251,
+          "favorite": 255,
+          "share": 35
         }
       ]
     },
@@ -27285,6 +27393,15 @@
           "coin": 221,
           "favorite": 273,
           "share": 47
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 3921,
+          "reply": 131,
+          "like": 220,
+          "coin": 221,
+          "favorite": 273,
+          "share": 47
         }
       ]
     },
@@ -28665,6 +28782,15 @@
         },
         {
           "time": "2026-10-31 22:00",
+          "view": 635,
+          "reply": 1,
+          "like": 11,
+          "coin": 20,
+          "favorite": 14,
+          "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
           "view": 635,
           "reply": 1,
           "like": 11,
@@ -30930,6 +31056,15 @@
           "coin": 2,
           "favorite": 1,
           "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 6,
+          "reply": 2,
+          "like": 1,
+          "coin": 2,
+          "favorite": 1,
+          "share": 0
         }
       ]
     },
@@ -32244,6 +32379,15 @@
           "coin": 4,
           "favorite": 2,
           "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 37,
+          "reply": 0,
+          "like": 2,
+          "coin": 4,
+          "favorite": 2,
+          "share": 0
         }
       ]
     },
@@ -33117,6 +33261,15 @@
           "coin": 62,
           "favorite": 37,
           "share": 1
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 2854,
+          "reply": 4,
+          "like": 33,
+          "coin": 62,
+          "favorite": 37,
+          "share": 1
         }
       ]
     },
@@ -33877,6 +34030,15 @@
         {
           "time": "2026-10-31 22:00",
           "view": 660,
+          "reply": 2,
+          "like": 3,
+          "coin": 0,
+          "favorite": 1,
+          "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 661,
           "reply": 2,
           "like": 3,
           "coin": 0,
@@ -34647,6 +34809,15 @@
           "coin": 0,
           "favorite": 2,
           "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 661,
+          "reply": 1,
+          "like": 1,
+          "coin": 0,
+          "favorite": 2,
+          "share": 0
         }
       ]
     },
@@ -35403,6 +35574,15 @@
           "coin": 26,
           "favorite": 18,
           "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 1585,
+          "reply": 5,
+          "like": 18,
+          "coin": 26,
+          "favorite": 18,
+          "share": 0
         }
       ]
     },
@@ -36153,6 +36333,15 @@
         },
         {
           "time": "2026-10-31 22:00",
+          "view": 14,
+          "reply": 1,
+          "like": 0,
+          "coin": 0,
+          "favorite": 1,
+          "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
           "view": 14,
           "reply": 1,
           "like": 0,
@@ -36915,6 +37104,15 @@
           "coin": 0,
           "favorite": 1,
           "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 650,
+          "reply": 1,
+          "like": 1,
+          "coin": 0,
+          "favorite": 1,
+          "share": 0
         }
       ]
     },
@@ -37626,6 +37824,15 @@
           "coin": 0,
           "favorite": 0,
           "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 757,
+          "reply": 3,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
         }
       ]
     },
@@ -38314,6 +38521,15 @@
         {
           "time": "2026-10-31 22:00",
           "view": 560,
+          "reply": 6,
+          "like": 14,
+          "coin": 20,
+          "favorite": 18,
+          "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 563,
           "reply": 6,
           "like": 14,
           "coin": 20,
@@ -39012,6 +39228,15 @@
           "coin": 0,
           "favorite": 2,
           "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 908,
+          "reply": 3,
+          "like": 1,
+          "coin": 0,
+          "favorite": 2,
+          "share": 0
         }
       ]
     },
@@ -39498,6 +39723,15 @@
           "coin": 192,
           "favorite": 132,
           "share": 15
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 1023,
+          "reply": 194,
+          "like": 119,
+          "coin": 192,
+          "favorite": 133,
+          "share": 15
         }
       ]
     },
@@ -39975,6 +40209,15 @@
           "coin": 0,
           "favorite": 0,
           "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 57,
+          "reply": 0,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
         }
       ]
     },
@@ -40443,6 +40686,15 @@
           "coin": 0,
           "favorite": 1,
           "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 596,
+          "reply": 1,
+          "like": 0,
+          "coin": 0,
+          "favorite": 1,
+          "share": 0
         }
       ]
     },
@@ -40902,6 +41154,15 @@
           "coin": 20,
           "favorite": 11,
           "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 549,
+          "reply": 3,
+          "like": 11,
+          "coin": 20,
+          "favorite": 11,
+          "share": 0
         }
       ]
     },
@@ -41252,6 +41513,15 @@
           "coin": 0,
           "favorite": 0,
           "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 18,
+          "reply": 0,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
         }
       ]
     },
@@ -41513,6 +41783,15 @@
           "coin": 0,
           "favorite": 0,
           "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 20,
+          "reply": 0,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
         }
       ]
     },
@@ -41765,6 +42044,15 @@
           "coin": 0,
           "favorite": 0,
           "share": 0
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 129,
+          "reply": 1,
+          "like": 1,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
         }
       ]
     },
@@ -41846,11 +42134,20 @@
           "coin": 101,
           "favorite": 120,
           "share": 25
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "view": 2200,
+          "reply": 28,
+          "like": 127,
+          "coin": 101,
+          "favorite": 120,
+          "share": 25
         }
       ]
     }
   ],
-  "last_update": "2026-10-31 22:24:25",
+  "last_update": "2026-10-31 23:24:20",
   "last_error": "获取 BV1CDaw6ZENc 失败：代理响应中没有 JSON；获取 BV12mn168EKR 失败：代理响应中没有 JSON；获取 BV1Ehn46bEBY 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
