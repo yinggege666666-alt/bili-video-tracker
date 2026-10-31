@@ -20484,7 +20484,7 @@
         },
         {
           "time": "2026-10-31 15:00",
-          "view": 3446,
+          "view": 3460,
           "reply": 26,
           "like": 28,
           "coin": 25,
@@ -21978,7 +21978,7 @@
         },
         {
           "time": "2026-10-31 15:00",
-          "view": 36409,
+          "view": 36410,
           "reply": 2560,
           "like": 1309,
           "coin": 1587,
@@ -24966,7 +24966,7 @@
         },
         {
           "time": "2026-10-31 15:00",
-          "view": 5166,
+          "view": 5168,
           "reply": 134,
           "like": 202,
           "coin": 251,
@@ -32040,7 +32040,7 @@
         },
         {
           "time": "2026-10-31 15:00",
-          "view": 2825,
+          "view": 2826,
           "reply": 4,
           "like": 33,
           "coin": 62,
@@ -34137,7 +34137,7 @@
         },
         {
           "time": "2026-10-31 15:00",
-          "view": 1516,
+          "view": 1519,
           "reply": 5,
           "like": 18,
           "coin": 26,
@@ -37854,7 +37854,7 @@
         },
         {
           "time": "2026-10-31 15:00",
-          "view": 767,
+          "view": 770,
           "reply": 94,
           "like": 57,
           "coin": 88,
@@ -39069,7 +39069,7 @@
         },
         {
           "time": "2026-10-31 15:00",
-          "view": 545,
+          "view": 546,
           "reply": 3,
           "like": 11,
           "coin": 20,
@@ -39751,9 +39751,27 @@
           "share": 0
         }
       ]
+    },
+    {
+      "bvid": "BV1LDxa6UEMA",
+      "sort_order": 38,
+      "title": "【秋叶ComfyUI教程】教你用8G显存流畅跑60秒AI长视频！文生图 | 图生视频 | AI漫剧 |无线画布最适合萌新入门SD+ComfyUI全套教程！",
+      "owner": "MiniMax-H3模型",
+      "pubdate": 1793341037,
+      "history": [
+        {
+          "time": "2026-10-31 15:00",
+          "view": 2065,
+          "reply": 24,
+          "like": 126,
+          "coin": 101,
+          "favorite": 63,
+          "share": 19
+        }
+      ]
     }
   ],
-  "last_update": "2026-10-31 15:24:13",
-  "last_error": "获取 BV1CDaw6ZENc 失败：代理响应中没有 JSON；获取 BV12mn168EKR 失败：代理响应中没有 JSON；获取 BV1Ehn46bEBY 失败：代理响应中没有 JSON",
+  "last_update": "2026-10-31 15:32:22",
+  "last_error": "获取 BV1CDaw6ZENc 失败：代理响应中没有 JSON；获取 BV12mn168EKR 失败：稿件不可见；获取 BV1Ehn46bEBY 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
