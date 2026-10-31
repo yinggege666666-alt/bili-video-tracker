@@ -18000,7 +18000,7 @@
         },
         {
           "time": "2026-10-31 23:00",
-          "view": 4162,
+          "view": 4255,
           "reply": 23,
           "like": 60,
           "coin": 86,
@@ -21132,7 +21132,7 @@
         },
         {
           "time": "2026-10-31 23:00",
-          "view": 3607,
+          "view": 3608,
           "reply": 26,
           "like": 28,
           "coin": 25,
@@ -22698,12 +22698,12 @@
         },
         {
           "time": "2026-10-31 23:00",
-          "view": 36562,
+          "view": 36568,
           "reply": 2580,
           "like": 1314,
           "coin": 1591,
-          "favorite": 1907,
-          "share": 222
+          "favorite": 1908,
+          "share": 223
         }
       ]
     },
@@ -35577,8 +35577,8 @@
         },
         {
           "time": "2026-10-31 23:00",
-          "view": 1585,
-          "reply": 5,
+          "view": 1590,
+          "reply": 6,
           "like": 18,
           "coin": 26,
           "favorite": 18,
@@ -38529,7 +38529,7 @@
         },
         {
           "time": "2026-10-31 23:00",
-          "view": 563,
+          "view": 568,
           "reply": 6,
           "like": 14,
           "coin": 20,
@@ -39726,11 +39726,11 @@
         },
         {
           "time": "2026-10-31 23:00",
-          "view": 1023,
+          "view": 1034,
           "reply": 194,
           "like": 119,
           "coin": 192,
-          "favorite": 133,
+          "favorite": 135,
           "share": 15
         }
       ]
@@ -42137,7 +42137,7 @@
         },
         {
           "time": "2026-10-31 23:00",
-          "view": 2200,
+          "view": 2297,
           "reply": 28,
           "like": 127,
           "coin": 101,
@@ -42147,7 +42147,7 @@
       ]
     }
   ],
-  "last_update": "2026-10-31 23:24:20",
+  "last_update": "2026-10-31 23:45:35",
   "last_error": "获取 BV1CDaw6ZENc 失败：代理响应中没有 JSON；获取 BV12mn168EKR 失败：代理响应中没有 JSON；获取 BV1Ehn46bEBY 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
