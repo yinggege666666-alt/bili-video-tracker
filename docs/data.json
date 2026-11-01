@@ -24048,7 +24048,7 @@
         },
         {
           "time": "2026-11-01 14:00",
-          "view": 36681,
+          "view": 36686,
           "reply": 2585,
           "like": 1315,
           "coin": 1593,
@@ -41769,7 +41769,7 @@
         },
         {
           "time": "2026-11-01 14:00",
-          "view": 610,
+          "view": 611,
           "reply": 14,
           "like": 17,
           "coin": 24,
@@ -42606,7 +42606,7 @@
         },
         {
           "time": "2026-11-01 14:00",
-          "view": 910,
+          "view": 911,
           "reply": 4,
           "like": 1,
           "coin": 0,
@@ -43236,7 +43236,7 @@
         },
         {
           "time": "2026-11-01 14:00",
-          "view": 1599,
+          "view": 1716,
           "reply": 194,
           "like": 132,
           "coin": 218,
@@ -46592,7 +46592,7 @@
         },
         {
           "time": "2026-11-01 14:00",
-          "view": 2554,
+          "view": 2555,
           "reply": 29,
           "like": 128,
           "coin": 103,
@@ -46602,7 +46602,7 @@
       ]
     }
   ],
-  "last_update": "2026-11-01 14:04:42",
-  "last_error": "获取 BV1CDaw6ZENc 失败：代理响应中没有 JSON；获取 BV12mn168EKR 失败：稿件不可见；获取 BV1Ehn46bEBY 失败：稿件不可见",
+  "last_update": "2026-11-01 14:24:23",
+  "last_error": "获取 BV1CDaw6ZENc 失败：代理响应中没有 JSON；获取 BV12mn168EKR 失败：代理响应中没有 JSON；获取 BV1Ehn46bEBY 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
