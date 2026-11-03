@@ -5253,6 +5253,15 @@
           "coin": 321,
           "favorite": 213,
           "share": 21
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 6021,
+          "reply": 71,
+          "like": 187,
+          "coin": 321,
+          "favorite": 213,
+          "share": 21
         }
       ]
     },
@@ -8073,6 +8082,15 @@
         },
         {
           "time": "2026-11-03 17:00",
+          "view": 1048,
+          "reply": 5,
+          "like": 22,
+          "coin": 22,
+          "favorite": 22,
+          "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
           "view": 1048,
           "reply": 5,
           "like": 22,
@@ -10905,6 +10923,15 @@
           "coin": 20,
           "favorite": 12,
           "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 866,
+          "reply": 3,
+          "like": 12,
+          "coin": 20,
+          "favorite": 12,
+          "share": 0
         }
       ]
     },
@@ -13708,6 +13735,15 @@
         {
           "time": "2026-11-03 17:00",
           "view": 829,
+          "reply": 6,
+          "like": 13,
+          "coin": 21,
+          "favorite": 13,
+          "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 830,
           "reply": 6,
           "like": 13,
           "coin": 21,
@@ -16971,6 +17007,15 @@
           "coin": 22,
           "favorite": 15,
           "share": 1
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 901,
+          "reply": 3,
+          "like": 16,
+          "coin": 22,
+          "favorite": 15,
+          "share": 1
         }
       ]
     },
@@ -20022,6 +20067,15 @@
           "coin": 24,
           "favorite": 15,
           "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 753,
+          "reply": 12,
+          "like": 14,
+          "coin": 24,
+          "favorite": 15,
+          "share": 0
         }
       ]
     },
@@ -22158,6 +22212,15 @@
         },
         {
           "time": "2026-11-03 17:00",
+          "view": 5320,
+          "reply": 23,
+          "like": 60,
+          "coin": 86,
+          "favorite": 82,
+          "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
           "view": 5320,
           "reply": 23,
           "like": 60,
@@ -24324,6 +24387,15 @@
           "coin": 26,
           "favorite": 16,
           "share": 2
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 902,
+          "reply": 7,
+          "like": 17,
+          "coin": 26,
+          "favorite": 16,
+          "share": 2
         }
       ]
     },
@@ -26478,6 +26550,15 @@
         },
         {
           "time": "2026-11-03 17:00",
+          "view": 3885,
+          "reply": 26,
+          "like": 28,
+          "coin": 25,
+          "favorite": 28,
+          "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
           "view": 3885,
           "reply": 26,
           "like": 28,
@@ -28644,6 +28725,15 @@
           "coin": 1603,
           "favorite": 1938,
           "share": 225
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 37311,
+          "reply": 2606,
+          "like": 1328,
+          "coin": 1603,
+          "favorite": 1942,
+          "share": 225
         }
       ]
     },
@@ -30798,6 +30888,15 @@
         },
         {
           "time": "2026-11-03 17:00",
+          "view": 1787,
+          "reply": 89,
+          "like": 103,
+          "coin": 76,
+          "favorite": 131,
+          "share": 7
+        },
+        {
+          "time": "2026-11-03 18:00",
           "view": 1787,
           "reply": 89,
           "like": 103,
@@ -32964,6 +33063,15 @@
           "coin": 251,
           "favorite": 255,
           "share": 35
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 5182,
+          "reply": 134,
+          "like": 202,
+          "coin": 251,
+          "favorite": 255,
+          "share": 35
         }
       ]
     },
@@ -35124,6 +35232,15 @@
           "coin": 223,
           "favorite": 278,
           "share": 47
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 3981,
+          "reply": 139,
+          "like": 222,
+          "coin": 223,
+          "favorite": 278,
+          "share": 47
         }
       ]
     },
@@ -37113,6 +37230,15 @@
           "coin": 20,
           "favorite": 14,
           "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 635,
+          "reply": 1,
+          "like": 11,
+          "coin": 20,
+          "favorite": 14,
+          "share": 0
         }
       ]
     },
@@ -38062,1925 +38188,8 @@
       ]
     },
     {
-      "bvid": "BV1PxH56uE4a",
-      "sort_order": 19,
-      "title": "【comfyui整合】2026全新版秋僷Comfyui整合包中文版无私分享！全面适配50 40 30系显卡，Win+Mac一键安装，解压即用！",
-      "owner": "-comfyui",
-      "pubdate": 1792924800,
-      "history": [
-        {
-          "time": "2026-10-25 21:00",
-          "view": 4,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-25 22:00",
-          "view": 4,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-25 23:00",
-          "view": 4,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 00:00",
-          "view": 4,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 01:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 02:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 03:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 04:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 05:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 06:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 07:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 08:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 09:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 10:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 11:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 12:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 13:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 14:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 15:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 16:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 17:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 18:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 19:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 20:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 21:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 22:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-26 23:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 00:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 01:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 02:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 03:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 04:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 05:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 06:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 07:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 08:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 09:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 10:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 11:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 12:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 13:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 14:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 15:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 16:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 17:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 18:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 19:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 20:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 21:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 22:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-27 23:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 00:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 01:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 02:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 03:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 04:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 05:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 06:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 07:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 08:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 09:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 10:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 11:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 12:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 13:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 14:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 15:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 16:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 17:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 18:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 19:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 20:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 21:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 22:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-28 23:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 00:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 01:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 02:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 03:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 04:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 05:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 06:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 07:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 08:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 09:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 10:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 11:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 12:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 13:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 14:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 15:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 16:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 17:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 18:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 19:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 20:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 21:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 22:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-29 23:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 00:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 01:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 02:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 03:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 04:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 05:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 06:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 07:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 08:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 09:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 10:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 11:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 12:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 13:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 14:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 15:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 16:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 17:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 18:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 19:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 20:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 21:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-30 23:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 00:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 01:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 02:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 03:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 04:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 05:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 06:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 07:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 08:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 09:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 10:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 11:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 12:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 13:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 14:00",
-          "view": 5,
-          "reply": 0,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 15:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 16:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 17:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 18:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 19:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 20:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 21:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 22:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-10-31 23:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 00:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 01:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 02:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 03:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 04:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 05:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 06:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 07:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 08:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 09:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 10:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 11:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 12:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 13:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 14:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 15:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 16:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 17:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 18:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 19:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 20:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 21:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 22:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-01 23:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 00:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 01:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 02:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 03:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 04:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 05:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 06:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 07:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 08:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 09:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 10:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 11:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 12:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 13:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 14:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 15:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 16:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 17:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 18:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 19:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 20:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 21:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 22:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-02 23:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-03 00:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-03 01:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-03 02:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-03 03:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-03 04:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-03 05:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-03 06:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-03 07:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-03 08:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-03 09:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-03 10:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-03 11:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-03 12:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-03 13:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-03 14:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-03 15:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-03 16:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        },
-        {
-          "time": "2026-11-03 17:00",
-          "view": 6,
-          "reply": 2,
-          "like": 1,
-          "coin": 2,
-          "favorite": 1,
-          "share": 0
-        }
-      ]
-    },
-    {
       "bvid": "BV176H56ZEnv",
-      "sort_order": 20,
+      "sort_order": 19,
       "title": "【秋僷ComfyUI整合包】ai生图|ai视频|ai漫剧|ai短剧|手把手教你用comfyui玩转AI生成，全新ComfyUI整合包解压即用，效率拉满！",
       "owner": "comfyui__",
       "pubdate": 1792929600,
@@ -41892,12 +40101,21 @@
           "coin": 4,
           "favorite": 2,
           "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 37,
+          "reply": 0,
+          "like": 2,
+          "coin": 4,
+          "favorite": 2,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1SRxN6cEHG",
-      "sort_order": 21,
+      "sort_order": 20,
       "title": "comfyui从零开始到精通教程（2027新手入门实用版comfyui教程）详细从零开始学习AI绘画comfyui工作流搭建，全程干货无废话！（附整合包））",
       "owner": "comfyui大佬整合包-",
       "pubdate": 1793080710,
@@ -43368,12 +41586,21 @@
           "coin": 62,
           "favorite": 36,
           "share": 1
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 2869,
+          "reply": 4,
+          "like": 33,
+          "coin": 62,
+          "favorite": 36,
+          "share": 1
         }
       ]
     },
     {
       "bvid": "BV1xHxT6aEAV",
-      "sort_order": 22,
+      "sort_order": 21,
       "title": "【ComfyUI教程全集】小白如何零基础学习comfyui，B站最系统秋叶comfyui全套入门教程，保姆级教程，看完上手！文生图 | 图生视频 | AI漫剧",
       "owner": "零基础学comfyui",
       "pubdate": 1793102400,
@@ -44736,12 +42963,21 @@
           "coin": 0,
           "favorite": 1,
           "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 661,
+          "reply": 2,
+          "like": 3,
+          "coin": 0,
+          "favorite": 1,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1PtxT6tEpD",
-      "sort_order": 23,
+      "sort_order": 22,
       "title": "【秋叶ComfyUI教程】小白如何零基础学习comfyui，B站最系统秋叶comfyui全套入门教程！！图生图+图生视频+AI漫剧制作（附整合包）",
       "owner": "comfyui的教程",
       "pubdate": 1793094481,
@@ -46104,12 +44340,21 @@
           "coin": 0,
           "favorite": 3,
           "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 663,
+          "reply": 1,
+          "like": 1,
+          "coin": 0,
+          "favorite": 3,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1knx56LEte",
-      "sort_order": 24,
+      "sort_order": 23,
       "title": "【ComfyUI教程全集】小白如何零基础学习comfyui，B站最系统秋叶comfyui全套入门教程，保姆级教程，看完上手！文生图 | 图生视频 | AI漫剧",
       "owner": "comfyui零基础教程-",
       "pubdate": 1793156853,
@@ -47463,12 +45708,21 @@
           "coin": 26,
           "favorite": 17,
           "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 1679,
+          "reply": 7,
+          "like": 18,
+          "coin": 26,
+          "favorite": 17,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1Z6xT6EEvo",
-      "sort_order": 25,
+      "sort_order": 24,
       "title": "【秋叶ComfyUI全教程】秋叶Comfyui整合包最新中文版无私分享！全面适配50 40 30显卡，Win+Mac零基础一键安装，秋叶comfyui整合包下载",
       "owner": "comfyui零基础入门教程--",
       "pubdate": 1793096751,
@@ -48822,12 +47076,21 @@
           "coin": 0,
           "favorite": 1,
           "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 18,
+          "reply": 1,
+          "like": 0,
+          "coin": 0,
+          "favorite": 1,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1yNxM6wETu",
-      "sort_order": 26,
+      "sort_order": 25,
       "title": "【ComfyUI教程全集】小白如何零基础学习comfyui，B站最系统秋叶comfyui全套入门教程，保姆级教程，看完上手！文生图 | 图生视频 | AI漫剧",
       "owner": "comfyui免费安装",
       "pubdate": 1793092625,
@@ -50181,12 +48444,21 @@
           "coin": 0,
           "favorite": 1,
           "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 654,
+          "reply": 1,
+          "like": 1,
+          "coin": 0,
+          "favorite": 1,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1XMxj6wEc4",
-      "sort_order": 27,
+      "sort_order": 26,
       "title": "史诗级更新！ComfyUI“改头换面”，晚一秒更新都是浪费！全新界面、功能与海量体验优化，10分钟带你速览新版本所有操作技巧！（附整合包下载地址）",
       "owner": "comfyui免费生成视频",
       "pubdate": 1793174767,
@@ -51495,12 +49767,21 @@
           "coin": 0,
           "favorite": 0,
           "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 759,
+          "reply": 3,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1eCxj6MEMN",
-      "sort_order": 28,
+      "sort_order": 27,
       "title": "【价值2w ComfyUI教程】秋叶大佬耗时158小时制作的AI入门到精通制作教程！从文生图到图生视频，一套适合99%萌新的ComfyUI教程！别再盲目自学了！",
       "owner": "comfyui免费下载",
       "pubdate": 1793164766,
@@ -52791,12 +51072,21 @@
           "coin": 50,
           "favorite": 40,
           "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 1335,
+          "reply": 18,
+          "like": 34,
+          "coin": 50,
+          "favorite": 40,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1r8xE6REf3",
-      "sort_order": 29,
+      "sort_order": 28,
       "title": "ComfyUI“不会用”？这期视频，直接从安装开始教学！全面掌握高清修复+重绘+LoRA+ControlNet，无缝丝滑上手SD Comfy UI教程",
       "owner": "comfyui免费版",
       "pubdate": 1793180605,
@@ -54087,12 +52377,21 @@
           "coin": 0,
           "favorite": 2,
           "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 926,
+          "reply": 6,
+          "like": 1,
+          "coin": 0,
+          "favorite": 2,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1XGsZ62EkR",
-      "sort_order": 30,
+      "sort_order": 29,
       "title": "【秋叶ComfyUI教程】教你用8G显存流畅跑AI漫剧！ComfyUI零基础课程，150秒长视频+2K画质+图生图+图生视频+AI漫剧制作（附整合包）",
       "owner": "ComfyUI零基础课程_",
       "pubdate": 1793255913,
@@ -55176,12 +53475,21 @@
           "coin": 431,
           "favorite": 300,
           "share": 20
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 2874,
+          "reply": 220,
+          "like": 327,
+          "coin": 536,
+          "favorite": 358,
+          "share": 20
         }
       ]
     },
     {
       "bvid": "BV1zFxF6YE8c",
-      "sort_order": 31,
+      "sort_order": 30,
       "title": "【ComfyUI满血整合包】10月29日发布！零基础教教你用comfyui教程！最低8g显存可跑！全面适配50 40 30显卡，Win+Mac下载即用教程！",
       "owner": "comfyui本地部署-满血版",
       "pubdate": 1793267868,
@@ -56256,12 +54564,21 @@
           "coin": 0,
           "favorite": 0,
           "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 64,
+          "reply": 0,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1nrxF6vE23",
-      "sort_order": 32,
+      "sort_order": 31,
       "title": "【2026最忘情版ComfyUI教程！学了不烧心！】从零基础到精通详细从零开始学习AI绘画comfyui工作流搭建，全程干货无废话！",
       "owner": "comfyui免费生成视频",
       "pubdate": 1793263714,
@@ -57327,12 +55644,21 @@
           "coin": 0,
           "favorite": 1,
           "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 599,
+          "reply": 1,
+          "like": 0,
+          "coin": 0,
+          "favorite": 1,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1tpxF6mEzf",
-      "sort_order": 33,
+      "sort_order": 32,
       "title": "Comfy UI解决报错 | 装Comfy UI疯狂报错？2分钟教你怎么快速解决！！！",
       "owner": "comfyui零基础教程-",
       "pubdate": 1793275200,
@@ -58389,12 +56715,21 @@
           "coin": 20,
           "favorite": 11,
           "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 572,
+          "reply": 3,
+          "like": 11,
+          "coin": 20,
+          "favorite": 11,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1CDsf6zE2j",
-      "sort_order": 34,
+      "sort_order": 33,
       "title": "等待首次抓取",
       "owner": "",
       "pubdate": 0,
@@ -58402,7 +56737,7 @@
     },
     {
       "bvid": "BV1aLxF6pELv",
-      "sort_order": 35,
+      "sort_order": 34,
       "title": "【ComfyUI完整版教程】全229集！mfyui整合包最新中文版无私分享！全面适配50 40 30显卡，Win+Mac零基础一键安装，comfyui整合包下载",
       "owner": "ComfyUI精品课程",
       "pubdate": 1793277300,
@@ -59342,12 +57677,21 @@
           "coin": 0,
           "favorite": 0,
           "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 23,
+          "reply": 0,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1GRxe69Eos",
-      "sort_order": 36,
+      "sort_order": 35,
       "title": "【MiniMaxH3全教程】Comfyui本地部署教程！8G显存流畅制作AI短剧（剧本+分镜+视频+配音+剪辑）MiniMaxH3工作流零基础小白也能轻松上手",
       "owner": "焯水内吸",
       "pubdate": 1793352943,
@@ -60206,12 +58550,21 @@
           "coin": 0,
           "favorite": 0,
           "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 23,
+          "reply": 0,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1pqxe6KEJJ",
-      "sort_order": 37,
+      "sort_order": 36,
       "title": "【秋叶ComfyUI整合包】文生图|ai视频|ai漫剧|ai短剧手把手教你用秋叶ComfyUI玩转AI赛道，附秋叶最新ComfyUI整合包解压即用，效率直接拉满",
       "owner": "-comfyui",
       "pubdate": 1793357100,
@@ -61061,12 +59414,21 @@
           "coin": 0,
           "favorite": 0,
           "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 132,
+          "reply": 1,
+          "like": 1,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1LDxa6UEMA",
-      "sort_order": 38,
+      "sort_order": 37,
       "title": "【秋叶ComfyUI教程】教你用8G显存流畅跑60秒AI长视频！文生图 | 图生视频 | AI漫剧 |无线画布最适合萌新入门SD+ComfyUI全套教程！",
       "owner": "MiniMax-H3模型",
       "pubdate": 1793341037,
@@ -61745,12 +60107,21 @@
           "coin": 107,
           "favorite": 127,
           "share": 26
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 2633,
+          "reply": 31,
+          "like": 130,
+          "coin": 107,
+          "favorite": 127,
+          "share": 26
         }
       ]
     },
     {
       "bvid": "BV1c1x46mEaH",
-      "sort_order": 39,
+      "sort_order": 38,
       "title": "【ComfyUI教程全集】小白如何零基础学习comfyui，B站最系统秋叶comfyui全套入门教程，保姆级教程，看完上手！文生图 | 图生视频 | AI漫剧",
       "owner": "comfyui零基础教程-",
       "pubdate": 1793535900,
@@ -62159,12 +60530,21 @@
           "coin": 0,
           "favorite": 3,
           "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 623,
+          "reply": 3,
+          "like": 2,
+          "coin": 0,
+          "favorite": 3,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1Cyx467Ebq",
-      "sort_order": 40,
+      "sort_order": 39,
       "title": "【价值2w ComfyUI教程】秋叶大佬耗时158小时制作的AI入门到精通制作教程！从文生图到图生视频，一套适合99%萌新的ComfyUI教程！别再盲目自学了！",
       "owner": "comfyui免费生成视频",
       "pubdate": 1793528400,
@@ -62600,12 +60980,21 @@
           "coin": 0,
           "favorite": 2,
           "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 133,
+          "reply": 1,
+          "like": 0,
+          "coin": 0,
+          "favorite": 2,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1kyx467EyL",
-      "sort_order": 41,
+      "sort_order": 40,
       "title": "【价值2w ComfyUI教程】秋叶大佬耗时158小时制作的AI入门到精通制作教程！从文生图到图生视频，一套适合99%萌新的ComfyUI教程！别再盲目自学了！",
       "owner": "零基础学comfyui",
       "pubdate": 1793532600,
@@ -63023,12 +61412,21 @@
           "coin": 0,
           "favorite": 3,
           "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 25,
+          "reply": 1,
+          "like": 1,
+          "coin": 0,
+          "favorite": 3,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1fux463E7U",
-      "sort_order": 42,
+      "sort_order": 41,
       "title": "【2026最全的ComfyUI教程】从零基础到精通（11月新手入门实用版comfyui教程）详细从零开始学习AI绘画comfyui工作流搭建，全程干货无废话",
       "owner": "-comfyui",
       "pubdate": 1793530800,
@@ -63455,11 +61853,74 @@
           "coin": 0,
           "favorite": 2,
           "share": 0
+        },
+        {
+          "time": "2026-11-03 18:00",
+          "view": 115,
+          "reply": 0,
+          "like": 1,
+          "coin": 0,
+          "favorite": 2,
+          "share": 0
+        }
+      ]
+    },
+    {
+      "bvid": "BV1PB4g6GEzx",
+      "sort_order": 42,
+      "title": "【B站最全ComFyui教程do】ComFyui工作流教程 从零基础入门到精通ComFyui教程 AI绘画商业变现",
+      "owner": "comfyui免费下载",
+      "pubdate": 1793698565,
+      "history": [
+        {
+          "time": "2026-11-03 18:00",
+          "view": 1,
+          "reply": 1,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
+        }
+      ]
+    },
+    {
+      "bvid": "BV14Y4g6yEvZ",
+      "sort_order": 43,
+      "title": "【价值2w ComfyUI教程】秋叶大佬耗时158小时制作的AI入门到精通制作教程！从文生图到图生视频，一套适合99%萌新的ComfyUI教程！别再盲目自学了！",
+      "owner": "comfyui零基础教程-",
+      "pubdate": 1793698283,
+      "history": [
+        {
+          "time": "2026-11-03 18:00",
+          "view": 5,
+          "reply": 1,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
+        }
+      ]
+    },
+    {
+      "bvid": "BV1MU4u61E68",
+      "sort_order": 44,
+      "title": "【价值2w ComfyUI教程】秋叶大佬耗时158小时制作的AI入门到精通制作教程！从文生图到图生视频，一套适合99%萌新的ComfyUI教程！别再盲目自学了！",
+      "owner": "comfyui免费使用",
+      "pubdate": 1793674102,
+      "history": [
+        {
+          "time": "2026-11-03 18:00",
+          "view": 12,
+          "reply": 1,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
         }
       ]
     }
   ],
-  "last_update": "2026-11-03 17:24:22",
-  "last_error": "获取 BV1CDaw6ZENc 失败：代理响应中没有 JSON；获取 BV12mn168EKR 失败：代理响应中没有 JSON；获取 BV1Ehn46bEBY 失败：代理响应中没有 JSON",
+  "last_update": "2026-11-03 18:24:32",
+  "last_error": "获取 BV1CDaw6ZENc 失败：代理响应中没有 JSON；获取 BV12mn168EKR 失败：稿件不可见；获取 BV1Ehn46bEBY 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
