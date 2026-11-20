@@ -44334,7 +44334,7 @@
         },
         {
           "time": "2026-11-20 18:00",
-          "view": 43176,
+          "view": 43181,
           "reply": 2962,
           "like": 1481,
           "coin": 1739,
@@ -140256,7 +140256,7 @@
       ]
     }
   ],
-  "last_update": "2026-11-20 18:26:41",
-  "last_error": "获取 BV1CDaw6ZENc 失败：代理响应中没有 JSON；获取 BV1Lkpr6NEp1 失败：代理响应中没有 JSON；获取 BV12mn168EKR 失败：代理响应中没有 JSON",
+  "last_update": "2026-11-20 18:34:47",
+  "last_error": "获取 BV1CDaw6ZENc 失败：HTTP Error 401: Unauthorized；获取 BV1Lkpr6NEp1 失败：HTTP Error 401: Unauthorized；获取 BV12mn168EKR 失败：HTTP Error 401: Unauthorized",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
