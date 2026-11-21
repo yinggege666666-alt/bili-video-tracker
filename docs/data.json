@@ -45162,7 +45162,7 @@
         },
         {
           "time": "2026-11-21 17:00",
-          "view": 43413,
+          "view": 43421,
           "reply": 2998,
           "like": 1488,
           "coin": 1743,
@@ -144189,7 +144189,7 @@
       ]
     }
   ],
-  "last_update": "2026-11-21 17:25:01",
+  "last_update": "2026-11-21 17:53:26",
   "last_error": "获取 BV1CDaw6ZENc 失败：HTTP Error 401: Unauthorized；获取 BV1Lkpr6NEp1 失败：HTTP Error 401: Unauthorized；获取 BV12mn168EKR 失败：HTTP Error 401: Unauthorized",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
