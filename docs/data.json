@@ -47574,11 +47574,11 @@
         },
         {
           "time": "2026-11-24 12:00",
-          "view": 44015,
+          "view": 44020,
           "reply": 3016,
           "like": 1494,
           "coin": 1747,
-          "favorite": 2198,
+          "favorite": 2197,
           "share": 253
         }
       ]
@@ -155644,9 +155644,45 @@
           "share": 0
         }
       ]
+    },
+    {
+      "bvid": "BV1ExyazDEbs",
+      "sort_order": 49,
+      "title": "【秋叶ComfyUI整合包】11月17日发布！全中文界面教你秋叶comfyui教程！最低8g显存可跑！全面适配50 40 30显卡，Win+Mac下载即用教程！",
+      "owner": "楸叶aaaki",
+      "pubdate": 1795255200,
+      "history": [
+        {
+          "time": "2026-11-24 12:00",
+          "view": 2458,
+          "reply": 43,
+          "like": 105,
+          "coin": 203,
+          "favorite": 104,
+          "share": 0
+        }
+      ]
+    },
+    {
+      "bvid": "BV1JtyazJETH",
+      "sort_order": 50,
+      "title": "【秋叶ComfyUI整合包】11月17日发布！全中文界面教你秋叶comfyui教程！最低8g显存可跑！全面适配50 40 30显卡，Win+Mac下载即用教程！",
+      "owner": "球叶aaaki",
+      "pubdate": 1795251600,
+      "history": [
+        {
+          "time": "2026-11-24 12:00",
+          "view": 2713,
+          "reply": 42,
+          "like": 100,
+          "coin": 194,
+          "favorite": 101,
+          "share": 0
+        }
+      ]
     }
   ],
-  "last_update": "2026-11-24 12:26:22",
+  "last_update": "2026-11-24 13:03:25",
   "last_error": "获取 BV1CDaw6ZENc 失败：代理响应中没有 JSON；获取 BV1Lkpr6NEp1 失败：代理响应中没有 JSON；获取 BV12mn168EKR 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
