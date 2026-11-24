@@ -12642,6 +12642,15 @@
           "coin": 22,
           "favorite": 22,
           "share": 0
+        },
+        {
+          "time": "2026-11-24 23:00",
+          "view": 1061,
+          "reply": 5,
+          "like": 22,
+          "coin": 22,
+          "favorite": 22,
+          "share": 0
         }
       ]
     },
@@ -20013,6 +20022,15 @@
           "coin": 20,
           "favorite": 11,
           "share": 0
+        },
+        {
+          "time": "2026-11-24 23:00",
+          "view": 869,
+          "reply": 3,
+          "like": 12,
+          "coin": 20,
+          "favorite": 11,
+          "share": 0
         }
       ]
     },
@@ -27360,6 +27378,15 @@
         },
         {
           "time": "2026-11-24 22:00",
+          "view": 853,
+          "reply": 8,
+          "like": 14,
+          "coin": 21,
+          "favorite": 14,
+          "share": 0
+        },
+        {
+          "time": "2026-11-24 23:00",
           "view": 853,
           "reply": 8,
           "like": 14,
@@ -47940,6 +47967,15 @@
           "coin": 1747,
           "favorite": 2199,
           "share": 253
+        },
+        {
+          "time": "2026-11-24 23:00",
+          "view": 44099,
+          "reply": 3030,
+          "like": 1496,
+          "coin": 1747,
+          "favorite": 2200,
+          "share": 253
         }
       ]
     },
@@ -61224,6 +61260,15 @@
           "coin": 20,
           "favorite": 14,
           "share": 0
+        },
+        {
+          "time": "2026-11-24 23:00",
+          "view": 637,
+          "reply": 1,
+          "like": 11,
+          "coin": 20,
+          "favorite": 14,
+          "share": 0
         }
       ]
     },
@@ -68631,6 +68676,15 @@
           "coin": 4,
           "favorite": 2,
           "share": 0
+        },
+        {
+          "time": "2026-11-24 23:00",
+          "view": 39,
+          "reply": 0,
+          "like": 2,
+          "coin": 4,
+          "favorite": 2,
+          "share": 0
         }
       ]
     },
@@ -74646,6 +74700,15 @@
         },
         {
           "time": "2026-11-24 22:00",
+          "view": 2891,
+          "reply": 4,
+          "like": 33,
+          "coin": 62,
+          "favorite": 35,
+          "share": 1
+        },
+        {
+          "time": "2026-11-24 23:00",
           "view": 2891,
           "reply": 4,
           "like": 33,
@@ -84082,7 +84145,7 @@
       "bvid": "BV1XMxj6wEc4",
       "sort_order": 26,
       "title": "史诗级更新！ComfyUI“改头换面”，晚一秒更新都是浪费！全新界面、功能与海量体验优化，10分钟带你速览新版本所有操作技巧！（附整合包下载地址）",
-      "owner": "",
+      "owner": "comfyui免费生成视频",
       "pubdate": 1793174767,
       "history": [
         {
@@ -89928,6 +89991,15 @@
         },
         {
           "time": "2026-11-24 22:00",
+          "view": 768,
+          "reply": 3,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
+        },
+        {
+          "time": "2026-11-24 23:00",
           "view": 768,
           "reply": 3,
           "like": 0,
@@ -97224,6 +97296,15 @@
           "coin": 0,
           "favorite": 3,
           "share": 0
+        },
+        {
+          "time": "2026-11-24 23:00",
+          "view": 999,
+          "reply": 14,
+          "like": 3,
+          "coin": 0,
+          "favorite": 3,
+          "share": 0
         }
       ]
     },
@@ -103947,6 +104028,15 @@
           "coin": 0,
           "favorite": 0,
           "share": 0
+        },
+        {
+          "time": "2026-11-24 23:00",
+          "view": 69,
+          "reply": 0,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
         }
       ]
     },
@@ -109563,6 +109653,15 @@
           "coin": 0,
           "favorite": 1,
           "share": 0
+        },
+        {
+          "time": "2026-11-24 23:00",
+          "view": 603,
+          "reply": 1,
+          "like": 0,
+          "coin": 0,
+          "favorite": 1,
+          "share": 0
         }
       ]
     },
@@ -115170,6 +115269,15 @@
           "coin": 22,
           "favorite": 12,
           "share": 0
+        },
+        {
+          "time": "2026-11-24 23:00",
+          "view": 643,
+          "reply": 4,
+          "like": 12,
+          "coin": 22,
+          "favorite": 12,
+          "share": 0
         }
       ]
     },
@@ -120668,6 +120776,15 @@
           "coin": 0,
           "favorite": 0,
           "share": 0
+        },
+        {
+          "time": "2026-11-24 23:00",
+          "view": 24,
+          "reply": 0,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
         }
       ]
     },
@@ -126071,6 +126188,15 @@
         },
         {
           "time": "2026-11-24 22:00",
+          "view": 29,
+          "reply": 0,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
+        },
+        {
+          "time": "2026-11-24 23:00",
           "view": 29,
           "reply": 0,
           "like": 0,
@@ -137894,6 +138020,15 @@
           "coin": 0,
           "favorite": 2,
           "share": 0
+        },
+        {
+          "time": "2026-11-24 23:00",
+          "view": 119,
+          "reply": 1,
+          "like": 1,
+          "coin": 0,
+          "favorite": 2,
+          "share": 0
         }
       ]
     },
@@ -142442,6 +142577,15 @@
         },
         {
           "time": "2026-11-24 22:00",
+          "view": 17,
+          "reply": 2,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
+        },
+        {
+          "time": "2026-11-24 23:00",
           "view": 17,
           "reply": 2,
           "like": 0,
@@ -148892,6 +149036,15 @@
           "coin": 0,
           "favorite": 0,
           "share": 0
+        },
+        {
+          "time": "2026-11-24 23:00",
+          "view": 13,
+          "reply": 0,
+          "like": 1,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
         }
       ]
     },
@@ -152802,6 +152955,15 @@
         {
           "time": "2026-11-24 22:00",
           "view": 119,
+          "reply": 1,
+          "like": 1,
+          "coin": 0,
+          "favorite": 1,
+          "share": 0
+        },
+        {
+          "time": "2026-11-24 23:00",
+          "view": 120,
           "reply": 1,
           "like": 1,
           "coin": 0,
@@ -157352,6 +157514,15 @@
           "coin": 0,
           "favorite": 0,
           "share": 0
+        },
+        {
+          "time": "2026-11-24 23:00",
+          "view": 42,
+          "reply": 6,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
         }
       ]
     },
@@ -157455,6 +157626,15 @@
         {
           "time": "2026-11-24 22:00",
           "view": 2536,
+          "reply": 54,
+          "like": 142,
+          "coin": 275,
+          "favorite": 141,
+          "share": 1
+        },
+        {
+          "time": "2026-11-24 23:00",
+          "view": 2539,
           "reply": 54,
           "like": 142,
           "coin": 275,
@@ -157568,11 +157748,20 @@
           "coin": 260,
           "favorite": 139,
           "share": 0
+        },
+        {
+          "time": "2026-11-24 23:00",
+          "view": 2816,
+          "reply": 47,
+          "like": 196,
+          "coin": 360,
+          "favorite": 189,
+          "share": 0
         }
       ]
     }
   ],
-  "last_update": "2026-11-24 22:26:32",
-  "last_error": "获取 BV1CDaw6ZENc 失败：代理响应中没有 JSON；获取 BV1Lkpr6NEp1 失败：代理响应中没有 JSON；获取 BV12mn168EKR 失败：代理响应中没有 JSON",
+  "last_update": "2026-11-24 23:25:01",
+  "last_error": "获取 BV1CDaw6ZENc 失败：HTTP Error 401: Unauthorized；获取 BV1Lkpr6NEp1 失败：HTTP Error 401: Unauthorized；获取 BV12mn168EKR 失败：HTTP Error 401: Unauthorized",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
