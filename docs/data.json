@@ -1,16 +1,8 @@
 {
   "videos": [
     {
-      "bvid": "BV1CDsf6zE2j",
-      "sort_order": 1,
-      "title": "等待首次抓取",
-      "owner": "",
-      "pubdate": 0,
-      "history": []
-    },
-    {
       "bvid": "BV1ExyazDEbs",
-      "sort_order": 2,
+      "sort_order": 1,
       "title": "【秋叶ComfyUI整合包】11月17日发布！全中文界面教你秋叶comfyui教程！最低8g显存可跑！全面适配50 40 30显卡，Win+Mac下载即用教程！",
       "owner": "楸叶aaaki",
       "pubdate": 1795255200,
@@ -649,7 +641,7 @@
     },
     {
       "bvid": "BV1JtyazJETH",
-      "sort_order": 3,
+      "sort_order": 2,
       "title": "【秋叶ComfyUI整合包】11月17日发布！全中文界面教你秋叶comfyui教程！最低8g显存可跑！全面适配50 40 30显卡，Win+Mac下载即用教程！",
       "owner": "球叶aaaki",
       "pubdate": 1795251600,
@@ -1288,7 +1280,7 @@
     },
     {
       "bvid": "BV19uyBzdE3y",
-      "sort_order": 4,
+      "sort_order": 3,
       "title": "【秋叶ComfyUI整合包下载】11月25日发布！全中文配置MiniMaxH3本地部署，最低8G显存玩转AI视频，适配50 40 30显卡，附WIN+MAC版",
       "owner": "萩僷aaaki",
       "pubdate": 1795586400,
