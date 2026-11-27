@@ -636,6 +636,15 @@
           "coin": 443,
           "favorite": 277,
           "share": 135
+        },
+        {
+          "time": "2026-11-27 10:00",
+          "view": 3685,
+          "reply": 62,
+          "like": 269,
+          "coin": 443,
+          "favorite": 277,
+          "share": 135
         }
       ]
     },
@@ -1275,6 +1284,15 @@
           "coin": 558,
           "favorite": 370,
           "share": 59
+        },
+        {
+          "time": "2026-11-27 10:00",
+          "view": 6739,
+          "reply": 82,
+          "like": 534,
+          "coin": 558,
+          "favorite": 370,
+          "share": 59
         }
       ]
     },
@@ -1671,11 +1689,38 @@
           "coin": 442,
           "favorite": 247,
           "share": 92
+        },
+        {
+          "time": "2026-11-27 10:00",
+          "view": 2517,
+          "reply": 97,
+          "like": 331,
+          "coin": 444,
+          "favorite": 249,
+          "share": 96
+        }
+      ]
+    },
+    {
+      "bvid": "BV1L2yBzhExM",
+      "sort_order": 4,
+      "title": "【秋叶ComfyUI整合包下载】11月25日发布！全中文配置MiniMaxH3本地部署，最低8G显存玩转AI视频，适配50 40 30显卡，附WIN+MAC版",
+      "owner": "秋枼aaaki",
+      "pubdate": 1795593600,
+      "history": [
+        {
+          "time": "2026-11-27 10:00",
+          "view": 2726,
+          "reply": 37,
+          "like": 108,
+          "coin": 213,
+          "favorite": 109,
+          "share": 22
         }
       ]
     }
   ],
-  "last_update": "2026-11-27 09:26:49",
-  "last_error": "获取 BV1CDaw6ZENc 失败：代理响应中没有 JSON；获取 BV1Lkpr6NEp1 失败：代理响应中没有 JSON；获取 BV12mn168EKR 失败：代理响应中没有 JSON",
+  "last_update": "2026-11-27 10:23:25",
+  "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
