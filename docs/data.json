@@ -2737,7 +2737,7 @@
       ]
     }
   ],
-  "last_update": "2026-11-28 11:23:19",
-  "last_error": "",
+  "last_update": "2026-11-28 12:23:46",
+  "last_error": "获取 BV1ExyazDEbs 失败：代理响应中没有 JSON；获取 BV1JtyazJETH 失败：代理响应中没有 JSON；获取 BV19uyBzdE3y 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
