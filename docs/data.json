@@ -3005,9 +3005,17 @@
           "share": 0
         }
       ]
+    },
+    {
+      "bvid": "BV1ec1MzCEXq",
+      "sort_order": 6,
+      "title": "等待首次抓取",
+      "owner": "",
+      "pubdate": 0,
+      "history": []
     }
   ],
-  "last_update": "2026-11-28 17:23:21",
-  "last_error": "",
+  "last_update": "2026-11-28 18:23:52",
+  "last_error": "获取 BV1ExyazDEbs 失败：代理响应中没有 JSON；获取 BV1JtyazJETH 失败：代理响应中没有 JSON；获取 BV19uyBzdE3y 失败：代理响应中没有 JSON",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
