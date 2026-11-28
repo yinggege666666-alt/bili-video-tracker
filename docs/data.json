@@ -915,6 +915,15 @@
           "coin": 443,
           "favorite": 278,
           "share": 135
+        },
+        {
+          "time": "2026-11-28 18:00",
+          "view": 3977,
+          "reply": 66,
+          "like": 271,
+          "coin": 443,
+          "favorite": 278,
+          "share": 135
         }
       ]
     },
@@ -1833,6 +1842,15 @@
           "coin": 569,
           "favorite": 377,
           "share": 59
+        },
+        {
+          "time": "2026-11-28 18:00",
+          "view": 7062,
+          "reply": 96,
+          "like": 541,
+          "coin": 569,
+          "favorite": 377,
+          "share": 59
         }
       ]
     },
@@ -2508,6 +2526,15 @@
           "coin": 811,
           "favorite": 504,
           "share": 99
+        },
+        {
+          "time": "2026-11-28 18:00",
+          "view": 3638,
+          "reply": 209,
+          "like": 600,
+          "coin": 820,
+          "favorite": 509,
+          "share": 99
         }
       ]
     },
@@ -2796,6 +2823,15 @@
           "coin": 217,
           "favorite": 112,
           "share": 22
+        },
+        {
+          "time": "2026-11-28 18:00",
+          "view": 2992,
+          "reply": 54,
+          "like": 112,
+          "coin": 217,
+          "favorite": 112,
+          "share": 22
         }
       ]
     },
@@ -3003,19 +3039,38 @@
           "coin": 0,
           "favorite": 0,
           "share": 0
+        },
+        {
+          "time": "2026-11-28 18:00",
+          "view": 1999,
+          "reply": 0,
+          "like": 0,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
         }
       ]
     },
     {
       "bvid": "BV1ec1MzCEXq",
       "sort_order": 6,
-      "title": "等待首次抓取",
-      "owner": "",
-      "pubdate": 0,
-      "history": []
+      "title": "【秋叶ComfyUI整合包下载】11月28最新发布！全中文配置MiniMaxH3本地部署，最低8G显存玩转AI视频，适配50 40 30显卡，附WIN+MAC版",
+      "owner": "秋䈎aaaki_",
+      "pubdate": 1795857233,
+      "history": [
+        {
+          "time": "2026-11-28 18:00",
+          "view": 532,
+          "reply": 1,
+          "like": 1,
+          "coin": 0,
+          "favorite": 0,
+          "share": 0
+        }
+      ]
     }
   ],
-  "last_update": "2026-11-28 18:23:52",
-  "last_error": "获取 BV1ExyazDEbs 失败：代理响应中没有 JSON；获取 BV1JtyazJETH 失败：代理响应中没有 JSON；获取 BV19uyBzdE3y 失败：代理响应中没有 JSON",
+  "last_update": "2026-11-28 18:26:53",
+  "last_error": "",
   "repo_url": "https://github.com/yinggege666666-alt/bili-video-tracker"
 }
